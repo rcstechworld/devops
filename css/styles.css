@@ -19,3 +19,5 @@ body.light{--bg:#f5f7fa;--panel:#fff;--panel2:#f1f4f8;--line:#dbe1e8;--text:#172
 .sidebar .category.active{background:var(--panel-2);color:var(--text);border-color:transparent}
 .sidebar .category:not(.active){background:transparent;color:var(--muted);border-color:transparent}
 .sidebar .category:not(.active):hover{background:var(--panel);color:var(--text)}
+
+.daily-view-toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;padding:14px 0}.daily-view-card{margin-bottom:16px}.daily-meta{color:var(--muted);font-size:.84rem;margin:10px 0}.top-nav .nav-tab[data-view="daily"]{white-space:nowrap}.daily-view-toolbar strong{font-size:1.05rem}

@@ -16,7 +16,11 @@ const commandSearch = $('#global-search');
 
 function categoryCount(name){return name==='All'?commands.length:commands.filter(c=>c.category===name).length;}
 function renderSidebar(){
-  $('#sideTitle').textContent = state.view === 'applications' ? 'APPLICATIONS' : 'COMMANDS';
+  $('#sideTitle').textContent = state.view === 'applications' ? 'APPLICATIONS' : state.view === 'daily' ? 'DAILY COMMANDS' : 'COMMANDS';
+  if(state.view==='daily'){
+    $('#sidebarNav').innerHTML = `<button class="category active" data-daily-nav="true">⭐ Daily Commands <b id="dailyNavCount">${dailyStore.list().length}</b></button>`;
+    return;
+  }
   if(state.view==='applications'){
     $('#sidebarNav').innerHTML = `<button class="category ${state.appCategory==='all'?'active':''}" data-app-category="all">📦 All applications <b>${apps.length}</b></button>` + appCategories.map(c=>`<button class="category ${state.appCategory===c.id?'active':''}" data-app-category="${esc(c.id)}"><span>${c.icon}</span>${esc(c.name)} <b>${apps.filter(a=>a.category===c.id).length}</b></button>`).join('');
     document.querySelectorAll('[data-app-category]').forEach(b=>b.addEventListener('click',()=>{state.appCategory=b.dataset.appCategory;state.appId=null;renderSidebar();renderApplications();}));
@@ -53,11 +57,33 @@ function bindCommandActions(){
     card.classList.add('selected-command');
   }));
   document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',()=>copyText(decodeURIComponent(b.dataset.command),b)));
-  document.querySelectorAll('[data-add-daily]').forEach(b=>b.addEventListener('click',()=>{const x=commands.find(c=>c.id===b.dataset.addDaily);if(x){dailyStore.add({name:x.description,command:x.command,category:x.category,description:x.useCase,tags:x.tags});renderCommands();}}));
+  document.querySelectorAll('[data-add-daily]').forEach(b=>b.addEventListener('click',()=>{const x=commands.find(c=>c.id===b.dataset.addDaily);if(x){const addedBy=getDailyUserName()||setDailyUserName(window.prompt('Name to show as Added by:','')||'Unknown');dailyStore.add({name:x.description,command:x.command,category:x.category,description:x.useCase,tags:x.tags,addedBy,addedAt:new Date().toISOString()});renderDaily();renderCommands();}}));
   document.querySelectorAll('[data-delete-daily]').forEach(b=>b.addEventListener('click',()=>{dailyStore.remove(b.dataset.deleteDaily);renderCommands();}));
   document.querySelectorAll('[data-edit-daily]').forEach(b=>b.addEventListener('click',()=>openDailyForm(dailyStore.list().find(x=>x.id===b.dataset.editDaily))));
 }
-function renderDaily(){const items=dailyStore.list();$('#dailyCount').textContent=items.length;$('#dailyList').innerHTML=items.length?items.slice(0,8).map(x=>`<button class="daily-mini" data-daily-search="${esc(x.name)}"><span>⭐</span><strong>${esc(x.name)}</strong><code>${esc(x.command)}</code></button>`).join(''):'<div class="daily-empty">No personal commands yet. Add one from any command or runbook.</div>';document.querySelectorAll('[data-daily-search]').forEach(b=>b.addEventListener('click',()=>{state.query=b.dataset.dailySearch;commandSearch.value=state.query;renderCommands();}));}
+function getDailyUserName(){
+  const key='rcsDevopsDailyUserName';
+  return localStorage.getItem(key)||'';
+}
+function setDailyUserName(name){
+  const value=String(name||'').trim();
+  if(value)localStorage.setItem('rcsDevopsDailyUserName',value);
+  return value;
+}
+function renderDaily(){const items=dailyStore.list();$('#dailyCount').textContent=items.length;const nav=document.querySelector('#dailyNavCount');if(nav)nav.textContent=items.length;const top=document.querySelector('#dailyNavTopCount');if(top)top.textContent=items.length;$('#dailyList').innerHTML=items.length?items.slice(0,8).map(x=>`<button class="daily-mini" data-daily-search="${esc(x.name)}"><span>⭐</span><strong>${esc(x.name)}</strong><code>${esc(x.command)}</code></button>`).join(''):'<div class="daily-empty">No personal commands yet. Add one from any command or runbook.</div>';document.querySelectorAll('[data-daily-search]').forEach(b=>b.addEventListener('click',()=>{state.query=b.dataset.dailySearch;commandSearch.value=state.query;renderCommands();}));}
+function renderDailyView(){
+  $('#commands-view').classList.add('hidden');
+  $('#applications-view').classList.add('hidden');
+  $('#daily-view').classList.remove('hidden');
+  $('#heroTitle').textContent='⭐ Daily Commands';
+  $('#heroText').textContent='Your frequently used DevOps commands, with who added each command.';
+  $('#dailyViewCount').textContent=`${dailyStore.list().length} saved`;
+  const query=state.query.toLowerCase();
+  const items=dailyStore.list().filter(x=>!query || `${x.name} ${x.command} ${x.category} ${x.addedBy||''}`.toLowerCase().includes(query));
+  $('#daily-view-results').innerHTML=items.length?items.map(x=>`<article class=\"card daily-view-card\"><div class=\"card-head\"><div class=\"meta\"><span class=\"badge\">⭐ Daily</span><span class=\"badge\">${esc(x.category||'General')}</span></div><div class=\"card-actions\"><span class=\"badge\">Added by: ${esc(x.addedBy||'Unknown')}</span></div></div><h3>${esc(x.name)}</h3><p class=\"desc\">${esc(x.description||'Frequently used DevOps command.')}</p><div class=\"command\"><pre>${esc(x.command)}</pre><button class=\"copy\" data-command=\"${encodeURIComponent(x.command)}\">Copy</button></div><div class=\"daily-meta\">${x.addedAt?`Added ${esc(new Date(x.addedAt).toLocaleDateString())}`:''}</div><div class=\"card-actions\"><button class=\"danger-btn\" data-daily-remove=\"${esc(x.id)}\">Remove</button></div></article>`).join(''):`<div class=\"empty\"><h2>No daily commands</h2><p>Add commands with <strong>Add to Daily</strong> and they will appear here.</p></div>`;
+  document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',()=>copyText(decodeURIComponent(b.dataset.command),b)));
+  document.querySelectorAll('[data-daily-remove]').forEach(b=>b.addEventListener('click',()=>{dailyStore.remove(b.dataset.dailyRemove);renderDaily();renderDailyView();}));
+}
 function renderApplications(){
   $('#commands-view').classList.add('hidden'); $('#applications-view').classList.remove('hidden');
   $('#heroTitle').textContent=state.appId?getApplicationById(state.appId)?.name||'Application Runbook':'Application Hub';
@@ -68,14 +94,14 @@ function renderApplications(){
 }
 function bindRunbookActions(){
   document.querySelectorAll('.copy-runbook').forEach(b=>b.addEventListener('click',()=>copyText(decodeURIComponent(b.dataset.command),b)));
-  document.querySelectorAll('.add-runbook-daily').forEach(b=>b.addEventListener('click',()=>{const app=getApplicationById(b.dataset.appId);const step=Object.values(app.sections).flat().find(s=>s.id===b.dataset.stepId);if(step){const item=addRunbookStepToDaily(step,app);dailyStore.add(item);b.textContent='✓ Added';}}));
+  document.querySelectorAll('.add-runbook-daily').forEach(b=>b.addEventListener('click',()=>{const app=getApplicationById(b.dataset.appId);const step=Object.values(app.sections).flat().find(s=>s.id===b.dataset.stepId);if(step){const addedBy=getDailyUserName()||setDailyUserName(window.prompt('Name to show as Added by:','')||'Unknown');const item={...addRunbookStepToDaily(step,app),addedBy,addedAt:new Date().toISOString()};dailyStore.add(item);renderDaily();b.textContent='✓ Added';}}));
 }
 async function copyText(text,button){try{await navigator.clipboard.writeText(text);button.textContent='Copied!';setTimeout(()=>button.textContent='Copy',1000);}catch{button.textContent='Copy failed';}}
-function openDailyForm(item){$('#dailyFormTitle').textContent=item?'Edit Daily Command':'Add Daily Command';$('#dailyId').value=item?.id||'';$('#dailyName').value=item?.name||'';$('#dailyCommand').value=item?.command||'';$('#dailyCategory').value=item?.category||'General';$('#dailyTags').value=(item?.tags||[]).join(', ');$('#dailyDescription').value=item?.description||'';$('#dailyModal').showModal();}
+function openDailyForm(item){$('#dailyFormTitle').textContent=item?'Edit Daily Command':'Add Daily Command';$('#dailyId').value=item?.id||'';$('#dailyName').value=item?.name||'';$('#dailyCommand').value=item?.command||'';$('#dailyCategory').value=item?.category||'General';$('#dailyTags').value=(item?.tags||[]).join(', ');$('#dailyDescription').value=item?.description||'';$('#dailyAddedBy').value=item?.addedBy||getDailyUserName();$('#dailyModal').showModal();}
 $('#addDaily').addEventListener('click',()=>openDailyForm());$('#dailyCancel').addEventListener('click',()=>$('#dailyModal').close());$('#dailyCancel2').addEventListener('click',()=>$('#dailyModal').close());
-$('#dailyForm').addEventListener('submit',e=>{e.preventDefault();const data={name:$('#dailyName').value,command:$('#dailyCommand').value,category:$('#dailyCategory').value,description:$('#dailyDescription').value,tags:$('#dailyTags').value.split(',').map(x=>x.trim()).filter(Boolean)};const id=$('#dailyId').value;if(id)dailyStore.update(id,data);else dailyStore.add(data);$('#dailyModal').close();renderCommands();});
+$('#dailyForm').addEventListener('submit',e=>{e.preventDefault();const addedBy=setDailyUserName($('#dailyAddedBy').value)||'Unknown';const data={name:$('#dailyName').value,command:$('#dailyCommand').value,category:$('#dailyCategory').value,description:$('#dailyDescription').value,tags:$('#dailyTags').value.split(',').map(x=>x.trim()).filter(Boolean),addedBy,addedAt:new Date().toISOString()};const id=$('#dailyId').value;if(id)dailyStore.update(id,data);else dailyStore.add(data);$('#dailyModal').close();renderCommands();});
 
-document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{state.view=b.dataset.view;state.appId=null;document.querySelectorAll('[data-view]').forEach(x=>x.classList.toggle('active',x===b));renderSidebar();state.view==='applications'?renderApplications():renderCommands();}));
+document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{state.view=b.dataset.view;state.appId=null;state.query='';commandSearch.value='';document.querySelectorAll('[data-view]').forEach(x=>x.classList.toggle('active',x===b));renderSidebar();state.view==='applications'?renderApplications():state.view==='daily'?renderDailyView():renderCommands();}));
 function renderApplicationSearchResults(query){
   const normalized = String(query ?? '').trim();
   if(!normalized){ renderApplications(); return; }
@@ -102,8 +128,10 @@ function renderApplicationSearchResults(query){
   bindCommandActions();
   bindApplicationSearchActions();
 }
-commandSearch.addEventListener('input',()=>{state.query=commandSearch.value.trim();state.selectedCommandId=null;if(state.view==='applications'){state.query?renderApplicationSearchResults(state.query):renderApplications();}else renderCommands();});
+commandSearch.addEventListener('input',()=>{state.query=commandSearch.value.trim();state.selectedCommandId=null;if(state.view==='applications'){state.query?renderApplicationSearchResults(state.query):renderApplications();}else if(state.view==='daily'){renderDailyView();}else renderCommands();});
 document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{state.level=b.dataset.level;document.querySelectorAll('.filter').forEach(x=>x.classList.toggle('active',x===b));renderCommands();}));
 document.querySelectorAll('[data-query]').forEach(b=>b.addEventListener('click',()=>{state.query=b.dataset.query;state.selectedCommandId=null;commandSearch.value=state.query;renderCommands();commandSearch.focus();}));
 $('#themeBtn').addEventListener('click',()=>document.body.classList.toggle('light'));window.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement!==commandSearch){e.preventDefault();commandSearch.focus();}});
 $('#appCount').textContent=apps.length;renderSidebar();renderCommands();
+
+$('#dailyAddFromView')?.addEventListener('click',()=>openDailyForm());

@@ -21,6 +21,8 @@ function clean(input) {
   item.category = String(item.category || "General").trim();
   item.description = String(item.description || "").trim();
   item.tags = Array.isArray(item.tags) ? item.tags.map(String).map(x => x.trim()).filter(Boolean) : [];
+  item.addedBy = String(item.addedBy || 'Unknown').trim() || 'Unknown';
+  item.addedAt = item.addedAt || item.createdAt || new Date().toISOString();
   if (!item.name || !item.command) throw new Error("name and command are required");
   return item;
 }
