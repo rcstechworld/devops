@@ -25,9 +25,9 @@ test("command library is substantial", async () => {
   assert.ok(commands.length >= 100);
 });
 
-test("dashboard is branded DHD-DevOps and exposes daily commands UI", () => {
+test("dashboard is branded RCS-DevOps and exposes daily commands UI", () => {
   const html = fs.readFileSync("index.html", "utf8");
-  assert.match(html, /DHD-DevOps/);
+  assert.match(html, /RCS-DevOps/);
   assert.match(html, /dailyCommands/);
   assert.match(html, /addDaily/);
 });
