@@ -9,7 +9,7 @@ import { addRunbookStepToDaily } from './applications/daily.js';
 const apps = getApplications();
 const appCategories = getApplicationCategories();
 const dailyStore = createDailyStore();
-const state = { view:'commands', query:'', category:'All', level:'All', appCategory:'all', appId:null, environment:'all' };
+const state = { view:'commands', query:'', category:'All', level:'All', appCategory:'all', appId:null, environment:'all', selectedCommandId:null };
 const $ = s => document.querySelector(s);
 const esc = v => String(v ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 const commandSearch = $('#global-search');
@@ -18,11 +18,11 @@ function categoryCount(name){return name==='All'?commands.length:commands.filter
 function renderSidebar(){
   $('#sideTitle').textContent = state.view === 'applications' ? 'APPLICATIONS' : 'COMMANDS';
   if(state.view==='applications'){
-    $('#sidebarNav').innerHTML = `<button class="category active" data-app-category="all">📦 All applications <b>${apps.length}</b></button>` + appCategories.map(c=>`<button class="category" data-app-category="${esc(c.id)}"><span>${c.icon}</span>${esc(c.name)} <b>${apps.filter(a=>a.category===c.id).length}</b></button>`).join('');
-    document.querySelectorAll('[data-app-category]').forEach(b=>b.addEventListener('click',()=>{state.appCategory=b.dataset.appCategory;state.appId=null;renderApplications();}));
+    $('#sidebarNav').innerHTML = `<button class="category ${state.appCategory==='all'?'active':''}" data-app-category="all">📦 All applications <b>${apps.length}</b></button>` + appCategories.map(c=>`<button class="category ${state.appCategory===c.id?'active':''}" data-app-category="${esc(c.id)}"><span>${c.icon}</span>${esc(c.name)} <b>${apps.filter(a=>a.category===c.id).length}</b></button>`).join('');
+    document.querySelectorAll('[data-app-category]').forEach(b=>b.addEventListener('click',()=>{state.appCategory=b.dataset.appCategory;state.appId=null;renderSidebar();renderApplications();}));
   } else {
-    $('#sidebarNav').innerHTML = `<button class="category active" data-category="All">⌕ All commands <b>${commands.length}</b></button>` + categories.map(c=>`<button class="category" data-category="${esc(c.name)}"><span>${c.icon}</span>${esc(c.name)} <b>${categoryCount(c.name)}</b></button>`).join('');
-    document.querySelectorAll('[data-category]').forEach(b=>b.addEventListener('click',()=>{state.category=b.dataset.category;renderCommands();}));
+    $('#sidebarNav').innerHTML = `<button class="category ${state.category==='All'?'active':''}" data-category="All">⌕ All commands <b>${commands.length}</b></button>` + categories.map(c=>`<button class="category ${state.category===c.name?'active':''}" data-category="${esc(c.name)}"><span>${c.icon}</span>${esc(c.name)} <b>${categoryCount(c.name)}</b></button>`).join('');
+    document.querySelectorAll('[data-category]').forEach(b=>b.addEventListener('click',()=>{state.category=b.dataset.category;state.selectedCommandId=null;renderCommands();}));
   }
 }
 function renderCommands(){
@@ -44,8 +44,14 @@ function renderCommands(){
 function renderApplicationSearchCard(r){return `<article class="card app-search-card"><div class="card-head"><div class="meta"><span class="badge">📦 ${esc(r.application.name)}</span><span class="badge">${esc(r.section)}</span></div><div class="card-actions"><span class="badge">Best match</span></div></div><h3>${esc(r.step.title)}</h3><p class="desc">${esc(r.step.description)}</p>${r.step.command?`<div class="command"><pre>${esc(r.step.command)}</pre><button class="copy" data-command="${encodeURIComponent(r.step.command)}">Copy</button></div>`:''}<button class="secondary" data-search-open="${esc(r.application.id)}">Open ${esc(r.application.name)} runbook →</button></article>`;}
 function bindApplicationSearchActions(){document.querySelectorAll('[data-search-open]').forEach(b=>b.addEventListener('click',()=>{state.view='applications';state.appId=b.dataset.searchOpen;state.environment='all';document.querySelectorAll('[data-view]').forEach(x=>x.classList.toggle('active',x.dataset.view==='applications'));renderSidebar();renderApplications();}));}
 
-function renderCommandCard(r){const daily=r.isDaily?`<button class="secondary" data-edit-daily="${esc(r.id)}">Edit</button><button class="danger-btn" data-delete-daily="${esc(r.id)}">Delete</button>`:`<button class="secondary" data-add-daily="${esc(r.id)}">☆ Add to Daily</button>`;return `<article class="card"><div class="card-head"><div class="meta"><span class="badge">${esc(r.category)}</span><span class="badge level-${r.level}">${esc(r.level)}</span></div><div class="card-actions">${daily}</div></div><div class="command"><pre>${esc(r.command)}</pre><button class="copy" data-command="${encodeURIComponent(r.command)}">Copy</button></div><p class="desc">${esc(r.description)}</p><div class="use"><strong>Use when:</strong> ${esc(r.useCase)}</div>${r.warning?`<div class="warning">⚠ Review the target carefully before running this command.</div>`:''}</article>`;}
+function renderCommandCard(r){const selected=state.selectedCommandId===r.id?' selected-command':'';const daily=r.isDaily?`<button class="secondary" data-edit-daily="${esc(r.id)}">Edit</button><button class="danger-btn" data-delete-daily="${esc(r.id)}">Delete</button>`:`<button class="secondary" data-add-daily="${esc(r.id)}">☆ Add to Daily</button>`;return `<article class="card${selected}" data-command-id="${esc(r.id)}"><div class="card-head"><div class="meta"><span class="badge">${esc(r.category)}</span><span class="badge level-${r.level}">${esc(r.level)}</span></div><div class="card-actions">${daily}</div></div><div class="command"><pre>${esc(r.command)}</pre><button class="copy" data-command="${encodeURIComponent(r.command)}">Copy</button></div><p class="desc">${esc(r.description)}</p><div class="use"><strong>Use when:</strong> ${esc(r.useCase)}</div>${r.warning?`<div class="warning">⚠ Review the target carefully before running this command.</div>`:''}</article>`;}
 function bindCommandActions(){
+  document.querySelectorAll('[data-command-id]').forEach(card=>card.addEventListener('click',e=>{
+    if(e.target.closest('button,a,input,textarea,select')) return;
+    state.selectedCommandId=card.dataset.commandId;
+    document.querySelectorAll('[data-command-id].selected-command').forEach(x=>x.classList.remove('selected-command'));
+    card.classList.add('selected-command');
+  }));
   document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',()=>copyText(decodeURIComponent(b.dataset.command),b)));
   document.querySelectorAll('[data-add-daily]').forEach(b=>b.addEventListener('click',()=>{const x=commands.find(c=>c.id===b.dataset.addDaily);if(x){dailyStore.add({name:x.description,command:x.command,category:x.category,description:x.useCase,tags:x.tags});renderCommands();}}));
   document.querySelectorAll('[data-delete-daily]').forEach(b=>b.addEventListener('click',()=>{dailyStore.remove(b.dataset.deleteDaily);renderCommands();}));
@@ -96,8 +102,8 @@ function renderApplicationSearchResults(query){
   bindCommandActions();
   bindApplicationSearchActions();
 }
-commandSearch.addEventListener('input',()=>{state.query=commandSearch.value.trim();if(state.view==='applications'){state.query?renderApplicationSearchResults(state.query):renderApplications();}else renderCommands();});
+commandSearch.addEventListener('input',()=>{state.query=commandSearch.value.trim();state.selectedCommandId=null;if(state.view==='applications'){state.query?renderApplicationSearchResults(state.query):renderApplications();}else renderCommands();});
 document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{state.level=b.dataset.level;document.querySelectorAll('.filter').forEach(x=>x.classList.toggle('active',x===b));renderCommands();}));
-document.querySelectorAll('[data-query]').forEach(b=>b.addEventListener('click',()=>{state.query=b.dataset.query;commandSearch.value=state.query;renderCommands();commandSearch.focus();}));
+document.querySelectorAll('[data-query]').forEach(b=>b.addEventListener('click',()=>{state.query=b.dataset.query;state.selectedCommandId=null;commandSearch.value=state.query;renderCommands();commandSearch.focus();}));
 $('#themeBtn').addEventListener('click',()=>document.body.classList.toggle('light'));window.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement!==commandSearch){e.preventDefault();commandSearch.focus();}});
 $('#appCount').textContent=apps.length;renderSidebar();renderCommands();
