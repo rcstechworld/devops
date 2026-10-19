@@ -71,11 +71,30 @@ $('#dailyForm').addEventListener('submit',e=>{e.preventDefault();const data={nam
 
 document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{state.view=b.dataset.view;state.appId=null;document.querySelectorAll('[data-view]').forEach(x=>x.classList.toggle('active',x===b));renderSidebar();state.view==='applications'?renderApplications():renderCommands();}));
 function renderApplicationSearchResults(query){
-  const results=searchApplications(apps,query,{limit:40});
-  if(!results.length){$('#application-results').innerHTML='<div class="empty"><h2>No application runbook found</h2></div>';return;}
-  const cards=results.map(x=>'<article class="runbook-step"><div class="step-meta"><span>'+esc(x.application.name)+'</span><span>'+esc(x.section)+'</span><span>score '+x.score+'</span></div><h4>'+esc(x.step.title)+'</h4><p>'+esc(x.step.description)+'</p><button class="primary" data-search-open="'+esc(x.application.id)+'">Open '+esc(x.application.name)+' →</button></article>').join('');
-  $('#application-results').innerHTML='<div class="results-heading"><span>Application matches</span><small>'+results.length+' steps</small></div>'+cards;
-  document.querySelectorAll('[data-search-open]').forEach(b=>b.addEventListener('click',()=>{state.appId=b.dataset.searchOpen;state.environment='all';renderApplications();}));
+  const normalized = String(query ?? '').trim();
+  if(!normalized){ renderApplications(); return; }
+
+  const unified = searchDevOps(commands, apps, normalized, {
+    limit: 80,
+    applicationLimit: 40
+  });
+  const appResults = unified.filter(r => r.type === 'application');
+
+  if(!appResults.length){
+    $('#application-results').innerHTML='<div class="empty"><h2>No application match</h2><p>Try <code>install kafka ubuntu</code>, <code>redis docker</code>, or <code>kafka consumer lag</code>.</p></div>';
+    return;
+  }
+
+  const cards = appResults.map(r => renderApplicationSearchCard(r)).join('');
+  $('#application-results').innerHTML =
+    '<section class="search-section"><div class="results-heading"><span>Application matches</span><small>' +
+    appResults.length +
+    ' runbook matches</small></div>' +
+    cards +
+    '</section>';
+
+  bindCommandActions();
+  bindApplicationSearchActions();
 }
 commandSearch.addEventListener('input',()=>{state.query=commandSearch.value.trim();if(state.view==='applications'){state.query?renderApplicationSearchResults(state.query):renderApplications();}else renderCommands();});
 document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{state.level=b.dataset.level;document.querySelectorAll('.filter').forEach(x=>x.classList.toggle('active',x===b));renderCommands();}));
