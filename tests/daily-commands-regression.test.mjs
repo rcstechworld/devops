@@ -48,3 +48,24 @@ test('Daily Commands has no remove or delete UI access', () => {
   assert.doesNotMatch(app, />Remove<\/button>/);
   assert.doesNotMatch(app, />Delete<\/button>/);
 });
+
+test('search hero is wide, branded, and exposes keyword discovery chips', () => {
+  assert.match(html, /class="search-wrap search-hero"/);
+  assert.match(html, /class="search-keywords"/);
+  assert.match(html, /Popular keywords/);
+  assert.match(html, /data-query="install kafka ubuntu"/);
+  assert.match(html, /data-query="nginx 502"/);
+  assert.match(html, /data-query="kubernetes pod crash"/);
+});
+
+test('search UI has a clear example row below keyword chips', () => {
+  assert.match(html, /class="search-examples"/);
+  assert.match(html, /Try searching:/);
+  assert.match(html, /kafka consumer lag/);
+  assert.match(html, /redis docker/);
+});
+
+test('RCS-DevOps branding is consistent in the hero', () => {
+  assert.match(html, /RCS-DEVOPS QUICK REFERENCE/);
+  assert.doesNotMatch(html, /DHD-DEVOPS QUICK REFERENCE/);
+});

@@ -21,3 +21,24 @@ body.light{--bg:#f5f7fa;--panel:#fff;--panel2:#f1f4f8;--line:#dbe1e8;--text:#172
 .sidebar .category:not(.active):hover{background:var(--panel);color:var(--text)}
 
 .daily-view-toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;padding:14px 0}.daily-view-card{margin-bottom:16px}.daily-meta{color:var(--muted);font-size:.84rem;margin:10px 0}.top-nav .nav-tab[data-view="daily"]{white-space:nowrap}.daily-view-toolbar strong{font-size:1.05rem}
+
+/* RCS-DevOps UI polish: wide search + keyword discovery */
+.hero{padding:52px 4vw 34px;background:radial-gradient(circle at 55% -15%,rgba(119,169,255,.18),transparent 46%),linear-gradient(180deg,rgba(119,169,255,.045),transparent 72%)}
+.hero-inner{width:100%;max-width:1320px;margin:0 auto}
+.hero h1{font-size:clamp(34px,4vw,50px);margin-top:10px}
+.hero p{font-size:14px;max-width:760px}
+.search-wrap.search-hero{width:100%;max-width:none;height:66px;border-radius:16px;border-color:#3b4d64;background:linear-gradient(180deg,#101720,#0c1117);padding:0 18px;box-shadow:0 14px 45px rgba(0,0,0,.32),0 0 0 1px rgba(119,169,255,.04) inset;transition:border-color .18s ease,box-shadow .18s ease,transform .18s ease}
+.search-wrap.search-hero:focus-within{border-color:var(--accent);box-shadow:0 18px 55px rgba(0,0,0,.34),0 0 0 4px rgba(119,169,255,.09)}
+.search-wrap.search-hero .search-icon{font-size:25px;font-weight:700;margin-right:13px}
+.search-wrap.search-hero input{font-size:17px;letter-spacing:.005em}
+.search-wrap.search-hero kbd{min-width:30px;text-align:center;background:#171e27;border-color:#344152;color:#91a0b1;font-size:12px}
+.search-keywords{margin-top:18px;padding:14px 15px;border:1px solid rgba(63,79,99,.72);background:rgba(17,21,27,.7);border-radius:14px}
+.search-keywords-label{display:flex;align-items:center;gap:10px;margin-bottom:10px;color:#dbe5f0;font-size:12px;font-weight:750}
+.search-keywords-label:before{content:'✦';color:var(--accent);font-size:14px}.search-keywords-label small{font-weight:500;color:var(--muted)}
+.chips{margin-top:0;gap:8px}.chips button{border-color:#303c4c;background:#141b24;color:#aebdce;border-radius:999px;padding:7px 11px;font-size:11px;font-weight:650;transition:all .16s ease}.chips button:hover{transform:translateY(-1px);border-color:#5576a4;background:#192434;color:#eef5ff;box-shadow:0 5px 16px rgba(0,0,0,.2)}
+.search-examples{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-top:12px;color:#647181;font-size:11px}.search-examples>span{color:#8290a0;font-weight:650}.search-examples button{border:0;background:transparent;color:#8da9ca;padding:2px 4px;cursor:pointer}.search-examples button:hover{color:var(--accent);text-decoration:underline}
+.daily-view-toolbar{padding:22px 4vw 12px;display:flex;justify-content:space-between;align-items:center;max-width:1320px;margin:auto}.daily-view-toolbar strong{font-size:18px}.daily-view-card{border-color:#2b3b51;background:linear-gradient(145deg,rgba(20,27,36,.98),rgba(15,19,25,.98));box-shadow:0 10px 30px rgba(0,0,0,.12)}.daily-view-card:hover{border-color:#456384;transform:translateY(-1px)}.daily-view-card h3{font-size:21px;margin:14px 0 8px}.daily-meta{margin-top:10px;color:#718093;font-size:12px}
+.card-actions{align-items:center}.card-actions .secondary{white-space:nowrap}
+body.light .search-wrap.search-hero{background:#fff;border-color:#c5d0dd;box-shadow:0 14px 40px rgba(24,39,75,.1)}body.light .search-keywords{background:rgba(255,255,255,.8);border-color:#d5dde7}body.light .chips button{background:#f6f8fb;color:#526276;border-color:#d9e0e8}body.light .chips button:hover{background:#eef4ff;border-color:#9bb7e2;color:#1d4f9b}body.light .daily-view-card{background:#fff;border-color:#d5dde7}
+@media(max-width:900px){.hero{padding-left:20px;padding-right:20px}.daily-view-toolbar{padding-left:20px;padding-right:20px}}
+@media(max-width:560px){.hero{padding-top:36px}.search-wrap.search-hero{height:58px}.search-wrap.search-hero input{font-size:14px}.search-keywords{padding:12px}.search-keywords-label{align-items:flex-start;flex-direction:column;gap:2px}.search-examples{line-height:1.7}.daily-view-toolbar{align-items:flex-start;gap:12px;flex-direction:column}.daily-view-card .card-actions{justify-content:flex-start}}

@@ -46,6 +46,8 @@ export function createDailyStore(storage = globalThis.localStorage) {
     const item = clean({ ...current, ...patch });
     item.id = id;
     item.createdAt = current.createdAt;
+    item.addedBy = current.addedBy;
+    item.addedAt = current.addedAt;
     item.updatedAt = new Date().toISOString();
     write(storage, items.map(x => x.id === id ? item : x));
     return item;
