@@ -59,3 +59,27 @@ test("node heap finds Node.js troubleshooting commands", () => {
   const results = searchCommands(commands, "node heap out of memory");
   assert.ok(results.some(r => r.category === "Node.js" && /node|npm|pm2/i.test(r.command)));
 });
+
+test("unified search prioritizes the Kafka application for consumer lag", async () => {
+  const { searchDevOps } = await import("../js/search.js");
+  const { getApplications } = await import("../js/applications/registry.js");
+  const results = searchDevOps(commands, getApplications(), "kafka consumer lag");
+  assert.equal(results[0].type, "application");
+  assert.equal(results[0].application.id, "kafka");
+});
+
+test("unified search returns command results for Docker cleanup", async () => {
+  const { searchDevOps } = await import("../js/search.js");
+  const { getApplications } = await import("../js/applications/registry.js");
+  const results = searchDevOps(commands, getApplications(), "docker clean");
+  assert.equal(results[0].type, "command");
+  assert.match(results[0].item.command, /^docker /);
+});
+
+test("unified search supports exact application intent", async () => {
+  const { searchDevOps } = await import("../js/search.js");
+  const { getApplications } = await import("../js/applications/registry.js");
+  const results = searchDevOps(commands, getApplications(), "kafka");
+  assert.equal(results[0].type, "application");
+  assert.equal(results[0].application.id, "kafka");
+});

@@ -1,3 +1,5 @@
+import { searchApplications } from "./applications/search.js";
+
 const STOP_WORDS = new Set(["a","an","the","for","to","of","and","or","in","on","with","how","do","i","my"]);
 
 export function tokenize(query) {
@@ -59,5 +61,36 @@ export function searchCommands(commands, query, options = {}) {
 
   return results
     .sort((a,b) => b.score - a.score || a.category.localeCompare(b.category) || a.command.localeCompare(b.command))
+    .slice(0, options.limit ?? 50);
+}
+
+
+export function searchDevOps(commands, applications, query, options = {}) {
+  const normalized = String(query ?? "").trim();
+  if (!normalized) {
+    return searchCommands(commands, normalized, { emptyResults: commands.slice(0, options.limit ?? 50), limit: options.limit ?? 50 })
+      .map(item => ({ type: "command", item, score: 0 }));
+  }
+
+  const applicationThreshold = options.applicationThreshold ?? 12;
+  const commandResults = searchCommands(commands, normalized, { limit: options.limit ?? 50 })
+    .map(item => ({ type: "command", item, score: item.score }));
+  const applicationResults = searchApplications(applications, normalized, { limit: options.applicationLimit ?? 20 })
+    .filter(result => result.score >= applicationThreshold)
+    .map(result => {
+      const exactName = result.application.name.toLowerCase() === normalized.toLowerCase();
+      return {
+        type: "application",
+        application: result.application,
+        section: result.section,
+        step: result.step,
+        score: result.score + (exactName ? 40 : 0)
+      };
+    });
+
+  return [...commandResults, ...applicationResults]
+    .sort((a, b) => b.score - a.score
+      || (a.type === "application" ? -1 : 1)
+      || (a.item?.command || a.step?.title || "").localeCompare(b.item?.command || b.step?.title || ""))
     .slice(0, options.limit ?? 50);
 }

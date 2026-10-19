@@ -1,5 +1,5 @@
 import { commands, categories } from './commands.js';
-import { searchCommands } from './search.js';
+import { searchCommands, searchDevOps } from './search.js';
 import { createDailyStore } from './daily.js';
 import { getApplications, getApplicationCategories, getApplicationById } from './applications/registry.js';
 import { searchApplications } from './applications/search.js';
@@ -29,14 +29,21 @@ function renderCommands(){
   $('#commands-view').classList.remove('hidden'); $('#applications-view').classList.add('hidden');
   $('#heroTitle').textContent='What are you trying to do?'; $('#heroText').textContent='Search commands, troubleshooting, or jump into an application runbook.';
   const pool=state.category==='All'?commands:commands.filter(c=>c.category===state.category);
-  let results=searchCommands(pool,state.query,{emptyResults:pool.slice(0,80),limit:80});
-  if(state.level!=='All') results=results.filter(r=>r.level===state.level);
+  let unified=searchDevOps(pool,apps,state.query,{limit:80,applicationLimit:24});
+  if(state.level!=='All') unified=unified.filter(r=>r.type==='application'||r.item.level===state.level);
   const daily=searchCommands(dailyStore.list().map(x=>({...x,category:'My Daily',subcategory:'Daily',level:'intermediate',keywords:[...(x.tags||[]),x.name,x.description||''],tags:x.tags||[],useCase:x.description||'Daily'})),state.query,{emptyResults:dailyStore.list(),limit:20});
-  $('#resultCount').textContent=results.length+daily.length; renderDaily();
-  if(!results.length&&!daily.length){$('#results').innerHTML='<div class="empty"><h2>No command found</h2><p>Try application queries like <code>redis docker</code> or command queries like <code>pod crash</code>.</p></div>';return;}
-  $('#results').innerHTML=`<div class="results-heading"><span>${state.query?'Matching commands':'Command library'}</span><small>${results.length+daily.length} shown</small></div>${[...daily,...results].map(renderCommandCard).join('')}`;
-  bindCommandActions();
-}
+  const results=unified.filter(r=>r.type==='command').map(r=>r.item);
+  const appResults=unified.filter(r=>r.type==='application');
+  $('#resultCount').textContent=results.length+appResults.length+daily.length; renderDaily();
+  if(!results.length&&!appResults.length&&!daily.length){$('#results').innerHTML='<div class="empty"><h2>No command or application match</h2><p>Try <code>redis docker</code>, <code>kafka consumer lag</code>, or <code>pod crash</code>.</p></div>';return;}
+  const appMarkup=appResults.length?`<section class="search-section"><div class="results-heading"><span>Application matches</span><small>${appResults.length} runbook matches</small></div>${appResults.map(renderApplicationSearchCard).join('')}</section>`:'';
+  const commandMarkup=(daily.length||results.length)?`<section class="search-section"><div class="results-heading"><span>${state.query?'Command matches':'Command library'}</span><small>${results.length+daily.length} shown</small></div>${[...daily,...results].map(renderCommandCard).join('')}</section>`:'';
+  $('#results').innerHTML=appMarkup+commandMarkup;
+  bindCommandActions(); bindApplicationSearchActions();
+} 
+function renderApplicationSearchCard(r){return `<article class="card app-search-card"><div class="card-head"><div class="meta"><span class="badge">📦 ${esc(r.application.name)}</span><span class="badge">${esc(r.section)}</span></div><div class="card-actions"><span class="badge">Best match</span></div></div><h3>${esc(r.step.title)}</h3><p class="desc">${esc(r.step.description)}</p>${r.step.command?`<div class="command"><pre>${esc(r.step.command)}</pre><button class="copy" data-command="${encodeURIComponent(r.step.command)}">Copy</button></div>`:''}<button class="secondary" data-search-open="${esc(r.application.id)}">Open ${esc(r.application.name)} runbook →</button></article>`;}
+function bindApplicationSearchActions(){document.querySelectorAll('[data-search-open]').forEach(b=>b.addEventListener('click',()=>{state.view='applications';state.appId=b.dataset.searchOpen;state.environment='all';document.querySelectorAll('[data-view]').forEach(x=>x.classList.toggle('active',x.dataset.view==='applications'));renderSidebar();renderApplications();}));}
+
 function renderCommandCard(r){const daily=r.isDaily?`<button class="secondary" data-edit-daily="${esc(r.id)}">Edit</button><button class="danger-btn" data-delete-daily="${esc(r.id)}">Delete</button>`:`<button class="secondary" data-add-daily="${esc(r.id)}">☆ Add to Daily</button>`;return `<article class="card"><div class="card-head"><div class="meta"><span class="badge">${esc(r.category)}</span><span class="badge level-${r.level}">${esc(r.level)}</span></div><div class="card-actions">${daily}</div></div><div class="command"><pre>${esc(r.command)}</pre><button class="copy" data-command="${encodeURIComponent(r.command)}">Copy</button></div><p class="desc">${esc(r.description)}</p><div class="use"><strong>Use when:</strong> ${esc(r.useCase)}</div>${r.warning?`<div class="warning">⚠ Review the target carefully before running this command.</div>`:''}</article>`;}
 function bindCommandActions(){
   document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',()=>copyText(decodeURIComponent(b.dataset.command),b)));
