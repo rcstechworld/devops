@@ -28,3 +28,22 @@ test('daily view exposes a quick search and saved count', () => {
   assert.match(html, /id="dailyViewCount"/);
   assert.match(html, /id="daily-view-results"/);
 });
+
+
+test('Daily Commands exposes Edit while keeping remove/delete out of the UI', () => {
+  assert.match(app, /data-edit-daily/);
+  assert.match(app, /dailyStore\.update/);
+  assert.match(app, /Edit Daily Command/);
+  assert.match(app, /readOnly=Boolean\(item\)/);
+  assert.doesNotMatch(app, /data-delete-daily/);
+  assert.doesNotMatch(app, /data-daily-remove/);
+  assert.doesNotMatch(app, />Remove<\/button>/);
+  assert.doesNotMatch(app, />Delete<\/button>/);
+});
+
+test('Daily Commands has no remove or delete UI access', () => {
+  assert.doesNotMatch(app, /data-delete-daily/);
+  assert.doesNotMatch(app, /data-daily-remove/);
+  assert.doesNotMatch(app, />Remove<\/button>/);
+  assert.doesNotMatch(app, />Delete<\/button>/);
+});
