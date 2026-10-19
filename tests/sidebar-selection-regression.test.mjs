@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+const here=path.dirname(fileURLToPath(import.meta.url));
+const app=fs.readFileSync(path.join(here,'..','js','app.js'),'utf8');
+const css=fs.readFileSync(path.join(here,'..','css','styles.css'),'utf8');
+test('sidebar selection refreshes immediately',()=>assert.match(app,/state\.category=b\.dataset\.category;state\.selectedCommandId=null;renderSidebar\(\);renderCommands\(\);/));
+test('sidebar active styling is explicit',()=>{assert.match(css,/\.sidebar \.category\.active/);assert.match(css,/\.sidebar \.category:not\(\.active\)/)});

@@ -20,7 +20,7 @@ test('command cards expose a stable selected-command state', () => {
 });
 
 test('category navigation does not rebuild the whole sidebar', () => {
-  assert.match(appSource, /state\.category=b\.dataset\.category;state\.selectedCommandId=null;renderCommands\(\);/);
+  assert.match(appSource, /state\.category=b\.dataset\.category;state\.selectedCommandId=null;renderSidebar\(\);renderCommands\(\);/);
   assert.doesNotMatch(appSource, /state\.category=b\.dataset\.category;renderSidebar\(\);renderCommands\(\);/);
 });
 

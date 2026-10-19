@@ -14,3 +14,8 @@ body.light{--bg:#f5f7fa;--panel:#fff;--panel2:#f1f4f8;--line:#dbe1e8;--text:#172
 @media(max-width:850px){.top-nav{order:3;width:100%;margin:8px 0 0}.topbar{flex-wrap:wrap}.app-catalog-grid{grid-template-columns:1fr}.runbook-hero{flex-direction:column}.section-nav{position:static}}
 
 .card.selected-command{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent),0 8px 24px rgba(0,0,0,.18);transform:translateY(-1px)}
+
+/* Selected sidebar section only */
+.sidebar .category.active{background:var(--panel-2);color:var(--text);border-color:transparent}
+.sidebar .category:not(.active){background:transparent;color:var(--muted);border-color:transparent}
+.sidebar .category:not(.active):hover{background:var(--panel);color:var(--text)}

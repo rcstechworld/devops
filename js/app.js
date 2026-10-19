@@ -22,7 +22,7 @@ function renderSidebar(){
     document.querySelectorAll('[data-app-category]').forEach(b=>b.addEventListener('click',()=>{state.appCategory=b.dataset.appCategory;state.appId=null;renderSidebar();renderApplications();}));
   } else {
     $('#sidebarNav').innerHTML = `<button class="category ${state.category==='All'?'active':''}" data-category="All">⌕ All commands <b>${commands.length}</b></button>` + categories.map(c=>`<button class="category ${state.category===c.name?'active':''}" data-category="${esc(c.name)}"><span>${c.icon}</span>${esc(c.name)} <b>${categoryCount(c.name)}</b></button>`).join('');
-    document.querySelectorAll('[data-category]').forEach(b=>b.addEventListener('click',()=>{state.category=b.dataset.category;state.selectedCommandId=null;renderCommands();}));
+    document.querySelectorAll('[data-category]').forEach(b=>b.addEventListener('click',()=>{state.category=b.dataset.category;state.selectedCommandId=null;renderSidebar();renderCommands();}));
   }
 }
 function renderCommands(){
