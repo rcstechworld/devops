@@ -69,3 +69,19 @@ test('RCS-DevOps branding is consistent in the hero', () => {
   assert.match(html, /RCS-DEVOPS QUICK REFERENCE/);
   assert.doesNotMatch(html, /DHD-DEVOPS QUICK REFERENCE/);
 });
+
+test('UI typography stays balanced across hero, search, keywords, and cards', () => {
+  const css = fs.readFileSync(path.join(root, 'css', 'styles.css'), 'utf8');
+  assert.match(css, /\.hero h1\{font-size:clamp\(36px,3\.2vw,44px\)/);
+  assert.match(css, /\.hero p\{font-size:17px/);
+  assert.match(css, /\.search-wrap\.search-hero input\{font-size:17px/);
+  assert.match(css, /\.search-keywords \.chips button\{[^}]*font-size:14px/);
+  assert.match(css, /\.daily-view-card h3\{font-size:20px/);
+});
+
+test('UI polish adds subtle depth without changing search structure', () => {
+  const css = fs.readFileSync(path.join(root, 'css', 'styles.css'), 'utf8');
+  assert.match(css, /\.hero\{[^}]*background:radial-gradient/);
+  assert.match(css, /\.search-keywords\{[^}]*backdrop-filter:blur\(/);
+  assert.match(css, /\.chips button\{[^}]*transition:all/);
+});
