@@ -10,32 +10,53 @@ const apps = getApplications();
 const appCategories = getApplicationCategories();
 const dailyStore = createDailyStore();
 const state = { view:'commands', query:'', category:'All', level:'All', appCategory:'all', appId:null, environment:'all', selectedCommandId:null };
+
+const contributionCategories = [
+  ...categories,
+  { name:'Application Troubleshooting', icon:'🧯' },
+  { name:'Python', icon:'🐍' },
+  { name:'Java', icon:'☕' },
+  { name:'.NET', icon:'🔷' },
+  { name:'Node.js', icon:'🟩' },
+  { name:'Go', icon:'🐹' },
+  { name:'PHP', icon:'🐘' }
+];
+const contributionCategoryMap = new Map(contributionCategories.map(c => [c.name, c]));
 const $ = s => document.querySelector(s);
 const esc = v => String(v ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 const commandSearch = $('#global-search');
 
-function categoryCount(name){return name==='All'?commands.length:commands.filter(c=>c.category===name).length;}
+function categoryCount(name){
+  if(name==='All') return commands.length + dailyStore.list().length;
+  return commands.filter(c=>c.category===name).length + dailyStore.list().filter(x=>x.category===name).length;
+}
+function contributionCategoryOptions(selected=''){
+  return contributionCategories.map(c=>`<option value="${esc(c.name)}" ${selected===c.name?'selected':''}>${c.icon} ${esc(c.name)}</option>`).join('');
+}
 function renderSidebar(){
-  $('#sideTitle').textContent = state.view === 'applications' ? 'APPLICATIONS' : state.view === 'daily' ? 'DAILY COMMANDS' : 'COMMANDS';
+  $('#sideTitle').textContent = state.view === 'applications' ? 'APPLICATIONS' : state.view === 'daily' ? 'CONTRIBUTIONS' : 'COMMANDS';
   if(state.view==='daily'){
-    $('#sidebarNav').innerHTML = `<button class="category active" data-daily-nav="true">⭐ Daily Commands <b id="dailyNavCount">${dailyStore.list().length}</b></button>`;
+    $('#sidebarNav').innerHTML = `<button class="category active" data-daily-nav="true">⭐ Contribute Your Commands <b id="dailyNavCount">${dailyStore.list().length}</b></button>`;
     return;
   }
   if(state.view==='applications'){
     $('#sidebarNav').innerHTML = `<button class="category ${state.appCategory==='all'?'active':''}" data-app-category="all">📦 All applications <b>${apps.length}</b></button>` + appCategories.map(c=>`<button class="category ${state.appCategory===c.id?'active':''}" data-app-category="${esc(c.id)}"><span>${c.icon}</span>${esc(c.name)} <b>${apps.filter(a=>a.category===c.id).length}</b></button>`).join('');
     document.querySelectorAll('[data-app-category]').forEach(b=>b.addEventListener('click',()=>{state.appCategory=b.dataset.appCategory;state.appId=null;renderSidebar();renderApplications();}));
   } else {
-    $('#sidebarNav').innerHTML = `<button class="category ${state.category==='All'?'active':''}" data-category="All">⌕ All commands <b>${commands.length}</b></button>` + categories.map(c=>`<button class="category ${state.category===c.name?'active':''}" data-category="${esc(c.name)}"><span>${c.icon}</span>${esc(c.name)} <b>${categoryCount(c.name)}</b></button>`).join('');
+    $('#sidebarNav').innerHTML = `<button class="category ${state.category==='All'?'active':''}" data-category="All">⌕ All commands <b>${categoryCount('All')}</b></button>` + contributionCategories.map(c=>`<button class="category ${state.category===c.name?'active':''}" data-category="${esc(c.name)}"><span>${c.icon}</span>${esc(c.name)} <b>${categoryCount(c.name)}</b></button>`).join('');
     document.querySelectorAll('[data-category]').forEach(b=>b.addEventListener('click',()=>{state.category=b.dataset.category;state.selectedCommandId=null;renderSidebar();renderCommands();}));
   }
 }
 function renderCommands(){
   $('#commands-view').classList.remove('hidden'); $('#applications-view').classList.add('hidden');
   $('#heroTitle').textContent='What are you trying to do?'; $('#heroText').textContent='Search commands, troubleshooting, or jump into an application runbook.';
-  const pool=state.category==='All'?commands:commands.filter(c=>c.category===state.category);
+  const baseCommands=state.category==='All'?commands:commands.filter(c=>c.category===state.category);
+  const contributed=dailyStore.list().map(x=>({...x,isDaily:true,subcategory:'Contributed',level:'intermediate',keywords:[...(x.tags||[]),x.name,x.description||''],tags:x.tags||[],useCase:x.description||'Contributed command'}));
+  const pool=baseCommands;
   let unified=searchDevOps(pool,apps,state.query,{limit:80,applicationLimit:24});
   if(state.level!=='All') unified=unified.filter(r=>r.type==='application'||r.item.level===state.level);
-  const daily=searchCommands(dailyStore.list().map(x=>({...x,category:'My Daily',subcategory:'Daily',level:'intermediate',keywords:[...(x.tags||[]),x.name,x.description||''],tags:x.tags||[],useCase:x.description||'Daily'})),state.query,{emptyResults:dailyStore.list(),limit:20});
+  const dailyPool=state.category==='All'?contributed:contributed.filter(x=>x.category===state.category);
+  const daily=searchCommands(dailyPool,state.query,{emptyResults:dailyPool,limit:20});
   const results=unified.filter(r=>r.type==='command').map(r=>r.item);
   const appResults=unified.filter(r=>r.type==='application');
   $('#resultCount').textContent=results.length+appResults.length+daily.length; renderDaily();
@@ -74,12 +95,12 @@ function renderDailyView(){
   $('#commands-view').classList.add('hidden');
   $('#applications-view').classList.add('hidden');
   $('#daily-view').classList.remove('hidden');
-  $('#heroTitle').textContent='⭐ Daily Commands';
-  $('#heroText').textContent='Your frequently used DevOps commands, with who added each command.';
-  $('#dailyViewCount').textContent=`${dailyStore.list().length} saved`;
+  $('#heroTitle').textContent='⭐ Contribute Your Commands';
+  $('#heroText').textContent='Share your useful DevOps commands with the team.';
+  $('#dailyViewCount').textContent=`${dailyStore.list().length} contributed`;
   const query=state.query.toLowerCase();
   const items=dailyStore.list().filter(x=>!query || `${x.name} ${x.command} ${x.category} ${x.addedBy||''}`.toLowerCase().includes(query));
-  $('#daily-view-results').innerHTML=items.length?items.map(x=>`<article class="card daily-view-card"><div class="card-head"><div class="meta"><span class="badge daily-badge">⭐ Daily</span><span class="badge">${esc(x.category||'General')}</span></div><div class="card-actions"><span class="badge">Added by: ${esc(x.addedBy||'Unknown')}</span><button class="secondary" data-edit-daily="${esc(x.id)}">✏️ Edit</button></div></div><h3>${esc(x.name)}</h3><p class="desc">${esc(x.description||'Frequently used DevOps command.')}</p><div class="command"><pre>${esc(x.command)}</pre><button class="copy" data-command="${encodeURIComponent(x.command)}">Copy</button></div><div class="daily-meta">${x.addedAt?`Added ${esc(new Date(x.addedAt).toLocaleDateString())}`:''}${x.updatedAt&&x.updatedAt!==x.addedAt?` · Updated ${esc(new Date(x.updatedAt).toLocaleDateString())}`:''}</div></article>`).join(''):`<div class="empty"><h2>No daily commands</h2><p>Add commands with <strong>Add to Daily</strong> and they will appear here.</p></div>`;
+  $('#daily-view-results').innerHTML=items.length?items.map(x=>`<article class="card daily-view-card"><div class="card-head"><div class="meta"><span class="badge daily-badge">⭐ Contributed</span><span class="badge">${esc(x.category||'General')}</span></div><div class="card-actions"><span class="badge">Added by: ${esc(x.addedBy||'Unknown')}</span><button class="secondary" data-edit-daily="${esc(x.id)}">✏️ Edit</button></div></div><h3>${esc(x.name)}</h3><p class="desc">${esc(x.description||'Frequently used DevOps command.')}</p><div class="command"><pre>${esc(x.command)}</pre><button class="copy" data-command="${encodeURIComponent(x.command)}">Copy</button></div><div class="daily-meta">${x.addedAt?`Added ${esc(new Date(x.addedAt).toLocaleDateString())}`:''}${x.updatedAt&&x.updatedAt!==x.addedAt?` · Updated ${esc(new Date(x.updatedAt).toLocaleDateString())}`:''}</div></article>`).join(''):`<div class="empty"><h2>No contributed commands</h2><p>Use <strong>Contribute Command</strong> to share a useful command here.</p></div>`;
   document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',()=>copyText(decodeURIComponent(b.dataset.command),b)));
   document.querySelectorAll('[data-edit-daily]').forEach(b=>b.addEventListener('click',()=>openDailyForm(dailyStore.list().find(x=>x.id===b.dataset.editDaily))));
 }
@@ -96,7 +117,7 @@ function bindRunbookActions(){
   document.querySelectorAll('.add-runbook-daily').forEach(b=>b.addEventListener('click',()=>{const app=getApplicationById(b.dataset.appId);const step=Object.values(app.sections).flat().find(s=>s.id===b.dataset.stepId);if(step){const addedBy=getDailyUserName()||setDailyUserName(window.prompt('Name to show as Added by:','')||'Unknown');const item={...addRunbookStepToDaily(step,app),addedBy,addedAt:new Date().toISOString()};dailyStore.add(item);renderDaily();b.textContent='✓ Added';}}));
 }
 async function copyText(text,button){try{await navigator.clipboard.writeText(text);button.textContent='Copied!';setTimeout(()=>button.textContent='Copy',1000);}catch{button.textContent='Copy failed';}}
-function openDailyForm(item){$('#dailyFormTitle').textContent=item?'Edit Daily Command':'Add Daily Command';$('#dailyId').value=item?.id||'';$('#dailyName').value=item?.name||'';$('#dailyCommand').value=item?.command||'';$('#dailyCategory').value=item?.category||'General';$('#dailyTags').value=(item?.tags||[]).join(', ');$('#dailyDescription').value=item?.description||'';$('#dailyAddedBy').value=item?.addedBy||getDailyUserName();$('#dailyAddedBy').readOnly=Boolean(item);$('#dailyModal').showModal();}
+function openDailyForm(item){$('#dailyFormTitle').textContent=item?'Edit Contributed Command':'Contribute Command';$('#dailyId').value=item?.id||'';$('#dailyName').value=item?.name||'';$('#dailyCommand').value=item?.command||'';const category=item?.category||'';if(category && !contributionCategoryMap.has(category) && !Array.from($('#dailyCategory').options).some(o=>o.value===category))$('#dailyCategory').insertAdjacentHTML('beforeend',`<option value="${esc(category)}">${esc(category)}</option>`);$('#dailyCategory').value=category;$('#dailyTags').value=(item?.tags||[]).join(', ');$('#dailyDescription').value=item?.description||'';$('#dailyAddedBy').value=item?.addedBy||getDailyUserName();$('#dailyAddedBy').readOnly=Boolean(item);$('#dailyModal').showModal();}
 $('#addDaily').addEventListener('click',()=>openDailyForm());$('#dailyCancel').addEventListener('click',()=>$('#dailyModal').close());$('#dailyCancel2').addEventListener('click',()=>$('#dailyModal').close());
 $('#dailyForm').addEventListener('submit',e=>{e.preventDefault();const id=$('#dailyId').value;const data={name:$('#dailyName').value,command:$('#dailyCommand').value,category:$('#dailyCategory').value,description:$('#dailyDescription').value,tags:$('#dailyTags').value.split(',').map(x=>x.trim()).filter(Boolean)};if(id){dailyStore.update(id,data);}else{const addedBy=setDailyUserName($('#dailyAddedBy').value)||'Unknown';dailyStore.add({...data,addedBy,addedAt:new Date().toISOString()});}$('#dailyModal').close();renderCommands();if(state.view==='daily')renderDailyView();});
 

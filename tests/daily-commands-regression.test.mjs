@@ -9,9 +9,9 @@ const app = fs.readFileSync(path.join(root, 'js', 'app.js'), 'utf8');
 const daily = fs.readFileSync(path.join(root, 'js', 'daily.js'), 'utf8');
 const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 
-test('Daily Commands has a dedicated navigation target', () => {
+test('Contribute Your Commands has a dedicated navigation target', () => {
   assert.match(html, /data-view="daily"/);
-  assert.match(html, /Daily Commands/);
+  assert.match(html, /Contribute Your Commands/);
 });
 
 test('daily items persist Added By metadata', () => {
@@ -34,7 +34,7 @@ test('Daily Commands exposes Edit in each saved-command card while keeping remov
   assert.match(app, /data-edit-daily=\"\$\{esc\(x\.id\)\}\"/);
   assert.match(app, /✏️ Edit/);
   assert.match(app, /dailyStore\.update/);
-  assert.match(app, /Edit Daily Command/);
+  assert.match(app, /Edit Contributed Command/);
   assert.match(app, /readOnly=Boolean\(item\)/);
   assert.doesNotMatch(app, /data-delete-daily/);
   assert.doesNotMatch(app, /data-daily-remove/);
@@ -84,4 +84,32 @@ test('UI polish adds subtle depth without changing search structure', () => {
   assert.match(css, /\.hero\{[^}]*background:radial-gradient/);
   assert.match(css, /\.search-keywords\{[^}]*backdrop-filter:blur\(/);
   assert.match(css, /\.chips button\{[^}]*transition:all/);
+});
+
+test('contribution UI uses Contribute Your Commands naming', () => {
+  assert.match(html, /Contribute Your Commands/);
+  assert.match(html, /Contribute Command/);
+  assert.doesNotMatch(html, /\+ Add Daily/);
+  assert.doesNotMatch(html, /Daily Commands/);
+});
+
+test('contribution form exposes the shared command category dropdown', () => {
+  assert.match(html, /<select id="dailyCategory"/);
+  assert.match(html, /value="Linux"/);
+  assert.match(html, /value="Kubernetes"/);
+  assert.match(html, /value="Production Incident Playbooks"/);
+  assert.match(html, /value="Application Troubleshooting"/);
+});
+
+test('category counts include contributed commands and command filtering uses their selected category', () => {
+  assert.match(app, /dailyStore\.list\(\)\.filter\(x=>x\.category===name\)\.length/);
+  assert.match(app, /dailyStore\.list\(\)\.map\(x=>\(\{\.\.\.x,isDaily:true/);
+  assert.doesNotMatch(app, /category:'My Daily'/, 'legacy hard-coded category should be removed');
+});
+
+test('contributed command cards use contribution terminology', () => {
+  assert.match(app, /⭐ Contributed/);
+  assert.match(app, /No contributed commands/);
+  assert.match(app, /Contribute Command/);
+  assert.match(app, /dailyViewCount.*contributed/);
 });
