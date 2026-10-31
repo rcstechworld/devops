@@ -1,5 +1,1057 @@
 {
-  "updatedAt": "2026-10-28T10:30:00Z",
+  "updatedAt": "2026-10-31T04:39:42Z",
+  "articles": [
+    {
+      "title": "OpenAI raises less than half of $30B target",
+      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+      "summary": "Comments",
+      "published": "2026-10-31T03:22:44Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Tell HN: Scribd Breached",
+      "url": "https://news.ycombinator.com/item?id=50312756",
+      "summary": "Comments",
+      "published": "2026-10-31T02:46:36Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Flock camera searches fell 95% after a dispatcher's misconduct was caught",
+      "url": "https://www.wkyc.com/article/news/investigations/flock-camera-searches-fall-95-percent-highland-heights-dispatcher-misconduct-caught/95-94b18f33-60e2-4bc7-a00f-d71d1e1fdd5e",
+      "summary": "Comments",
+      "published": "2026-10-31T02:42:02Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+      "url": "https://tng.episodle.com/",
+      "summary": "Comments",
+      "published": "2026-10-30T23:51:24Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
+      "url": "https://www.firezone.dev/blog/introducing-sanstun",
+      "summary": "Comments",
+      "published": "2026-10-30T21:30:00Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
+      "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs in AWS GovCloud (US). It also adds support for Cross-Region Inference, allowing customers to use Cross-Region Inference within AWS GovCloud (US) regions to access higher throughput and increased redundancy. Cross-Region Inference automatically routes inference…",
+      "published": "2026-10-30T20:43:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+      "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+      "summary": "Comments",
+      "published": "2026-10-30T20:23:30Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Anthropic just removed one of Claude’s biggest usage limits — but not for everyone",
+      "url": "https://thenewstack.io/claude-ultra-session-limit/",
+      "summary": "Claude Code users on Anthropic’s $200 plan will no longer face a rolling five-hour usage cap, provided their accounts are The post Anthropic just removed one of Claude’s biggest usage limits — but not for everyone appeared first on The New Stack .",
+      "published": "2026-10-30T20:14:04Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Busy GPUs can hide slow AI inference on Kubernetes",
+      "url": "https://thenewstack.io/ai-inference-kubernetes-observability/",
+      "summary": "A Kubernetes cluster can be healthy while the AI service running on it disappoints users. A model might return its The post Busy GPUs can hide slow AI inference on Kubernetes appeared first on The New Stack .",
+      "published": "2026-10-30T19:56:41Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Jules Verne's Lost Novel",
+      "url": "https://blue-continuum.com/verne-paris",
+      "summary": "Comments",
+      "published": "2026-10-30T19:55:10Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "The oldest ice disappears and the Stone Age emerges from it",
+      "url": "https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921",
+      "summary": "Comments",
+      "published": "2026-10-30T19:51:33Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Web Search now available on Kiro in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kiro-web-search-aws-govcloud-us/",
+      "summary": "Kiro web search gives the agent real-time access to current information on the internet, so its answers draw on up-to-date search results and page content. The agent uses web search automatically when a question involves recent changes or topics beyond the model's training data. Answers that use web results include citations. Kiro enterprise administrators can turn off web search and web fetch for their organization from the Kiro…",
+      "published": "2026-10-30T19:40:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "What worries Entire co-founder Thomas Dohmke about the future of tech?",
+      "url": "https://thenewstack.io/we-are-developers-tech-predictions/",
+      "summary": "Former GitHub CEO Thomas Dohmke is taking on his old company. His startup, Entire, launched a GitHub alternative this week, The post What worries Entire co-founder Thomas Dohmke about the future of tech? appeared first on The New Stack .",
+      "published": "2026-10-30T19:37:46Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Infinite Mac: BeOS",
+      "url": "https://blog.persistent.info/2026/10/infinite-mac-beos.html",
+      "summary": "Comments",
+      "published": "2026-10-30T19:30:09Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Amazon Connect Customer automatically saves in-progress emails as drafts",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-email-draft-save/",
+      "summary": "Amazon Connect Customer automatically saves in-progress emails as drafts, helping agents resume work without losing progress when connectivity is interrupted or when their browser is accidentally closed or refreshed. When agents return, their drafts are restored with the message body, recipients, subject line, and attachment references intact. Customers can also access saved draft data in their Amazon S3 buckets to build integrations…",
+      "published": "2026-10-30T19:30:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Daybreak Red from OpenAI now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-daybreak-red-govcloud-east/",
+      "summary": "Security teams need powerful tools to find vulnerabilities, test exploits, and build defenses. Daybreak Red from OpenAI is now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East), bringing advanced AI to this work. Part of OpenAI’s Daybreak cyber defense initiative, Daybreak Red: GPT-5.6 Cyber is built for authorized vulnerability research, exploit reproduction, and mitigation development. It gives verified…",
+      "published": "2026-10-30T18:20:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Amazon CloudFront now provides viewer ISP and post-quantum TLS details",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-viewer-isp-post-quantum-visbility/",
+      "summary": "Amazon CloudFront can now forward two new optional headers to your origin. The CloudFront-Viewer-ISP header contains the name of the viewer's internet service provider (ISP), so you can see which network a request came from. The CloudFront-Viewer-TLS-Details header describes the cryptography used on each viewer's TLS connection, so you can see whether a connection used post-quantum cryptography (PQC). With CloudFront-Viewer-ISP, you…",
+      "published": "2026-10-30T18:15:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+      "url": "https://blog.cloudflare.com/emudhra-patching/",
+      "summary": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
+      "published": "2026-10-30T17:38:50Z",
+      "source": "Cloudflare Blog"
+    },
+    {
+      "title": "Kubernetes just formed a workload conformance group. Here’s why it matters for AI teams.",
+      "url": "https://thenewstack.io/kubernetes-workload-conformance-ai/",
+      "summary": "Welcome to the final edition of Road to KubeCon, where we track the Kubernetes and cloud-native ecosystem each week on The post Kubernetes just formed a workload conformance group. Here’s why it matters for AI teams. appeared first on The New Stack .",
+      "published": "2026-10-30T17:29:11Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "My favourite PowerMac is a Nintendo Wii",
+      "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "summary": "Comments",
+      "published": "2026-10-30T17:25:15Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Amazon MSK now supports TLS 1.3 for data in transit",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-tls/",
+      "summary": "Amazon MSK now supports version 1.3 of Transport Layer Security (TLS) protocol for MSK Provisioned clusters through encryption policies. TLS 1.3 delivers faster, more secure encryption for streaming data and is increasingly required by compliance frameworks and enterprise security standards. It is also one of the prerequisites for post-quantum cryptography for protecting data against attacks that collect encrypted traffic now with the…",
+      "published": "2026-10-30T17:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Amazon RDS for Oracle no longer requires automatic minor version upgrades for JVM, Spatial, Locator, and OLAP options",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-jvm-spatial-locator-olap-options-amvu-optional/",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you turn off automatic minor version upgrades on new and existing DB instances that use the JVM, Spatial, Locator, or OLAP option. Previously, these options required automatic minor version upgrades to be enabled. With this change, you decide when to apply minor version upgrades to DB instances using these options. If you turn off automatic minor version upgrades, we…",
+      "published": "2026-10-30T17:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+      "url": "https://github.com/dbreunig/nesformer",
+      "summary": "Comments",
+      "published": "2026-10-30T16:40:22Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "What’s new in AI infrastructure and orchestration in October",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/",
+      "summary": "The Google Cloud AI Infrastructure team had another busy month in October, filled with new product launches and updates to power today’s AI and agentic workloads scalably and efficiently. We were also honored to share our progress with customers, partners, and the broader community at leading industry events, including NVIDIA GTC, PyTorch Conference, and AGNTCon + MCPCon. Let’s dive in! Product, technology, and tools updates New…",
+      "published": "2026-10-30T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "When the Kubernetes API went silent: A three-layer networking mystery",
+      "url": "https://cloud.google.com/blog/products/networking/the-three-layer-gke-network-mystery/",
+      "summary": "Every support engineer has a case that stays with them. The one that comes up at team lunches. The one where, even after it's resolved, you find yourself staring at a packet capture at midnight just to make sure you really understand what happened. This is that case. It started in January 2026 with a support ticket that read deceptively simply: pods are intermittently failing to reach the Kubernetes API server. The error was a…",
+      "published": "2026-10-30T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Innovate on your own business terms: Google Cloud spend caps now generally available",
+      "url": "https://cloud.google.com/blog/topics/cost-management/google-cloud-spend-caps-now-generally-available/",
+      "summary": "Today, we’re announcing that spend caps on Google Cloud Budgets are generally available. With this release, we’re delivering ways to protect your workloads from runaway costs without risking resource deletion. More importantly, we’re introducing three major updates, directly inspired by your feedback since the initial preview, to bring programmability, real-time visibility, and automated guardrails to your cost-control playbook. How…",
+      "published": "2026-10-30T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "What’s new with Google Cloud",
+      "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Oct 26 - Oct 30 Simplify PostgreSQL Monitoring with the New…",
+      "published": "2026-10-30T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-waf-automatic-sdk-integration-amazon-cloudfront/",
+      "summary": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions. When you enable it, CloudFront adds the script tag for the AWS WAF JavaScript SDK to the HTML it serves, with no change to your application code, build process, or deployment. The SDK supplies the client-side signals used by three AWS WAF managed rule groups: Bot Control at the targeted inspection level, Fraud Control account takeover prevention (ATP), and…",
+      "published": "2026-10-30T15:57:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "summary": "Comments",
+      "published": "2026-10-30T15:52:18Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Florilegium: Procedural Flowers in LaTeX",
+      "url": "https://github.com/kevinraymond/florilegium",
+      "summary": "Comments",
+      "published": "2026-10-30T15:48:12Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "The federated code forge",
+      "url": "https://tangled.org/blog/forge/",
+      "summary": "Comments",
+      "published": "2026-10-30T15:44:29Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Northflank Breached",
+      "url": "https://status.northflank.com",
+      "summary": "Comments",
+      "published": "2026-10-30T15:10:31Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Amazon Connect Customer now supports versioning and aliasing for flows",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-versioning-aliasing/",
+      "summary": "Amazon Connect Customer now supports versioning and aliasing for flows and flow modules, simplifying how you build, test, and deploy customer experience flows while minimizing impact to live end-customer traffic. With this launch, you can now create immutable versions of a flow and attach one or more friendly names (i.e., aliases) to a version, then point resources such as queues, quick connects, and phone numbers at an alias instead…",
+      "published": "2026-10-30T15:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "GPT-6.1 Terra vs. GPT-6 Astra: One sacrifices accuracy for lower cost and higher speed at high effort",
+      "url": "https://thenewstack.io/gpt-6-1-terra-vs-gpt-6-astra/",
+      "summary": "OpenAI released GPT-6.1 Terra on October 26, marketing it as a cheap, fast model for high-volume everyday work, priced at The post GPT-6.1 Terra vs. GPT-6 Astra: One sacrifices accuracy for lower cost and higher speed at high effort appeared first on The New Stack .",
+      "published": "2026-10-30T14:59:35Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Cloudflare services for private origins is now generally available",
+      "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
+      "summary": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
+      "published": "2026-10-30T14:23:43Z",
+      "source": "Cloudflare Blog"
+    },
+    {
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "summary": "Comments",
+      "published": "2026-10-30T14:08:20Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "New Gemini courses for financial services and legal teams",
+      "url": "https://cloud.google.com/blog/topics/training-certifications/new-gemini-courses-for-financial-services-and-legal-teams/",
+      "summary": "Today Google Skills is sharing new, industry-specific video learning bundles to get you into Gemini and using agents. One bundle is designed for financial services and one is built specifically for those in the legal profession . You can access all of these videos at no cost on Google Skills today. Whether you're managing complex market portfolios or navigating rigorous compliance reviews, these bite-sized video courses show you…",
+      "published": "2026-10-30T13:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "What five P99 CONF talks reveal about database trade-offs",
+      "url": "https://thenewstack.io/p99-conf-database-tradeoffs/",
+      "summary": "P99 CONF is a virtual conference on high-performance, low-latency applications. Its 2026 event ran October 21–22. Here, we cover five The post What five P99 CONF talks reveal about database trade-offs appeared first on The New Stack .",
+      "published": "2026-10-30T13:00:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
+      "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+      "summary": "Comments",
+      "published": "2026-10-30T12:50:01Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+      "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+      "summary": "Comments",
+      "published": "2026-10-30T10:06:15Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Managed Prometheus collectors now support Amazon MSK consumer-group metrics",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/prometheus-collectors-msk-metrics/",
+      "summary": "Managed Prometheus collectors now support Amazon MSK consumer-group metrics for Amazon Managed Service for Prometheus and Amazon CloudWatch . The integration collects Kafka exporter metrics and consumer-group lag metrics from your Amazon MSK clusters. Managed Prometheus collectors discover and collect Prometheus metrics from your workloads, so you don't run and operate collection agents yourself. You ingest the collected metrics into…",
+      "published": "2026-10-30T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "AWS Glue Data Catalog now supports Apache Iceberg table optimization in the US West (N. California) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
+      "summary": "AWS Glue Data Catalog now supports automatic table optimization for Apache Iceberg tables in the US West (N. California) Region. Apache Iceberg is an open table format that delivers fast query performance over large tables in data lakes. With this launch, you can enable table optimization for individual tables or for all tables in your Data Catalog. Apache Iceberg tables accumulate small files, snapshots, and unreferenced files with…",
+      "published": "2026-10-30T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Amazon SageMaker AI inference now supports GPU partitioning for real-time endpoints",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-gpu-partitioning/",
+      "summary": "Amazon SageMaker AI inference now supports GPU partitioning, enabling you to run several models on a single GPU instead of dedicating a whole accelerator to each one. Using NVIDIA Multi-Instance GPU (MIG) technology, SageMaker AI divides a GPU into as many as seven isolated partitions, each with its own memory and compute. Customers serving small and mid-size models, such as fine-tuned variants, embedding models, rerankers, and…",
+      "published": "2026-10-30T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "summary": "Comments",
+      "published": "2026-10-30T07:09:12Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "KubeCon + CloudNativeCon NA 2026: End User TAB recommendations and tips",
+      "url": "https://www.cncf.io/blog/2026/10/29/kubecon-cloudnativecon-na-2026-end-user-tab-recommendations-and-tips/",
+      "summary": "KubeCon + CloudNativeCon NA 2026 in Salt Lake City will bring the cloud native community together with projects, vendors and end users in what is one of the largest open source events. In this post, we...",
+      "published": "2026-10-30T00:43:04Z",
+      "source": "CNCF Blog"
+    },
+    {
+      "title": "Sam Altman almost scrapped token pricing. Here’s why he backed off.",
+      "url": "https://thenewstack.io/openai-token-pricing-reversal/",
+      "summary": "OpenAI considered dropping token-based pricing for its next model, letting developers submit a prompt and receive a price for the The post Sam Altman almost scrapped token pricing. Here’s why he backed off. appeared first on The New Stack .",
+      "published": "2026-10-29T22:19:18Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Building an AI-native engineering org",
+      "url": "https://twitter.com/sgondala2/status/2115832070274723875",
+      "summary": "Comments",
+      "published": "2026-10-29T21:58:34Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "AWS’s Hydro team wants the compiler to catch coding agents’ mistakes",
+      "url": "https://thenewstack.io/ai-agents-compiler-guardrails/",
+      "summary": "Earlier this month, the team behind Hydro developed a new way to check that a distributed system still works correctly The post AWS’s Hydro team wants the compiler to catch coding agents’ mistakes appeared first on The New Stack .",
+      "published": "2026-10-29T21:53:05Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Microsoft’s new Copilot harness makes agents easy — until you want to switch",
+      "url": "https://thenewstack.io/microsoft-copilot-harness-foundry/",
+      "summary": "Microsoft is opening up the GitHub Copilot agent harness to outside developers through Microsoft Foundry, bringing the same orchestration infrastructure The post Microsoft’s new Copilot harness makes agents easy — until you want to switch appeared first on The New Stack .",
+      "published": "2026-10-29T20:54:15Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "AWS Marketplace now enables partners to list once and sell through multiple subsidiary accounts",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-marketplace-subsidiary-account-authorization",
+      "summary": "Today, AWS announces that AWS partners who operate multiple legal entities can publish a product listing once in their primary account and enable their local subsidiaries to sell it through direct private offers — eliminating the need to recreate and maintain duplicate listings across every account. From the primary account, which retains ownership of the listing, partners authorize which products each subsidiary can sell and which…",
+      "published": "2026-10-29T20:12:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "The boundary problem in agentic AI is a platform problem",
+      "url": "https://www.cncf.io/blog/2026/10/29/the-boundary-problem-in-agentic-ai-is-a-platform-problem/",
+      "summary": "An autonomous agent will do exactly what its tools let it do, and no more. This sounds like a constraint. In practice it is the whole risk, because the set of things an agent’s tools let...",
+      "published": "2026-10-29T18:11:50Z",
+      "source": "CNCF Blog"
+    },
+    {
+      "title": "Turning a solar power system into its own backup",
+      "url": "https://arstechnica.com/science/2026/10/turning-a-solar-power-system-into-its-own-backup/",
+      "summary": "Comments",
+      "published": "2026-10-29T18:10:33Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Amazon RDS for Oracle and SQL Server now support storage autoscaling on additional storage volumes",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-sqlserver-autoscaling-additional-storage-volumes",
+      "summary": "Amazon RDS for SQL Server and Amazon RDS for Oracle now support RDS storage autoscaling on additional storage volumes . RDS storage autoscaling automatically scales storage capacity in response to growing database workloads, with zero downtime. Additional storage volumes allow you to add up to three additional volumes to increase your storage capacity up to 256 TiB. Previously, you had to manually provision storage capacity on the…",
+      "published": "2026-10-29T18:06:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Show HN: I rebuilt Kubernetes for ESP32 microcontrollers",
+      "url": "https://github.com/arterialist/kube32",
+      "summary": "Comments",
+      "published": "2026-10-29T16:35:14Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
+      "url": "https://azure.microsoft.com/en-us/blog/azure-cloud-hsm-hardware-audit-logging-verifiable-audit-trails-for-security-and-compliance/",
+      "summary": "Security, compliance, and operations teams can use this hardware-originated evidence for monitoring, compliance reporting, and forensic investigations. The post Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance appeared first on Microsoft Azure Blog .",
+      "published": "2026-10-29T16:00:00Z",
+      "source": "Microsoft Azure Blog"
+    },
+    {
+      "title": "Amazon Aurora now supports post-quantum TLS key exchange",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-postgresql-post-quantum-tls-key-exchange/",
+      "summary": "Starting today, Amazon Aurora PostgreSQL-Compatible Edition introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in transit. Amazon Aurora PostgreSQL versions 18 and higher support modification of the ssl_groups parameter. You can select cryptographic groups from the Amazon Aurora PostgreSQL allow list to align with your organization's security…",
+      "published": "2026-10-29T16:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "",
+      "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/",
+      "summary": "Welcome to the second Cloud CISO Perspectives for October 2026. Today, Chris Betz talks with Michael Cote, our vulnerability rewards program lead, about the new tier of our Cloud VRP program and the current state of vulnerability rewards. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can…",
+      "published": "2026-10-29T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Querying Databricks Apache Iceberg Tables with the borderless Lakehouse",
+      "url": "https://cloud.google.com/blog/products/data-analytics/querying-databricks-iceberg-tables-with-google-clouds-lakehouse/",
+      "summary": "Enterprise organizations often leverage multiple data platforms, including Databricks, to execute heavy Apache Spark jobs alongside BigQuery to power highly concurrent analytics workloads. Historically, bridging these systems often meant building complex pipelines to copy data between environments. This approach increases storage costs, introduces latency, and fragments security controls. With Google Cloud’s borderless Lakehouse, you…",
+      "published": "2026-10-29T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Grounding agents in one context graph connecting semantic models you already trust",
+      "url": "https://cloud.google.com/blog/products/data-analytics/expanded-semantic-model-support-in-knowledge-catalog/",
+      "summary": "Picture the scene: Before an executive business review, your VP of Sales asks an AI assistant, \"What was net revenue for our top enterprise accounts last quarter?\" In seconds, the agent returns a polished chart! Unfortunately, the numbers don't match the finance report. Why? Because the agent counted cancelled orders as revenue and pulled from an unvalidated staging table. The agent didn't fail because of the model, or because it…",
+      "published": "2026-10-29T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "What’s new with Google Data Cloud",
+      "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+      "summary": "October 26 - October 30 Knowledge Catalog introduces self-learning context enrichment and Knowledge Studio (Preview) Knowledge Catalog's enrichment agent now learns from agent and user interactions and from sources such as playbooks, code repositories, and business documents to find and fix missing or outdated context, which teams can package into reusable context sets. Knowledge Studio, the new studio experience in Knowledge Catalog…",
+      "published": "2026-10-29T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Why MCP servers should tell agents what to do next",
+      "url": "https://thenewstack.io/aws-mcp-agent-observability/",
+      "summary": "Many MCP servers do just one thing. An agent asks for data and the server hands it back. AWS’s James The post Why MCP servers should tell agents what to do next appeared first on The New Stack .",
+      "published": "2026-10-29T15:55:39Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Amazon MSK Connect now supports updating connector plugins and worker configurations",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-update-plugin-worker-configurations",
+      "summary": "Amazon MSK Connect (Amazon Managed Streaming for Apache Kafka Connect) now lets you update the custom plugin and worker configuration of an existing connector. This is useful when you need to update the custom plugin to run a new version of your connector code, for example one with updated dependencies. You can also update the worker configuration to change worker-level settings, such as switching key and value converters or tuning…",
+      "published": "2026-10-29T15:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Mistral’s Large 4 open weights arrive with a 1-point coding lead over GLM-5.3: “There’s nothing you can’t do with this model that you can do with competitors.”",
+      "url": "https://thenewstack.io/mistral-chonk-coding-model/",
+      "summary": "On Thursday, Mistral released the weights for its frontier open model, Mistral Large 4 (ML4), on Hugging Face. Made available The post Mistral’s Large 4 open weights arrive with a 1-point coding lead over GLM-5.3: “There’s nothing you can’t do with this model that you can do with competitors.” appeared first on The New Stack .",
+      "published": "2026-10-29T14:49:44Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "AWS Elastic Beanstalk for regulated workloads: Built for the next decade, not just the first deploy",
+      "url": "https://thenewstack.io/elastic-beanstalk-regulated-workloads/",
+      "summary": "For more than a decade, the managed application platform industry has optimized around a compelling promise: get code running as The post AWS Elastic Beanstalk for regulated workloads: Built for the next decade, not just the first deploy appeared first on The New Stack .",
+      "published": "2026-10-29T14:00:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "“I don’t think the world needs a new GitHub”: What GitHub’s leaders really think about their new rivals",
+      "url": "https://thenewstack.io/github-agentic-infrastructure-rebuild/",
+      "summary": "At its annual Universe ’26 conference in San Francisco this week, GitHub took to the question of the platform’s stability The post “I don’t think the world needs a new GitHub”: What GitHub’s leaders really think about their new rivals appeared first on The New Stack .",
+      "published": "2026-10-29T13:30:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Coding Agent Horror Stories: The CVE That Did Not Exist",
+      "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-cve-that-did-not-exist/",
+      "summary": "An AI code review agent invented a CVE and recommended dangerous fixes. Learn how Docker Sandboxes contain agents and why their output needs verification.",
+      "published": "2026-10-29T13:00:00Z",
+      "source": "Docker Blog"
+    },
+    {
+      "title": "Why Kubernetes platforms keep rebuilding a layer they could share",
+      "url": "https://thenewstack.io/kubernetes-resource-composition-layer/",
+      "summary": "Ask a platform team what they built last year, and the list likely includes a Kubernetes controller that creates a The post Why Kubernetes platforms keep rebuilding a layer they could share appeared first on The New Stack .",
+      "published": "2026-10-29T13:00:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+      "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
+      "published": "2026-10-29T12:55:00Z",
+      "source": "Cloudflare Blog"
+    },
+    {
+      "title": "The 5 essential layers of AI agent sandboxing on Kubernetes",
+      "url": "https://thenewstack.io/ai-agent-sandboxing-kubernetes/",
+      "summary": "An AI agent given autonomy to run code will inevitably run code no human has reviewed. It may install model-selected The post The 5 essential layers of AI agent sandboxing on Kubernetes appeared first on The New Stack .",
+      "published": "2026-10-29T12:00:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "“Urgency is an inherently subjective call”: Anthropic tells TNS how it grades Claude Duet",
+      "url": "https://thenewstack.io/claude-duet-agent-judgment/",
+      "summary": "Anthropic built Claude Duet, an AI assistant that monitors your connected apps and works on tasks in the background, to The post “Urgency is an inherently subjective call”: Anthropic tells TNS how it grades Claude Duet appeared first on The New Stack .",
+      "published": "2026-10-29T11:00:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "AWS Step Functions workflows now available as AI agent tools",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools/",
+      "summary": "You can now use your AWS Step Functions workflows as tools for AI agents through Amazon Bedrock AgentCore Gateway. Your agent decides when to run a workflow and what input to pass, and Step Functions runs each step exactly as you defined it. Agents can use your existing Standard and Express workflows as tools. AWS Step Functions is a visual workflow service capable of orchestrating over 220 AWS services to help customers build…",
+      "published": "2026-10-29T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/dax-additional-regions/",
+      "summary": "Amazon DynamoDB Accelerator (DAX) is now available in two additional AWS Regions: Canada (Central) and Africa (Cape Town). DAX is a fully managed, highly available, in-memory cache for Amazon DynamoDB that delivers up to ten times performance improvement, from single-digit milliseconds to microseconds, even at millions of requests per second. With DAX, you can accelerate read-intensive and bursty workloads such as real-time bidding…",
+      "published": "2026-10-29T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 13.2",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
+      "summary": "Amazon Managed Grafana now supports in-place upgrade from Grafana version 12.4 to 13.2. Upgrading to version 13.2 brings features launched as part of open-source Grafana versions 13.0 to 13.2. These include Git Sync for dashboards, dynamic dashboards, and PromQL query support in the Amazon CloudWatch data source plugin. With Git Sync, you can treat dashboards as code by linking a workspace to a Git repository. Dashboard modifications…",
+      "published": "2026-10-29T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "AWS DataSync Enhanced mode now supports Amazon FSx for Windows File Server, FSx for NetApp ONTAP, and Red Hat OpenShift Virtualization",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/datasync-enhanced-fsx-openshift/",
+      "summary": "AWS DataSync Enhanced mode now supports Amazon FSx for Windows File Server and Amazon FSx for NetApp ONTAP as source or destination locations. You can now run Windows to Windows transfers, such as from an on-premises file server to FSx for Windows File Server. Additionally, Enhanced mode agents can now run on Red Hat OpenShift Virtualization version 4.20 or later. With this launch, you can use the same location options in Enhanced mode…",
+      "published": "2026-10-29T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
+      "summary": "AWS Certificate Manager (ACM) ACME protocol support is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West), providing a fully managed ACME server endpoint that issues public TLS certificates from Amazon Trust Services using any ACMEv2-compatible client, including Certbot, cert-manager for Kubernetes, and acme.sh. With the CA/Browser Forum mandating 47-day certificate lifetimes by 2029, manual management of public…",
+      "published": "2026-10-29T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
+      "summary": "Today, Amazon SageMaker AI announces support for Seekable OCI (SOCI)-indexed container images for training and processing jobs, so your jobs start running your code sooner. SOCI-indexed images start Amazon SageMaker AI training containers in seconds, cutting GPU idle time during image pulls by up to 90%, with no impact on training performance. Before a training or processing job can run, SageMaker AI downloads its container image to…",
+      "published": "2026-10-29T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Amazon Redshift announces hands-off automated cross-region backups",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-automated-cross-region-backups/",
+      "summary": "Amazon Redshift announces automated cross-region snapshot copy for Amazon Redshift. You can now have your Amazon Redshift provisioned cluster or serverless workgroup automatically backed up to the target AWS region(s) you choose. The automated cross-region snapshot copy feature will automatically, always copy the most recent snapshot with no manual intervention, continuously and incrementally and ensure your cluster is backed-up to the…",
+      "published": "2026-10-29T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "AWS Backup now supports cross-account management and cross-account backup in the AWS European Sovereign Cloud",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-cross-account-esc/",
+      "summary": "AWS Backup now supports cross-account management, cross-account backup, and delegated administrators in the AWS European Sovereign Cloud (Germany) Region. These capabilities help you centrally manage, monitor, and copy backups across the accounts in your organization using AWS Organizations. With cross-account management, you can deploy organization-wide backup policies from your AWS Organizations management account or a delegated…",
+      "published": "2026-10-29T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio now supports custom designations",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-designations/",
+      "summary": "Amazon SageMaker Unified Studio now supports custom designations, named permission sets that control what actions individual project members can perform. Previously, project members could only be assigned Owner or Contributor designations, which provided nearly identical permissions. With custom designations, administrators define permission sets that align with their organization's personas and assign them to project members…",
+      "published": "2026-10-29T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "From Working Group to SIG Architecture: spotlight on AI Conformance",
+      "url": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
+      "summary": "In this SIG Architecture spotlight we talked with Janet Kuo (Google) and Yuan Tang (TensorScale AI) about the journey of AI Conformance in Kubernetes, from the initial Working Group to the integration SIG Architecture as a subproject. Introductions Frederico Muñoz and Kirti Goyal (FK): Hi Janet, Yuan, and thank you for the opportunity to learn a bit more about AI Conformance. Can you tell us a bit about yourselves and how you got…",
+      "published": "2026-10-29T05:00:00Z",
+      "source": "Kubernetes Blog"
+    },
+    {
+      "title": "GitLab Orbit is GA: Higher agent accuracy, lower token cost",
+      "url": "https://about.gitlab.com/blog/gitlab-orbit-ga/",
+      "summary": "An agent’s true cost isn’t only the tokens it burns. It’s the review that calls your code “safe to merge” after seeing the diff, but without any context on the pipeline. We call that artificial confidence, not artificial intelligence. Agents guess because code is all they can see; they can’t see the merge request that last changed it, the pipeline that ran it, the vulnerability it carries, or the people who wrote and reviewed it…",
+      "published": "2026-10-29T00:00:00Z",
+      "source": "GitLab Blog"
+    },
+    {
+      "title": "GitLab Orbit: Find vulnerability blast radius without the manual hunt",
+      "url": "https://about.gitlab.com/blog/find-vulnerability-blast-radius-with-gitlab-orbit/",
+      "summary": "A critical vulnerability needs a fix and a map. The fix is usually fast. Finding where the vulnerable component lives, who owns it, and whether it's exposed to the Internet is what costs you time. Most security teams piece that answer together from scanner reports, spreadsheets, and a Slack thread asking who owns a service nobody recognizes, and you stay exposed for every hour that takes. GitLab Orbit , now generally available…",
+      "published": "2026-10-29T00:00:00Z",
+      "source": "GitLab Blog"
+    },
+    {
+      "title": "Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the September 2026 Monthly Recommended Patch (MRP) for Oracle Database version 19c and 26ai. An MRP is a minor engine version that builds on a quarterly Release Update (RU), bundling Oracle's Critical Security Patch Update (CSPU) with additional Oracle-recommended fixes. The September 2026 MRP is applied on top of the July 2026 RU and includes the Oracle September…",
+      "published": "2026-10-28T21:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Volcano v1.16 Released: NamespaceQueue, fairshare, and a broader HyperNode ecosystem",
+      "url": "https://www.cncf.io/blog/2026/10/28/volcano-v1-16-released-namespacequeue-fairshare-and-a-broader-hypernode-ecosystem/",
+      "summary": "Volcano v1.16.0 is available . v1.16.0 introduces NamespaceQueue and the fairshare plugin. Tenants can use hierarchical queues within their own namespaces to organize quotas and queue hierarchies within administrator-authorized resource pools. Fairshare brings historical resource consumption...",
+      "published": "2026-10-28T20:45:08Z",
+      "source": "CNCF Blog"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore CLI version 1.0 is now available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/",
+      "summary": "AWS announces the general availability of Amazon Bedrock AgentCore CLI version 1.0 (@aws/agentcore 1.0.0), rebuilt with faster startup, a consistent command structure, and support for more AgentCore resources. The CLI helps developers create, develop, deploy, and operate AI agents and supporting resources from the terminal. With version 1.0, developers can use the project workflow or work directly with harnesses, runtimes, memory…",
+      "published": "2026-10-28T20:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Public endpoints for Amazon ElastiCache Serverless now in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-public-endpoints-govcloud/",
+      "summary": "Amazon ElastiCache Serverless for Valkey now supports public endpoints in the AWS GovCloud (US) Regions. A public endpoint lets you connect to your cache from a serverless function or any application running outside a VPC, without setting up a VPN, a bastion host, or an SSH tunnel. With a public endpoint, ElastiCache Serverless gives you a fully managed cache with no VPC to configure and no infrastructure to provision, and you can…",
+      "published": "2026-10-28T19:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "AWS Lambda supports Seekable OCI (SOCI) lazy loading for Lambda Managed Instances",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci/",
+      "summary": "AWS Lambda now supports Seekable OCI (SOCI) for lazy loading Event Functions packaged as Open Container Initiative (OCI) images running on Lambda Managed Instances . With SOCI support, Lambda fetches only the files needed at each stage of the execution environment startup rather than downloading the entire image upfront, reducing container startup times by up to 70%. Customers building compute-intensive applications such as data…",
+      "published": "2026-10-28T18:44:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Introducing time series collections for the next generation of Amazon OpenSearch Serverless",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless/",
+      "summary": "Today, we're announcing support for time series collections on the next generation of Amazon OpenSearch Serverless. With time series collections, you can ingest, store, and analyze logs, metrics, traces, and event data without provisioning or managing clusters. They absorb ingest spikes automatically, keep recent data fast to query, and make months or years of history searchable at low cost, all in the same collection. Time series…",
+      "published": "2026-10-28T18:35:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Quick now supports smart approvals for agentic actions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/quick-smart-approvals-agentic-actions/",
+      "summary": "Amazon Quick now supports smart approvals, a review layer that reduces unnecessary approval prompts while preserving human oversight of the actions that matter most. As agents take more actions on a user's behalf, such as sending email, updating records, and creating tickets, asking a person to approve every step leads to approval fatigue and weaker oversight over time. With smart approvals, a separate review model called the…",
+      "published": "2026-10-28T18:28:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Amazon EKS Dashboard now provides fleet-wide visibility into certificate authority (CA) rotation",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-dashboard-fleet-wide-visibility-certificate-authority-ca-rotation/",
+      "summary": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announces certificate authority (CA) rotation visibility in the Amazon EKS Dashboard, giving you a consolidated view of CA rotation across your clusters. The Amazon EKS Dashboard already provides centralized visibility into your clusters across AWS Regions and accounts, and it now includes CA rotation, so you can see where action is needed without checking each cluster individually…",
+      "published": "2026-10-28T18:07:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Amazon ECS Managed Instances adds cross-instance and Spot consolidation",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/",
+      "summary": "Today, Amazon Elastic Container Service (Amazon ECS) Managed Instances introduces two infrastructure optimization updates: cross-instance and Spot consolidation. Cross-instance consolidation evaluates tasks running across multiple underutilized instances together, packing them onto fewer instances to raise utilization and lower costs. Spot consolidation extends this capability to Spot capacity, consolidating underutilized Spot…",
+      "published": "2026-10-28T18:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "AWS Lambda durable functions now exports live telemetry for execution insights",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-durable-telemetry/",
+      "summary": "AWS Lambda announces the Durable Execution Telemetry Exporter plugin for Lambda durable functions. This new observability plugin captures the step-by-step history of your durable executions and sends them to one or more destinations of your choice. You can use the exported data to gather operational and business insights and keep history beyond the standard retention period. We are also releasing a companion Model Context Protocol…",
+      "published": "2026-10-28T18:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Google just handed its rivals the keys to Android",
+      "url": "https://thenewstack.io/android-agents-build-debug/",
+      "summary": "Google is giving coding agents like Anthropic’s Claude Code and OpenAI’s Codex deeper access to its Android development tools, including The post Google just handed its rivals the keys to Android appeared first on The New Stack .",
+      "published": "2026-10-28T17:43:09Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
+      "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
+      "summary": "Today, we’re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview. The post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Azure Blog .",
+      "published": "2026-10-28T17:40:56Z",
+      "source": "Microsoft Azure Blog"
+    },
+    {
+      "title": "Wonderful Weather: Floods and Foreboding in 17th-Century Britain",
+      "url": "https://publicdomainreview.org/essay/wonderful-weather/",
+      "summary": "Comments",
+      "published": "2026-10-28T17:34:59Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Amazon EKS Auto Mode now supports Kubernetes Gateway API",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-auto-mode-kubernetes-gateway-api/",
+      "summary": "Amazon EKS Auto Mode now supports the Kubernetes Gateway API, giving customers a standard, portable way to define how traffic reaches their applications. Customers can configure application load balancing using Gateway and HTTPRoute resources, and EKS Auto Mode provisions and manages the underlying AWS infrastructure automatically. With this launch, EKS Auto Mode customers can adopt the next-generation Kubernetes traffic management…",
+      "published": "2026-10-28T17:33:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Cloudflare Turnstile solver library (no headless browser required)",
+      "url": "https://github.com/chris124567/cfsolve",
+      "summary": "Comments",
+      "published": "2026-10-28T17:29:23Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Double Buffering with Cloudflare Queues",
+      "url": "https://bellone.com/technical/double-buffering-with-cloudflare-queues",
+      "summary": "Comments",
+      "published": "2026-10-28T16:48:23Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Trapped in the Technologist Factory",
+      "url": "https://ideolalia.com/essays/trapped-in-the-technologist-factory.html",
+      "summary": "Comments",
+      "published": "2026-10-28T16:30:38Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "GitHub debuts Copilot Fusion, a new model selection & orchestration system that beats Claude Code for half the API cost",
+      "url": "https://thenewstack.io/github-copilot-fusion/",
+      "summary": "GitHub has debuted GitHub Copilot Fusion, a new system that handles model selection and orchestration for coding tasks so developers The post GitHub debuts Copilot Fusion, a new model selection & orchestration system that beats Claude Code for half the API cost appeared first on The New Stack .",
+      "published": "2026-10-28T16:19:31Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "GitHub saw 7.4B commits in September, adding 4M CPU cores and 160 PB of storage to keep up",
+      "url": "https://thenewstack.io/github-7-4b-commits-september/",
+      "summary": "GitHub is seeing unprecedented demand and is updating its core infrastructure to keep pace. In August, GitHub said it was The post GitHub saw 7.4B commits in September, adding 4M CPU cores and 160 PB of storage to keep up appeared first on The New Stack .",
+      "published": "2026-10-28T16:10:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "GitHub Universe 2026: Evolving every layer of the stack",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "summary": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog .",
+      "published": "2026-10-28T16:09:28Z",
+      "source": "GitHub Blog"
+    },
+    {
+      "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "summary": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog .",
+      "published": "2026-10-28T16:07:40Z",
+      "source": "GitHub Blog"
+    },
+    {
+      "title": "Introducing the AlloyDB Omni web UI for easier cluster observability",
+      "url": "https://cloud.google.com/blog/products/databases/alloydb-omni-delivers-a-web-ui-for-cluster-observability/",
+      "summary": "Managing PostgreSQL databases across on-premises, edge, and multi-cloud environments often forces administrators to rely on command-line tools, making it hard to see cluster health and quickly diagnose issues. To solve this, we are announcing the General Availability (GA) of the AlloyDB Omni Web UI for Red Hat and containers . This production-ready, read-only console gives you direct visibility into hardware telemetry, query…",
+      "published": "2026-10-28T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Behind the scenes, two months later: How we ship Google Agent Skills like products",
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/behind-the-scenes-two-months-later-how-we-ship-google-agent-skills-like-products/",
+      "summary": "In my previous post, I took you behind the scenes of Google Agent Skills , covering how the project started, how we maintain quality at scale, and how we handle governance. In this post, I'll share what we've built since then: the automated quality gates that every change must pass, the AI review agent that inspects skill quality, and the lessons that we learned along the way. You can adopt similar gates and review rules in your own…",
+      "published": "2026-10-28T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "How to troubleshoot GKE workloads faster with VPC Flow Logs",
+      "url": "https://cloud.google.com/blog/products/containers-kubernetes/using-vpc-flow-logs-to-troubleshoot-gke-workloads/",
+      "summary": "Having visibility into your network traffic is essential to operating Kubernetes environments effectively. When a service slows down or loses connectivity, knowing who is talking to whom lets you narrow the problem down quickly. In a standard cloud network, flow logs provide that view by recording connections between IP addresses, ports, and protocols. In Kubernetes, however, pods are temporary. Their IP addresses change constantly as…",
+      "published": "2026-10-28T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "How GKE networking scales to support high densities of concurrent AI agents",
+      "url": "https://cloud.google.com/blog/products/networking/gke-networking-dataplane-for-large-agentic-ai-workloads/",
+      "summary": "What do you need to orchestrate high-density concurrent AI agents? As we transition from static requests toward autonomous agentic workflows, the need for secure, high-density sandboxes is pushing conventional infrastructure far beyond its architectural breaking point. This transition is driving top-tier research labs to demand infrastructure at unprecedented scale — often up to one million concurrent code-execution sandboxes! At this…",
+      "published": "2026-10-28T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Near-zero downtime upgrades: Announcing Cloud SQL for MySQL blue-green deployments",
+      "url": "https://cloud.google.com/blog/products/databases/cloud-sql-blue-green-deployments/",
+      "summary": "Keeping production databases on supported versions shouldn’t require giving up your weekend. To stay secure, compliant, and with the best performance and newest AI capabilities, organizations need to run on the latest database engine versions. Yet for many teams, major version upgrades mean weeks of cross-team coordination, negotiating narrow maintenance windows, and hours of application downtime. In an era where mission-critical…",
+      "published": "2026-10-28T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Longitudinal Changes InWearable-Captured PhysiologyBefore Sudden Cardiac Death",
+      "url": "https://www.jacc.org/doi/epdf/10.1016/j.jaccas.2026.110397",
+      "summary": "Comments",
+      "published": "2026-10-28T15:04:12Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Nvidia launches a promptable transcription model",
+      "url": "https://thenewstack.io/nvidia-nemotron-promptable-transcription/",
+      "summary": "Nvidia on Wednesday launched Nemotron 3.5 Transcribe, its latest multilingual transcription model. The new open-weight model, the company says, ranks The post Nvidia launches a promptable transcription model appeared first on The New Stack .",
+      "published": "2026-10-28T15:00:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Step into a new dimension with XREAL AURA, the first-of-its-kind wired XR glasses",
+      "url": "https://cloud.google.com/blog/products/chrome-enterprise/step-in-to-a-new-dimension-with-xreal-aura-a-first-of-its-kind-wired-xr-glasses/",
+      "summary": "The world of work is rapidly evolving, and with it, the tools we use to stay productive and connected. As AI adoption transforms daily workflows, form factors like XR headsets and glasses offer fresh ways to reimagine how productive work happens across apps and devices. Today marks the launch of XREAL AURA , a first-of-kind set of wired XR glasses built on Android XR. XREAL AURA’s form factor brings new and impressive features for…",
+      "published": "2026-10-28T14:41:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "What happens when the agent is long gone, but its access key lives on?",
+      "url": "https://thenewstack.io/governing-ai-agent-credentials/",
+      "summary": "Imagine: There’s a line on the credential report that no one on the platform team can explain. An IAM user The post What happens when the agent is long gone, but its access key lives on? appeared first on The New Stack .",
+      "published": "2026-10-28T14:00:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Win the Agentic Era, Together: Introducing the Docker Navigator Partner Program",
+      "url": "https://www.docker.com/blog/docker-navigator-partner-program/",
+      "summary": "Docker is launching the Navigator Partner Program, with three tiers, co-selling benefits, and a new incentive for every registered AI governance deal.",
+      "published": "2026-10-28T13:00:00Z",
+      "source": "Docker Blog"
+    },
+    {
+      "title": "AI agents need to be replaceable – without losing your work",
+      "url": "https://thenewstack.io/durable-ai-agent-operations/",
+      "summary": "An agent receives approval to process a partial refund. It sends the request to a payment API, and the process The post AI agents need to be replaceable – without losing your work appeared first on The New Stack .",
+      "published": "2026-10-28T13:00:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "summary": "Comments",
+      "published": "2026-10-28T12:24:25Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "From human clicks to agentic velocity: What OpenAI’s 1.2 billion scale means for your auth",
+      "url": "https://thenewstack.io/openai-agentic-identity-scale/",
+      "summary": "When OpenAI announced at DevDay that ChatGPT had crossed 1.2 billion weekly active users (WAUs), roughly 15% of the human The post From human clicks to agentic velocity: What OpenAI’s 1.2 billion scale means for your auth appeared first on The New Stack .",
+      "published": "2026-10-28T12:00:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "What happens when vulnerabilities are discovered faster than you can fix them?",
+      "url": "https://about.gitlab.com/blog/security-at-machine-speed/",
+      "summary": "We're entering a new era of application security. Frontier AI models are uncovering complex flaws that traditional tools overlooked, and attackers are using the same models to exploit them faster. Remediation isn't keeping pace: Verizon's 2026 Data Breach Investigations Report (DBIR) measures the median time to fully remediate a known-exploited vulnerability at 43 days, up from 32 in 2025. Security teams are already stretched across…",
+      "published": "2026-10-28T00:00:00Z",
+      "source": "GitLab Blog"
+    },
+    {
+      "title": "Google built AI agents a world to practice in. The physics still aren’t quite right.",
+      "url": "https://thenewstack.io/genie-4-world-model/",
+      "summary": "Google DeepMind introduced Genie 4 on Tuesday, a world model that renders interactive environments in real time with simulated physics, The post Google built AI agents a world to practice in. The physics still aren’t quite right. appeared first on The New Stack .",
+      "published": "2026-10-27T22:33:51Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Replit’s CEO says an idea from 1937 could make the org chart obsolete",
+      "url": "https://thenewstack.io/replit-self-driving-company/",
+      "summary": "Replit CEO and co-founder Amjad Masad has spent the past year watching AI agents absorb the routine execution inside his The post Replit’s CEO says an idea from 1937 could make the org chart obsolete appeared first on The New Stack .",
+      "published": "2026-10-27T21:16:40Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "“The panic hasn’t turned into patching”: What security researchers really think about the PHP2Shell response",
+      "url": "https://thenewstack.io/php2shell-unpatched-php-servers/",
+      "summary": "The PHP panic has not turned to patching: And that’s bad news, capital B, as PHP2Shell attacks ramp up. We The post “The panic hasn’t turned into patching”: What security researchers really think about the PHP2Shell response appeared first on The New Stack .",
+      "published": "2026-10-27T20:54:37Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Introducing VMware solution on Google Cloud",
+      "url": "https://cloud.google.com/blog/products/infrastructure-modernization/vmware-solution-on-google-cloud/",
+      "summary": "Many organizations with workloads on VMware are looking for ways to expedite their data center exits, migrate and modernize their mission-critical workloads, or simply leverage the cloud as a secondary disaster recovery site. But they want to do so without altering existing operational playbooks. Today, we are announcing the general availability of the VMware solution on Google Cloud, part of the Google Cloud Modernize portfolio…",
+      "published": "2026-10-27T20:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Powering the agentic enterprise with latest innovations in Oracle AI Database@Google Cloud",
+      "url": "https://cloud.google.com/blog/products/databases/oracle-ai-databasegoogle-cloud-whats-new-at-oracle-ai-world/",
+      "summary": "For decades, core enterprise operations — from global supply chains and financial ledgers to billing engines — have relied on the performance and transactional integrity of Oracle databases. Today at Oracle AI World in Las Vegas, Google Cloud and Oracle are expanding our partnership across the AI stack — spanning AI compute and infrastructure (including making Google TPUs available through Oracle Cloud Infrastructure), enterprise data…",
+      "published": "2026-10-27T19:30:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Breaking the open web won't stop the bad bots",
+      "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/",
+      "summary": "Comments",
+      "published": "2026-10-27T18:42:55Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Securely connecting Gemini Enterprise to Snowflake data",
+      "url": "https://cloud.google.com/blog/products/data-analytics/bridge-gemini-enterprise-and-snowflake-with-google-adk/",
+      "summary": "Enterprise AI needs to go beyond simple chat interfaces. To provide real value, AI agents must access your data warehouses to generate actionable insights, all while maintaining strict security and data governance. This guide explores how to build a secure bridge between Google Cloud’s Gemini Enterprise and Snowflake. By using the Model Context Protocol (MCP) and the Google Agent Development Kit (ADK), you can empower your agent to act…",
+      "published": "2026-10-27T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Scale agents securely with IAM Helper Agent Skills and MCP Tools",
+      "url": "https://cloud.google.com/blog/products/identity-security/scale-agents-securely-with-iam-helper-agent-skills-and-mcp-tools/",
+      "summary": "As organizations adopt autonomous agents to build applications, securing identities and access has become more challenging. Developers relying on agents to provision cloud resources, write Terraform, and deploy microservices at machine-speed only find their CI/CD pipelines blo cked even faster as security friction scales. To help you get ahead of agentic-era Identity and Access Management, today we’re introducing IAM Helper. This suite…",
+      "published": "2026-10-27T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Bringing Google TPUs to Oracle Cloud Infrastructure",
+      "url": "https://cloud.google.com/blog/products/infrastructure/bringing-google-tpus-to-oracle-cloud-infrastructure/",
+      "summary": "As AI workloads scale across every industry, organizations need compute options that optimize throughput, latency, and unit economics across the AI lifecycle. To meet this demand, Oracle and Google Cloud are partnering to bring Google Tensor Processing Units (TPUs) to Oracle Cloud Infrastructure (OCI), making OCI the first hyperscaler outside Google to offer TPUs. Together, we will deploy TPU capacity on OCI starting in the calendar…",
+      "published": "2026-10-27T14:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Tree-mounted machines connect to web app to let users knock on wood remotely",
+      "url": "https://www.designboom.com/technology/tree-mounted-machines-web-app-users-knock-on-wood-remotely/",
+      "summary": "Comments",
+      "published": "2026-10-27T13:00:04Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+      "url": "https://blog.cloudflare.com/php-ctf/",
+      "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+      "published": "2026-10-27T13:00:00Z",
+      "source": "Cloudflare Blog"
+    },
+    {
+      "title": "What took the Internet offline in Q3 2026",
+      "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+      "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
+      "published": "2026-10-27T13:00:00Z",
+      "source": "Cloudflare Blog"
+    },
+    {
+      "title": "Over 500 Golden Kubestronauts: The evolving standard for cloud native mastery",
+      "url": "https://www.cncf.io/blog/2026/10/27/over-500-golden-kubestronauts-the-evolving-standard-for-cloud-native-mastery/",
+      "summary": "Since launching the Kubestronaut program at KubeCon Paris in 2024, the community has grown faster than expected. Today, more than 570 professionals have reached an even higher bar: Golden Kubestronaut status. Becoming a standard Kubestronaut is...",
+      "published": "2026-10-27T11:30:00Z",
+      "source": "CNCF Blog"
+    },
+    {
+      "title": "OpenTelemetry-powered distributed tracing and Kubernetes events in OpenChoreo",
+      "url": "https://www.cncf.io/blog/2026/10/27/opentelemetry-powered-distributed-tracing-and-kubernetes-events-in-openchoreo/",
+      "summary": "Getting code from a developer’s editor into production means building it, testing it, deploying it, and then understanding how it behaves once it’s running. Internal Developer Platforms (IDPs) promise a “golden path” through all of that,...",
+      "published": "2026-10-27T11:00:00Z",
+      "source": "CNCF Blog"
+    },
+    {
+      "title": "Announcing the Workload Conformance Working Group",
+      "url": "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
+      "summary": "We are excited to announce that the Kubernetes community now has a Workload Conformance Working Group . The working group is writing a shared standard for how workloads behave at runtime on Kubernetes. To get it right, we need input from the people who build those workloads and from the people who run the clusters they're deployed on. Why workloads need a shared standard Certified Kubernetes tests the cluster, and Kubernetes AI…",
+      "published": "2026-10-27T04:30:00Z",
+      "source": "Kubernetes Blog"
+    },
+    {
+      "title": "Extend GitLab Duo Agent Platform into your business systems",
+      "url": "https://about.gitlab.com/blog/extend-gitlab-duo-agent-platform-into-your-business-systems/",
+      "summary": "Developers mostly use GitLab Duo Agent Platform where they already work: the IDE, merge requests, and issues. But DevSecOps teams also support the business systems the rest of the company runs on, and those systems break too. In Salesforce, for example, when a validation fails, a callout times out, or a null slips through a trigger, the error gets logged, but the log doesn’t explain the cause. An engineer still has to read the stack…",
+      "published": "2026-10-27T00:00:00Z",
+      "source": "GitLab Blog"
+    },
+    {
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+      "published": "2026-10-26T22:01:23Z",
+      "source": "Cloudflare Blog"
+    },
+    {
+      "title": "Navigating Open Source Software Development in the Generative AI Era: Balancing Velocity and Community Health",
+      "url": "https://www.linuxfoundation.org/blog/navigating-open-source-software-development-in-the-generative-ai-era-balancing-velocity-and-community-health",
+      "summary": "Over the past three decades, open source communities have absorbed one massive technological shift after another: the emergence of the web, the mobile revolution, and the rise of cloud native infrastructure. Through each transition, our ecosystem adapted, strengthened its collaborative norms, and grew more resilient. Yet generative AI introduces a fundamentally distinct dynamic, directly affecting the heart of how project communities…",
+      "published": "2026-10-26T17:51:16Z",
+      "source": "Linux Foundation"
+    },
+    {
+      "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
+      "url": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
+      "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions. The post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog .",
+      "published": "2026-10-26T16:00:00Z",
+      "source": "Microsoft Azure Blog"
+    },
+    {
+      "title": "Isolation. Security. Scale.",
+      "url": "https://www.cncf.io/blog/2026/10/26/isolation-security-scale/",
+      "summary": "Without these three things, Agents cannot be properly implemented in a controlled environment, they will not have policy enforcement to ensure they do what they’re supposed to do, and there’s zero way of ensuring that the...",
+      "published": "2026-10-26T11:30:00Z",
+      "source": "CNCF Blog"
+    },
+    {
+      "title": "Pillow CVE-2026-112900: How to find and fix it with GitLab",
+      "url": "https://about.gitlab.com/blog/pillow-cve-find-and-fix-with-gitlab/",
+      "summary": "GitLab is not affected by CVE-2026-112900 or the other vulnerabilities fixed in Pillow 13.0.0. GitLab products do not include the Pillow library, and our Security team has found no evidence of impact to GitLab-managed infrastructure. GitLab.com, GitLab Self-Managed, and GitLab Dedicated are not impacted. Pillow is one of the most widely used image libraries in the Python ecosystem. It often sits several layers down in a dependency…",
+      "published": "2026-10-26T00:00:00Z",
+      "source": "GitLab Blog"
+    },
+    {
+      "title": "Origin Range Requests: Serving large files without range-request tuning",
+      "url": "https://blog.cloudflare.com/origin-range-requests/",
+      "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+      "published": "2026-10-23T18:22:59Z",
+      "source": "Cloudflare Blog"
+    },
+    {
+      "title": "Bringing post-quantum cryptography to geographically fenced key management",
+      "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+      "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+      "published": "2026-10-23T18:06:56Z",
+      "source": "Cloudflare Blog"
+    },
+    {
+      "title": "PHP2Shell and eMudhra Patched",
+      "url": "https://www.docker.com/blog/php2shell-and-emudhra-patched/",
+      "summary": "PHP2Shell and the eMudhra certificate compromise landed in the same week. Docker published a fixed PHP image within 24 hours and rebuilt the trust store across the catalog.",
+      "published": "2026-10-23T13:08:08Z",
+      "source": "Docker Blog"
+    },
+    {
+      "title": "Multi-tenant GPU Kubernetes on simulated hardware with Kamaji and HAMi",
+      "url": "https://www.cncf.io/blog/2026/10/23/multi-tenant-gpu-kubernetes-on-simulated-hardware-with-kamaji-and-hami/",
+      "summary": "GPU teams usually face a bad trade-off. Give every team its own Kubernetes cluster and you pay for a control plane per team. Put everyone in one shared cluster and you get weak isolation. Either way,...",
+      "published": "2026-10-23T11:30:00Z",
+      "source": "CNCF Blog"
+    },
+    {
+      "title": "Security Update on PHP2Shell: Impact for Docker Customers",
+      "url": "https://www.docker.com/blog/security-update-on-php2shell-impact-for-docker-customers/",
+      "summary": "On Tuesday, October 20, 2026, Docker began tracking two critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619, commonly known as PHP2Shell.",
+      "published": "2026-10-22T17:22:47Z",
+      "source": "Docker Blog"
+    },
+    {
+      "title": "How bug bounty sharpens one researcher’s security skills",
+      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+      "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .",
+      "published": "2026-10-22T17:21:30Z",
+      "source": "GitHub Blog"
+    },
+    {
+      "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
+      "url": "https://blog.cloudflare.com/k-isms/",
+      "summary": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
+      "published": "2026-10-22T13:00:00Z",
+      "source": "Cloudflare Blog"
+    },
+    {
+      "title": "ActiveState Partners with Docker to Secure the Open Source in Enterprise Containers",
+      "url": "https://www.docker.com/blog/docker-activestate-partnership/",
+      "summary": "Container security spans the image, build, and runtime. See the practical steps that shrink your attack surface and keep vulnerabilities out of production.",
+      "published": "2026-10-22T11:30:00Z",
+      "source": "Docker Blog"
+    },
+    {
+      "title": "Filtering and reducing AI agent telemetry with the OpenTelemetry Collector",
+      "url": "https://www.cncf.io/blog/2026/10/22/filtering-and-reducing-ai-agent-telemetry-with-the-opentelemetry-collector/",
+      "summary": "Turn on an AI coding agent’s telemetry and it throws a wall of text at you. It’s expensive to store and what’s worse, you can’t make sense of it. It’s all OpenTelemetry native, though. So you...",
+      "published": "2026-10-22T11:00:00Z",
+      "source": "CNCF Blog"
+    },
+    {
+      "title": "PHP2Shell: GitLab helps find and remediate critical PHP flaws",
+      "url": "https://about.gitlab.com/blog/gitlab-helps-remediate-critical-php-flaws/",
+      "summary": "GitLab is not affected by PHP2Shell (CVE-2026-109618 and CVE-2026-109619). The GitLab application is not written in PHP and does not run it to serve web requests, and our Security team has found no evidence of impact to GitLab-managed infrastructure. GitLab.com, GitLab Self-Managed, and GitLab Dedicated are not impacted. PHP is a widely used programming language that runs on web servers and powers popular platforms like WordPress…",
+      "published": "2026-10-22T00:00:00Z",
+      "source": "GitLab Blog"
+    },
+    {
+      "title": "Linux Foundation Newsletter: October 2026",
+      "url": "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-october-2026",
+      "summary": "Welcome to the October 2026 edition of the Linux Foundation Newsletter Cybersecurity Awareness Month is ending, and LF Education is discounting training for a limited time. You can save 40% on eligible cybersecurity training and certifications, and you can save 35% on other training and certifications. A THRIVE-ONE Annual subscription is 30% off. This month's biggest announcements include a new Platinum Member and two new foundations…",
+      "published": "2026-10-21T18:00:00Z",
+      "source": "Linux Foundation"
+    },
+    {
+      "title": "Your Agent Runs in a Docker Sandbox. Now It Can Join a Team.",
+      "url": "https://www.docker.com/blog/band-ai-agents-docker-sandboxes/",
+      "summary": "Run AI agents in Docker Sandboxes with BAND AI. Learn how to connect isolated agents, collaborate across environments, and manage access securely.",
+      "published": "2026-10-21T16:10:49Z",
+      "source": "Docker Blog"
+    }
+  ],
   "sources": [
     {
       "name": "DevOps.com",
@@ -74,63 +1126,8 @@
       "feed": "https://k8s.io/docs/reference/issues-security/official-cve-feed/feed.xml"
     }
   ],
-  "feedWarnings": [],
-  "articles": [
-    {
-      "title": "Announcing the Workload Conformance Working Group",
-      "url": "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
-      "summary": "The Kubernetes community is forming a working group to define a shared standard for how workloads behave at runtime. The announcement invites community input on workload conformance.",
-      "published": "2026-10-27T00:00:00Z",
-      "source": "Kubernetes Blog"
-    },
-    {
-      "title": "Report: AI Agents Increase Observability Costs",
-      "url": "https://devops.com/report-ai-agents-increase-observability-costs/",
-      "summary": "A report from Cisco’s Splunk highlights growing telemetry costs and monitoring challenges as organizations deploy AI agents. The findings underline the importance of controlling observability spend.",
-      "published": "2026-10-23T00:00:00Z",
-      "source": "DevOps.com"
-    },
-    {
-      "title": "Hackers Inject Credential-Stealer, RAT Into LiteLLM",
-      "url": "https://devops.com/hackers-inject-credential-stealer-rat-into-litellm",
-      "summary": "A compromised LiteLLM release was reported to contain an information stealer and remote-access trojan. Teams should verify affected versions, investigate exposure and rotate potentially compromised credentials using the vendor’s incident guidance.",
-      "published": "2026-10-23T00:00:00Z",
-      "source": "DevOps.com"
-    },
-    {
-      "title": "GitHub Puts a Firewall Between npm and Your CI Runners",
-      "url": "https://devops.com/github-puts-a-firewall-between-npm-and-your-ci-runners",
-      "summary": "GitHub’s package firewall introduces enterprise policies for npm packages, including checks for known malware, vulnerability advisories, attestations, install scripts and package age. Review the preview’s scope before relying on it in CI.",
-      "published": "2026-10-21T00:00:00Z",
-      "source": "DevOps.com"
-    },
-    {
-      "title": "OpenAI Puts COBOL Migration to the Test, and Its Newest Models Mostly Pass",
-      "url": "https://devops.com/openai-puts-cobol-migration-to-the-test-and-its-newest-models-mostly-pass/",
-      "summary": "DevOps.com examines AI-assisted modernization of legacy languages. For production migrations, teams still need to validate business rules, numeric precision, test coverage and runtime behavior rather than relying on translation alone.",
-      "published": "2026-10-21T00:00:00Z",
-      "source": "DevOps.com"
-    },
-    {
-      "title": "OpenAI Puts COBOL Migration to the Test, and Its Newest Models Mostly Pass",
-      "url": "https://devops.com/openai-puts-cobol-migration-to-the-test-and-its-newest-models-mostly-pass",
-      "summary": "DevOps.com examines AI-assisted modernization of legacy languages. For production migrations, teams still need to validate business rules, numeric precision, test coverage and runtime behavior rather than relying on translation alone.",
-      "published": "2026-10-21T00:00:00Z",
-      "source": "DevOps.com"
-    },
-    {
-      "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
-      "url": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
-      "summary": "An overview of Linux cgroups v2 and its role in Kubernetes resource management. Operators should understand node operating-system support and resource behavior when planning upgrades or investigating CPU and memory issues.",
-      "published": "2026-10-06T00:00:00Z",
-      "source": "Kubernetes Blog"
-    },
-    {
-      "title": "Scaling Kubernetes Workloads with Node Swap",
-      "url": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/",
-      "summary": "The Kubernetes blog discusses node swap and memory pressure for workloads. Validate the feature’s support and operational implications against your Kubernetes version and node configuration before enabling it.",
-      "published": "2026-10-05T00:00:00Z",
-      "source": "Kubernetes Blog"
-    }
+  "feedWarnings": [
+    "DevOps.com: HTTP Error 403: Forbidden",
+    "DEVOPSdigest: HTTP Error 404: Not Found"
   ]
 }
