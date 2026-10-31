@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Latest DevOps news, cloud updates, Kubernetes releases, CI/CD engineering and security advisories curated by RCS-DevOps.">
+  <meta name="theme-color" content="#101827">
+  <title>DevOps Articles & News — RCS-DevOps</title>
+  <link rel="stylesheet" href="css/articles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="RCS-DevOps home"><span class="brand-mark">⌘</span><span><strong>RCS-DevOps</strong><small>Engineering knowledge hub</small></span></a>
+    <nav><a href="index.html">Commands & Runbooks</a><a class="active" href="articles.html">Articles & News</a><a href="#sources">Sources</a></nav>
+    <a class="header-cta" href="index.html">Open DevOps Toolkit ↗</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> DEVOPS INTELLIGENCE · UPDATED AUTOMATICALLY</div>
+        <h1>Stay ahead of<br><span>what’s changing.</span></h1>
+        <p>DevOps news, cloud platform releases, Kubernetes updates and practical engineering insights — collected from trusted technical publishers.</p>
+        <div class="hero-meta"><span>✦ Curated sources</span><span>↻ Daily refresh</span><span>↗ Original articles linked</span></div>
+      </div>
+      <div class="hero-orbit" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit-core">RCS<br><b>OPS</b></div><span class="orbit-node node-a">K8s</span><span class="orbit-node node-b">CI/CD</span><span class="orbit-node node-c">CLOUD</span></div>
+    </section>
+
+    <section class="controls" aria-label="Filter articles">
+      <label class="search-box"><span>⌕</span><input id="articleSearch" type="search" placeholder="Search Kubernetes, CVE, CI/CD, Azure…" autocomplete="off"><kbd>/</kbd></label>
+      <div class="filter-row" id="categoryFilters" aria-label="Article categories">
+        <button class="filter active" data-category="All">All articles</button>
+        <button class="filter" data-category="DevOps">DevOps</button>
+        <button class="filter" data-category="Kubernetes">Kubernetes</button>
+        <button class="filter" data-category="Cloud">Cloud</button>
+        <button class="filter" data-category="Security">Security</button>
+        <button class="filter" data-category="CI/CD">CI/CD</button>
+        <button class="filter" data-category="Observability">Observability</button>
+      </div>
+    </section>
+
+    <section class="section-heading"><div><div class="eyebrow">THE LATEST</div><h2>Fresh from the DevOps ecosystem</h2><p>Summaries are shortened for quick reading. Follow the source link for the complete article.</p></div><div class="feed-status" id="feedStatus"><span class="status-dot"></span><span>Loading latest articles…</span></div></section>
+    <div id="featuredArticle" class="featured-wrap"></div>
+    <section id="articleGrid" class="article-grid" aria-live="polite"></section>
+    <div id="emptyState" class="empty-state" hidden><strong>No articles match your search.</strong><p>Try a different keyword or select “All articles”.</p></div>
+    <div class="load-row"><button id="loadMore" class="load-more" hidden>Load more articles <span>↓</span></button></div>
+
+    <section class="sources-section" id="sources">
+      <div class="section-heading"><div><div class="eyebrow">SOURCE TRANSPARENCY</div><h2>Built on trusted sources</h2><p>RCS-DevOps links to publishers’ original reporting and documentation.</p></div></div>
+      <div class="source-grid">
+        <a class="source-card primary-source" href="https://devops.com/" target="_blank" rel="noopener noreferrer"><span class="source-icon devops-icon">D</span><span><strong>DevOps.com</strong><small>Industry news, engineering insights and DevOps practices</small></span><b>↗</b></a>
+        <a class="source-card" href="https://kubernetes.io/blog/" target="_blank" rel="noopener noreferrer"><span class="source-icon k8s-icon">K</span><span><strong>Kubernetes Blog</strong><small>Release notes, features and cluster engineering</small></span><b>↗</b></a>
+        <a class="source-card" href="https://aws.amazon.com/blogs/devops/" target="_blank" rel="noopener noreferrer"><span class="source-icon aws-icon">a</span><span><strong>AWS DevOps Blog</strong><small>Cloud operations, automation and EKS</small></span><b>↗</b></a>
+        <a class="source-card" href="https://azure.microsoft.com/en-us/blog/" target="_blank" rel="noopener noreferrer"><span class="source-icon azure-icon">A</span><span><strong>Microsoft Azure Blog</strong><small>Azure platform, AI infrastructure and Copilot updates</small></span><b>↗</b></a>
+        <a class="source-card" href="https://aws.amazon.com/about-aws/whats-new/" target="_blank" rel="noopener noreferrer"><span class="source-icon aws-icon">a</span><span><strong>AWS What's New</strong><small>New AWS services, features and infrastructure changes</small></span><b>↗</b></a>
+        <a class="source-card" href="https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud" target="_blank" rel="noopener noreferrer"><span class="source-icon azure-icon">G</span><span><strong>Google Cloud What's New</strong><small>Google Cloud product announcements and releases</small></span><b>↗</b></a>
+        <a class="source-card" href="https://www.linuxfoundation.org/blog" target="_blank" rel="noopener noreferrer"><span class="source-icon k8s-icon">LF</span><span><strong>Linux Foundation</strong><small>Open source, Linux, cloud-native and AI ecosystem</small></span><b>↗</b></a>
+        <a class="source-card" href="https://devopsdigest.com/" target="_blank" rel="noopener noreferrer"><span class="source-icon devops-icon">DD</span><span><strong>DEVOPSdigest</strong><small>DevOps industry analysis and community perspectives</small></span><b>↗</b></a>
+        <a class="source-card" href="https://github.blog/" target="_blank" rel="noopener noreferrer"><span class="source-icon github-icon">GH</span><span><strong>GitHub Blog</strong><small>Developer platform, Actions and supply-chain security</small></span><b>↗</b></a>
+        <a class="source-card" href="https://www.docker.com/blog/" target="_blank" rel="noopener noreferrer"><span class="source-icon docker-icon">D</span><span><strong>Docker Blog</strong><small>Containers, build workflows and developer tooling</small></span><b>↗</b></a>
+        <a class="source-card" href="https://www.cncf.io/blog/" target="_blank" rel="noopener noreferrer"><span class="source-icon k8s-icon">C</span><span><strong>CNCF Blog</strong><small>Cloud-native ecosystem, projects and community updates</small></span><b>↗</b></a>
+        <a class="source-card" href="https://about.gitlab.com/blog/" target="_blank" rel="noopener noreferrer"><span class="source-icon devops-icon">GL</span><span><strong>GitLab Blog</strong><small>DevSecOps, CI/CD, platform engineering and releases</small></span><b>↗</b></a>
+        <a class="source-card" href="https://www.hashicorp.com/blog" target="_blank" rel="noopener noreferrer"><span class="source-icon azure-icon">H</span><span><strong>HashiCorp Blog</strong><small>Terraform, Vault, cloud infrastructure and automation</small></span><b>↗</b></a>
+        <a class="source-card" href="https://thenewstack.io/" target="_blank" rel="noopener noreferrer"><span class="source-icon devops-icon">T</span><span><strong>The New Stack</strong><small>Cloud-native, platform engineering and developer operations</small></span><b>↗</b></a>
+        <a class="source-card" href="https://helm.sh/blog/" target="_blank" rel="noopener noreferrer"><span class="source-icon k8s-icon">H</span><span><strong>Helm Blog</strong><small>Kubernetes package management and Helm project updates</small></span><b>↗</b></a>
+        <a class="source-card" href="https://blog.argoproj.io/" target="_blank" rel="noopener noreferrer"><span class="source-icon azure-icon">A</span><span><strong>Argo Project Blog</strong><small>GitOps, workflows, CD and cloud-native automation</small></span><b>↗</b></a>
+        <a class="source-card" href="https://kubernetes.io/docs/reference/issues-security/official-cve-feed/" target="_blank" rel="noopener noreferrer"><span class="source-icon docker-icon">!</span><span><strong>Kubernetes Security Advisories</strong><small>Official Kubernetes CVE and security issue feed</small></span><b>↗</b></a>
+      </div>
+      <div class="section-heading community-heading"><div><div class="eyebrow">HAND-PICKED READING</div><h2>Selected articles to explore</h2><p>Direct links you shared. Older dated stories remain reference material, not breaking news.</p></div></div>
+      <div class="source-grid curated-grid">
+        <a class="source-card" href="https://azure.microsoft.com/en-us/blog/announcing-azure-copilot-agents-and-ai-infrastructure-innovations/" target="_blank" rel="noopener noreferrer"><span class="source-icon azure-icon">A</span><span><strong>Azure Copilot agents and AI infrastructure innovations</strong><small>Microsoft Azure · AI and cloud infrastructure</small></span><b>↗</b></a>
+        <a class="source-card" href="https://aws.amazon.com/about-aws/whats-new/2025/11/validate-enforce-required-tags-cloudformation-terraform-pulumi/" target="_blank" rel="noopener noreferrer"><span class="source-icon aws-icon">a</span><span><strong>Validate and enforce required tags across IaC tools</strong><small>AWS · CloudFormation, Terraform and Pulumi · Nov 2025</small></span><b>↗</b></a>
+        <a class="source-card" href="https://www.linuxfoundation.org/blog/revealing-the-hidden-economics-of-open-models-in-the-ai-era" target="_blank" rel="noopener noreferrer"><span class="source-icon k8s-icon">LF</span><span><strong>The hidden economics of open models in the AI era</strong><small>Linux Foundation · AI and open source</small></span><b>↗</b></a>
+        <a class="source-card" href="https://www.forbes.com/sites/janakirammsv/2025/11/18/cncf-establishes-standards-for-running-ai-workloads-on-kubernetes/" target="_blank" rel="noopener noreferrer"><span class="source-icon k8s-icon">K8s</span><span><strong>CNCF standards for running AI workloads on Kubernetes</strong><small>Forbes · Kubernetes and AI · 18 Nov 2025</small></span><b>↗</b></a>
+        <a class="source-card" href="https://devops.com/can-claude-agents-replace-devops-teams-a-practical-reality-check/" target="_blank" rel="noopener noreferrer"><span class="source-icon devops-icon">D</span><span><strong>Can Claude agents replace DevOps teams?</strong><small>DevOps.com · Practical perspective on AI agents</small></span><b>↗</b></a>
+      </div>
+      <div class="section-heading community-heading"><div><div class="eyebrow">COMMUNITY & CAREER</div><h2>Explore the wider DevOps community</h2><p>Useful community destinations; these are external links, not automatically imported news feeds.</p></div></div>
+      <div class="source-grid community-grid">
+        <a class="source-card" href="https://news.ycombinator.com/jobs" target="_blank" rel="noopener noreferrer"><span class="source-icon aws-icon">Y</span><span><strong>Hacker News Jobs</strong><small>Technology and engineering job postings</small></span><b>↗</b></a>
+        <a class="source-card" href="https://news.ycombinator.com/" target="_blank" rel="noopener noreferrer"><span class="source-icon aws-icon">Y</span><span><strong>Hacker News</strong><small>Engineering discussions and community-shared links</small></span><b>↗</b></a>
+        <a class="source-card" href="https://www.reddit.com/r/devops/" target="_blank" rel="noopener noreferrer"><span class="source-icon devops-icon">r/</span><span><strong>Reddit · r/DevOps</strong><small>DevOps community discussions and experience sharing</small></span><b>↗</b></a>
+      </div>
+      <p class="source-note">Article titles, dates and summaries are attributed to their publishers. RCS-DevOps is an independent resource and is not affiliated with these publishers. Community posts are user-generated and should be independently verified. Always verify security advisories and production changes against the original source.</p>
+    </section>
+  </main>
+  <footer><span>© RCS-DevOps · Articles & News</span><span>Read the source. Verify before production changes.</span><a href="index.html">Back to command toolkit ↑</a></footer>
+  <script src="js/articles.js" defer></script>
+</body>
+</html>

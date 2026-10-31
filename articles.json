@@ -1,0 +1,136 @@
+{
+  "updatedAt": "2026-10-28T10:30:00Z",
+  "sources": [
+    {
+      "name": "DevOps.com",
+      "feed": "https://devops.com/feed/"
+    },
+    {
+      "name": "DEVOPSdigest",
+      "feed": "https://devopsdigest.com/feed/"
+    },
+    {
+      "name": "Kubernetes Blog",
+      "feed": "https://kubernetes.io/feed.xml"
+    },
+    {
+      "name": "Microsoft Azure Blog",
+      "feed": "https://azure.microsoft.com/en-us/blog/feed/"
+    },
+    {
+      "name": "AWS What's New",
+      "feed": "https://aws.amazon.com/about-aws/whats-new/recent/feed/"
+    },
+    {
+      "name": "Google Cloud Blog",
+      "feed": "https://cloudblog.withgoogle.com/rss/"
+    },
+    {
+      "name": "Linux Foundation",
+      "feed": "https://www.linuxfoundation.org/blog/rss.xml"
+    },
+    {
+      "name": "GitHub Blog",
+      "feed": "https://github.blog/feed/"
+    },
+    {
+      "name": "Docker Blog",
+      "feed": "https://www.docker.com/blog/feed/"
+    },
+    {
+      "name": "Cloudflare Blog",
+      "feed": "https://blog.cloudflare.com/rss/"
+    },
+    {
+      "name": "CNCF Blog",
+      "feed": "https://www.cncf.io/feed/"
+    },
+    {
+      "name": "GitLab Blog",
+      "feed": "https://about.gitlab.com/atom.xml"
+    },
+    {
+      "name": "HashiCorp Blog",
+      "feed": "https://www.hashicorp.com/blog/feed.xml"
+    },
+    {
+      "name": "The New Stack",
+      "feed": "https://thenewstack.io/feed/"
+    },
+    {
+      "name": "Helm Blog",
+      "feed": "https://helm.sh/blog/rss.xml"
+    },
+    {
+      "name": "Argo Project Blog",
+      "feed": "https://blog.argoproj.io/feed"
+    },
+    {
+      "name": "Hacker News",
+      "feed": "https://news.ycombinator.com/rss"
+    },
+    {
+      "name": "Kubernetes Security Advisories",
+      "feed": "https://k8s.io/docs/reference/issues-security/official-cve-feed/feed.xml"
+    }
+  ],
+  "feedWarnings": [],
+  "articles": [
+    {
+      "title": "Announcing the Workload Conformance Working Group",
+      "url": "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
+      "summary": "The Kubernetes community is forming a working group to define a shared standard for how workloads behave at runtime. The announcement invites community input on workload conformance.",
+      "published": "2026-10-27T00:00:00Z",
+      "source": "Kubernetes Blog"
+    },
+    {
+      "title": "Report: AI Agents Increase Observability Costs",
+      "url": "https://devops.com/report-ai-agents-increase-observability-costs/",
+      "summary": "A report from Cisco’s Splunk highlights growing telemetry costs and monitoring challenges as organizations deploy AI agents. The findings underline the importance of controlling observability spend.",
+      "published": "2026-10-23T00:00:00Z",
+      "source": "DevOps.com"
+    },
+    {
+      "title": "Hackers Inject Credential-Stealer, RAT Into LiteLLM",
+      "url": "https://devops.com/hackers-inject-credential-stealer-rat-into-litellm",
+      "summary": "A compromised LiteLLM release was reported to contain an information stealer and remote-access trojan. Teams should verify affected versions, investigate exposure and rotate potentially compromised credentials using the vendor’s incident guidance.",
+      "published": "2026-10-23T00:00:00Z",
+      "source": "DevOps.com"
+    },
+    {
+      "title": "GitHub Puts a Firewall Between npm and Your CI Runners",
+      "url": "https://devops.com/github-puts-a-firewall-between-npm-and-your-ci-runners",
+      "summary": "GitHub’s package firewall introduces enterprise policies for npm packages, including checks for known malware, vulnerability advisories, attestations, install scripts and package age. Review the preview’s scope before relying on it in CI.",
+      "published": "2026-10-21T00:00:00Z",
+      "source": "DevOps.com"
+    },
+    {
+      "title": "OpenAI Puts COBOL Migration to the Test, and Its Newest Models Mostly Pass",
+      "url": "https://devops.com/openai-puts-cobol-migration-to-the-test-and-its-newest-models-mostly-pass/",
+      "summary": "DevOps.com examines AI-assisted modernization of legacy languages. For production migrations, teams still need to validate business rules, numeric precision, test coverage and runtime behavior rather than relying on translation alone.",
+      "published": "2026-10-21T00:00:00Z",
+      "source": "DevOps.com"
+    },
+    {
+      "title": "OpenAI Puts COBOL Migration to the Test, and Its Newest Models Mostly Pass",
+      "url": "https://devops.com/openai-puts-cobol-migration-to-the-test-and-its-newest-models-mostly-pass",
+      "summary": "DevOps.com examines AI-assisted modernization of legacy languages. For production migrations, teams still need to validate business rules, numeric precision, test coverage and runtime behavior rather than relying on translation alone.",
+      "published": "2026-10-21T00:00:00Z",
+      "source": "DevOps.com"
+    },
+    {
+      "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
+      "url": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
+      "summary": "An overview of Linux cgroups v2 and its role in Kubernetes resource management. Operators should understand node operating-system support and resource behavior when planning upgrades or investigating CPU and memory issues.",
+      "published": "2026-10-06T00:00:00Z",
+      "source": "Kubernetes Blog"
+    },
+    {
+      "title": "Scaling Kubernetes Workloads with Node Swap",
+      "url": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/",
+      "summary": "The Kubernetes blog discusses node swap and memory pressure for workloads. Validate the feature’s support and operational implications against your Kubernetes version and node configuration before enabling it.",
+      "published": "2026-10-05T00:00:00Z",
+      "source": "Kubernetes Blog"
+    }
+  ]
+}
