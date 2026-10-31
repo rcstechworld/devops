@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-10-31T04:39:42Z",
+  "updatedAt": "2026-10-31T11:00:31Z",
   "articles": [
     {
-      "title": "OpenAI raises less than half of $30B target",
-      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+      "title": "Serbia just elected the world's brainiest parliament",
+      "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
       "summary": "Comments",
-      "published": "2026-10-31T03:22:44Z",
+      "published": "2026-10-31T10:21:30Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "How long do you need to hold down the power button to turn off a PC?",
+      "url": "https://www.osnews.com/story/146273/how-long-do-you-need-to-hold-down-the-power-button-to-turn-off-a-pc/",
+      "summary": "Comments",
+      "published": "2026-10-31T08:43:32Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Switch Lowering in GCC",
+      "url": "https://xoranth.net/gcc-switch/",
+      "summary": "Comments",
+      "published": "2026-10-31T08:02:26Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Digital Minimalism",
+      "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
+      "summary": "Comments",
+      "published": "2026-10-31T06:16:36Z",
       "source": "Hacker News"
     },
     {
@@ -16,13 +37,6 @@
       "source": "Hacker News"
     },
     {
-      "title": "Flock camera searches fell 95% after a dispatcher's misconduct was caught",
-      "url": "https://www.wkyc.com/article/news/investigations/flock-camera-searches-fall-95-percent-highland-heights-dispatcher-misconduct-caught/95-94b18f33-60e2-4bc7-a00f-d71d1e1fdd5e",
-      "summary": "Comments",
-      "published": "2026-10-31T02:42:02Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
       "url": "https://tng.episodle.com/",
       "summary": "Comments",
@@ -30,7 +44,7 @@
       "source": "Hacker News"
     },
     {
-      "title": "sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
+      "title": "Sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
       "url": "https://www.firezone.dev/blog/introducing-sanstun",
       "summary": "Comments",
       "published": "2026-10-30T21:30:00Z",
@@ -198,13 +212,6 @@
       "source": "AWS What's New"
     },
     {
-      "title": "AI isn't replacing SREs, it's deskilling them",
-      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-      "summary": "Comments",
-      "published": "2026-10-30T15:52:18Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Florilegium: Procedural Flowers in LaTeX",
       "url": "https://github.com/kevinraymond/florilegium",
       "summary": "Comments",
@@ -359,25 +366,11 @@
       "source": "CNCF Blog"
     },
     {
-      "title": "Turning a solar power system into its own backup",
-      "url": "https://arstechnica.com/science/2026/10/turning-a-solar-power-system-into-its-own-backup/",
-      "summary": "Comments",
-      "published": "2026-10-29T18:10:33Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Amazon RDS for Oracle and SQL Server now support storage autoscaling on additional storage volumes",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-sqlserver-autoscaling-additional-storage-volumes",
       "summary": "Amazon RDS for SQL Server and Amazon RDS for Oracle now support RDS storage autoscaling on additional storage volumes . RDS storage autoscaling automatically scales storage capacity in response to growing database workloads, with zero downtime. Additional storage volumes allow you to add up to three additional volumes to increase your storage capacity up to 256 TiB. Previously, you had to manually provision storage capacity on the…",
       "published": "2026-10-29T18:06:00Z",
       "source": "AWS What's New"
-    },
-    {
-      "title": "Show HN: I rebuilt Kubernetes for ESP32 microcontrollers",
-      "url": "https://github.com/arterialist/kube32",
-      "summary": "Comments",
-      "published": "2026-10-29T16:35:14Z",
-      "source": "Hacker News"
     },
     {
       "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
@@ -429,6 +422,13 @@
       "source": "The New Stack"
     },
     {
+      "title": "AI, Lean, and the Future of Formal Verification, with Lean Creator Leo de Moura",
+      "url": "https://thedataexchange.media/leo-de-moura-lean-aws/",
+      "summary": "Comments",
+      "published": "2026-10-29T15:29:48Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "Amazon MSK Connect now supports updating connector plugins and worker configurations",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-update-plugin-worker-configurations",
       "summary": "Amazon MSK Connect (Amazon Managed Streaming for Apache Kafka Connect) now lets you update the custom plugin and worker configuration of an existing connector. This is useful when you need to update the custom plugin to run a new version of your connector code, for example one with updated dependencies. You can also update the worker configuration to change worker-level settings, such as switching key and value converters or tuning…",
@@ -448,6 +448,13 @@
       "summary": "For more than a decade, the managed application platform industry has optimized around a compelling promise: get code running as The post AWS Elastic Beanstalk for regulated workloads: Built for the next decade, not just the first deploy appeared first on The New Stack .",
       "published": "2026-10-29T14:00:00Z",
       "source": "The New Stack"
+    },
+    {
+      "title": "Brief History of PDP Computers",
+      "url": "https://entropicthoughts.com/history-of-pdp-computers",
+      "summary": "Comments",
+      "published": "2026-10-29T13:53:33Z",
+      "source": "Hacker News"
     },
     {
       "title": "“I don’t think the world needs a new GitHub”: What GitHub’s leaders really think about their new rivals",
@@ -506,9 +513,9 @@
       "source": "AWS What's New"
     },
     {
-      "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 13.2",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
-      "summary": "Amazon Managed Grafana now supports in-place upgrade from Grafana version 12.4 to 13.2. Upgrading to version 13.2 brings features launched as part of open-source Grafana versions 13.0 to 13.2. These include Git Sync for dashboards, dynamic dashboards, and PromQL query support in the Amazon CloudWatch data source plugin. With Git Sync, you can treat dashboards as code by linking a workspace to a Git repository. Dashboard modifications…",
+      "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
+      "summary": "AWS Certificate Manager (ACM) ACME protocol support is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West), providing a fully managed ACME server endpoint that issues public TLS certificates from Amazon Trust Services using any ACMEv2-compatible client, including Certbot, cert-manager for Kubernetes, and acme.sh. With the CA/Browser Forum mandating 47-day certificate lifetimes by 2029, manual management of public…",
       "published": "2026-10-29T08:00:00Z",
       "source": "AWS What's New"
     },
@@ -520,16 +527,16 @@
       "source": "AWS What's New"
     },
     {
-      "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
-      "summary": "AWS Certificate Manager (ACM) ACME protocol support is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West), providing a fully managed ACME server endpoint that issues public TLS certificates from Amazon Trust Services using any ACMEv2-compatible client, including Certbot, cert-manager for Kubernetes, and acme.sh. With the CA/Browser Forum mandating 47-day certificate lifetimes by 2029, manual management of public…",
+      "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
+      "summary": "Today, Amazon SageMaker AI announces support for Seekable OCI (SOCI)-indexed container images for training and processing jobs, so your jobs start running your code sooner. SOCI-indexed images start Amazon SageMaker AI training containers in seconds, cutting GPU idle time during image pulls by up to 90%, with no impact on training performance. Before a training or processing job can run, SageMaker AI downloads its container image to…",
       "published": "2026-10-29T08:00:00Z",
       "source": "AWS What's New"
     },
     {
-      "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
-      "summary": "Today, Amazon SageMaker AI announces support for Seekable OCI (SOCI)-indexed container images for training and processing jobs, so your jobs start running your code sooner. SOCI-indexed images start Amazon SageMaker AI training containers in seconds, cutting GPU idle time during image pulls by up to 90%, with no impact on training performance. Before a training or processing job can run, SageMaker AI downloads its container image to…",
+      "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 13.2",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
+      "summary": "Amazon Managed Grafana now supports in-place upgrade from Grafana version 12.4 to 13.2. Upgrading to version 13.2 brings features launched as part of open-source Grafana versions 13.0 to 13.2. These include Git Sync for dashboards, dynamic dashboards, and PromQL query support in the Amazon CloudWatch data source plugin. With Git Sync, you can treat dashboards as code by linking a workspace to a Git repository. Dashboard modifications…",
       "published": "2026-10-29T08:00:00Z",
       "source": "AWS What's New"
     },
@@ -658,13 +665,6 @@
       "summary": "Today, we’re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview. The post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Azure Blog .",
       "published": "2026-10-28T17:40:56Z",
       "source": "Microsoft Azure Blog"
-    },
-    {
-      "title": "Wonderful Weather: Floods and Foreboding in 17th-Century Britain",
-      "url": "https://publicdomainreview.org/essay/wonderful-weather/",
-      "summary": "Comments",
-      "published": "2026-10-28T17:34:59Z",
-      "source": "Hacker News"
     },
     {
       "title": "Amazon EKS Auto Mode now supports Kubernetes Gateway API",
@@ -800,18 +800,18 @@
       "source": "The New Stack"
     },
     {
-      "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
-      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
-      "summary": "Comments",
-      "published": "2026-10-28T12:24:25Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "From human clicks to agentic velocity: What OpenAI’s 1.2 billion scale means for your auth",
       "url": "https://thenewstack.io/openai-agentic-identity-scale/",
       "summary": "When OpenAI announced at DevDay that ChatGPT had crossed 1.2 billion weekly active users (WAUs), roughly 15% of the human The post From human clicks to agentic velocity: What OpenAI’s 1.2 billion scale means for your auth appeared first on The New Stack .",
       "published": "2026-10-28T12:00:00Z",
       "source": "The New Stack"
+    },
+    {
+      "title": "Sneezecount (2018)",
+      "url": "https://sneezecount.joyfeed.com",
+      "summary": "Comments",
+      "published": "2026-10-28T03:31:07Z",
+      "source": "Hacker News"
     },
     {
       "title": "What happens when vulnerabilities are discovered faster than you can fix them?",
@@ -877,18 +877,18 @@
       "source": "Google Cloud Blog"
     },
     {
+      "title": "Show HN: Marelleo, an open-source story box I built for my kids using ESP32",
+      "url": "https://zebra.rodeo/en/blog/marelleo/",
+      "summary": "Comments",
+      "published": "2026-10-27T15:24:36Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "Bringing Google TPUs to Oracle Cloud Infrastructure",
       "url": "https://cloud.google.com/blog/products/infrastructure/bringing-google-tpus-to-oracle-cloud-infrastructure/",
       "summary": "As AI workloads scale across every industry, organizations need compute options that optimize throughput, latency, and unit economics across the AI lifecycle. To meet this demand, Oracle and Google Cloud are partnering to bring Google Tensor Processing Units (TPUs) to Oracle Cloud Infrastructure (OCI), making OCI the first hyperscaler outside Google to offer TPUs. Together, we will deploy TPU capacity on OCI starting in the calendar…",
       "published": "2026-10-27T14:00:00Z",
       "source": "Google Cloud Blog"
-    },
-    {
-      "title": "Tree-mounted machines connect to web app to let users knock on wood remotely",
-      "url": "https://www.designboom.com/technology/tree-mounted-machines-web-app-users-knock-on-wood-remotely/",
-      "summary": "Comments",
-      "published": "2026-10-27T13:00:04Z",
-      "source": "Hacker News"
     },
     {
       "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
