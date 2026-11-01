@@ -1,8 +1,9 @@
+
 name: Update DevOps articles
 
 on:
   schedule:
-    - cron: '30 5 * * *' # Daily at 11:00 IST
+    - cron: '30 5 * * *' # Daily at 11:00 AM IST
   workflow_dispatch:
   push:
     paths:
@@ -12,26 +13,61 @@ on:
 permissions:
   contents: write
 
+# Prevent overlapping article-feed updates
+concurrency:
+  group: update-devops-articles
+  cancel-in-progress: false
+
 jobs:
   update-feed:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+
       - name: Fetch public RSS feeds
         run: python scripts/fetch_articles.py
+
       - name: Commit updated article feed
         run: |
-          if git diff --quiet -- articles.json; then
-            echo 'No article changes to publish.'
-            exit 0
-          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          if git diff --quiet -- articles.json; then
+            echo "No article changes to publish."
+            exit 0
+          fi
+
           git add articles.json
           git commit -m "chore: refresh DevOps articles feed"
-          git push
+
+          for attempt in 1 2 3; do
+            echo "Push attempt: $attempt"
+
+            git fetch origin main
+
+            if ! git rebase -X theirs origin/main; then
+              echo "Rebase failed. Aborting."
+              git rebase --abort
+              exit 1
+            fi
+
+            if git push origin HEAD:main; then
+              echo "Article feed successfully published."
+              exit 0
+            fi
+
+            echo "Push failed. Retrying..."
+            sleep 5
+          done
+
+          echo "Failed to push article feed after 3 attempts."
+          exit 1
