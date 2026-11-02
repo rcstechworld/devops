@@ -1,6 +1,97 @@
 {
-  "updatedAt": "2026-11-02T05:34:35Z",
+  "updatedAt": "2026-11-02T13:41:44Z",
   "articles": [
+    {
+      "title": "Shutting the Door on the XCPE Botnet",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+      "summary": "Introduction Last week, Google and industry partners dismantled the XCPE backdoor which enrolled more than 1.3 million set-top boxes into a botnet. We assess with high confidence that the backdoor and botnet were intentionally developed, deployed, and operated for financial gain by Videostrong Technology Co., an Android Original Equipment Manufacturer (OEM) and Original Device Manufacturer (ODM). Videostrong monetized the backdoor by…",
+      "published": "2026-11-02T14:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Last night an AI agent performed brain surgery on a mouse",
+      "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+      "summary": "Comments",
+      "published": "2026-11-02T12:50:59Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "The Linkerd Story: The people Behind The Service Mesh — A new documentary premieres at KubeCon + CloudNativeCon North America 2026",
+      "url": "https://www.cncf.io/blog/2026/11/02/the-linkerd-story-the-people-behind-the-service-mesh-a-new-documentary-premieres-at-kubecon-cloudnativecon-north-america-2026/",
+      "summary": "Join CNCF and Buoyant on November 9 in Salt Lake City for the premiere of a new documentary celebrating a decade of Linkerd, the evolution of service mesh technology, and the people who helped make it...",
+      "published": "2026-11-02T12:00:00Z",
+      "source": "CNCF Blog"
+    },
+    {
+      "title": "Never Complain, Never Explain",
+      "url": "https://en.wikipedia.org/wiki/Never_complain,_never_explain",
+      "summary": "Comments",
+      "published": "2026-11-02T11:55:48Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+      "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "summary": "Comments",
+      "published": "2026-11-02T11:50:13Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Supermarket freezers in Belgium and Sweden hit by suspected cyber-attack",
+      "url": "https://www.bbc.com/news/articles/cq1kd1nee80eo",
+      "summary": "Comments",
+      "published": "2026-11-02T11:48:02Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "The future in old computer magazines (1984–2004)",
+      "url": "https://tomorrowasusual.substack.com/p/blast-from-the-past-the-future-in",
+      "summary": "Comments",
+      "published": "2026-11-02T11:09:08Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: I've updated my Linux System Call website and API",
+      "url": "https://syscall.sh/",
+      "summary": "Comments",
+      "published": "2026-11-02T09:29:16Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "BioWare co-founder: game execs \"have never made a game\" and don't get it",
+      "url": "https://www.pcgamer.com/gaming-industry/none-of-these-people-have-ever-made-a-game-bioware-co-founder-greg-zeschuk-says-of-game-industry-executives-they-just-dont-know-how-it-works/",
+      "summary": "Comments",
+      "published": "2026-11-02T08:32:30Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+      "summary": "Comments",
+      "published": "2026-11-02T07:27:28Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: HackerHack – HackerBooks but for Posts Posted on HN",
+      "url": "https://news.ycombinator.com/",
+      "summary": "Comments",
+      "published": "2026-11-02T06:59:40Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "From Charlemagne to the Kitchen Boy: Reading the Hamburg Rathaus",
+      "url": "https://alsterrunde.com/from-charlemagne-to-the-kitchen-boy-reading-the-hamburg-rathaus/",
+      "summary": "Comments",
+      "published": "2026-11-02T06:39:42Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
+      "url": "https://wikihack.netlify.app",
+      "summary": "Comments",
+      "published": "2026-11-02T05:06:30Z",
+      "source": "Hacker News"
+    },
     {
       "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
       "url": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
@@ -9,10 +100,10 @@
       "source": "Hacker News"
     },
     {
-      "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
-      "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+      "title": "Bones may release proteins that slow aging and extend life span",
+      "url": "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span",
       "summary": "Comments",
-      "published": "2026-11-02T01:47:07Z",
+      "published": "2026-11-02T01:31:07Z",
       "source": "Hacker News"
     },
     {
@@ -30,13 +121,6 @@
       "source": "Hacker News"
     },
     {
-      "title": "The Megadonors Who Have Poured $1.2B into the Midterms",
-      "url": "https://www.nytimes.com/interactive/2026/08/28/us/politics/billionaire-midterms-donors.html",
-      "summary": "Comments",
-      "published": "2026-11-01T23:46:59Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Game Off 2026: The theme is SHIFT",
       "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
       "summary": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog .",
@@ -48,20 +132,6 @@
       "url": "https://news.ycombinator.com/item?id=50328896",
       "summary": "Comments",
       "published": "2026-11-01T19:35:27Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Mathematics has changed. Let's act like it",
-      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
-      "summary": "Comments",
-      "published": "2026-11-01T18:28:42Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Seoul Viosys begins production of rare-earth-free white light emitter",
-      "url": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
-      "summary": "Comments",
-      "published": "2026-11-01T16:23:26Z",
       "source": "Hacker News"
     },
     {
@@ -86,20 +156,6 @@
       "source": "The New Stack"
     },
     {
-      "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
-      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
-      "summary": "Comments",
-      "published": "2026-11-01T14:34:43Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Novellas with Groff",
-      "url": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
-      "summary": "Comments",
-      "published": "2026-11-01T13:51:41Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
       "url": "https://arxiv.org/abs/2610.39302",
       "summary": "Comments",
@@ -114,13 +170,6 @@
       "source": "Hacker News"
     },
     {
-      "title": "Domain hacks with unusual Unicode characters (2018)",
-      "url": "https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/",
-      "summary": "Comments",
-      "published": "2026-11-01T10:44:20Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "The AI cost of JavaScript frameworks",
       "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
       "summary": "Comments",
@@ -128,24 +177,10 @@
       "source": "Hacker News"
     },
     {
-      "title": "Bidirectional charging during grid outages",
-      "url": "https://www.jefftk.com/p/bidirectional-charging-during-grid-outages",
-      "summary": "Comments",
-      "published": "2026-10-31T20:21:55Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "HackerTube: YouTube built from videos recommended by HN",
       "url": "https://karpathy.bearblog.dev/hacker-tube/",
       "summary": "Comments",
       "published": "2026-10-31T19:56:53Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "The She-Wolves of Jülich",
-      "url": "https://www.historytoday.com/archive/history-matters/she-wolves-julich",
-      "summary": "Comments",
-      "published": "2026-10-31T17:29:39Z",
       "source": "Hacker News"
     },
     {
@@ -202,20 +237,6 @@
       "url": "https://www.nature.com/articles/s41560-026-02144-0",
       "summary": "Comments",
       "published": "2026-10-31T10:14:08Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Show HN: I rebuilt my old canvas 3D library as a small WebGL 2 library – phoria2",
-      "url": "https://kevs3d.co.uk/phoria2/",
-      "summary": "Comments",
-      "published": "2026-10-31T09:49:42Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Parchment Paper History: How We Got Paper Perfect for Baking (2019)",
-      "url": "https://tedium.co/2019/11/21/nonstick-parchment-paper-history/",
-      "summary": "Comments",
-      "published": "2026-10-31T04:31:06Z",
       "source": "Hacker News"
     },
     {
@@ -392,13 +413,6 @@
       "summary": "P99 CONF is a virtual conference on high-performance, low-latency applications. Its 2026 event ran October 21–22. Here, we cover five The post What five P99 CONF talks reveal about database trade-offs appeared first on The New Stack .",
       "published": "2026-10-30T13:00:00Z",
       "source": "The New Stack"
-    },
-    {
-      "title": "Keeping Up Appearances – The women taking over the funeral industry",
-      "url": "https://lareviewofbooks.org/article/death-industry-mortuary-programs-women-andie-eisen-quarterly/",
-      "summary": "Comments",
-      "published": "2026-10-30T12:40:08Z",
-      "source": "Hacker News"
     },
     {
       "title": "Managed Prometheus collectors now support Amazon MSK consumer-group metrics",
@@ -618,9 +632,9 @@
       "source": "AWS What's New"
     },
     {
-      "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 13.2",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
-      "summary": "Amazon Managed Grafana now supports in-place upgrade from Grafana version 12.4 to 13.2. Upgrading to version 13.2 brings features launched as part of open-source Grafana versions 13.0 to 13.2. These include Git Sync for dashboards, dynamic dashboards, and PromQL query support in the Amazon CloudWatch data source plugin. With Git Sync, you can treat dashboards as code by linking a workspace to a Git repository. Dashboard modifications…",
+      "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
+      "summary": "AWS Certificate Manager (ACM) ACME protocol support is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West), providing a fully managed ACME server endpoint that issues public TLS certificates from Amazon Trust Services using any ACMEv2-compatible client, including Certbot, cert-manager for Kubernetes, and acme.sh. With the CA/Browser Forum mandating 47-day certificate lifetimes by 2029, manual management of public…",
       "published": "2026-10-29T08:00:00Z",
       "source": "AWS What's New"
     },
@@ -632,16 +646,16 @@
       "source": "AWS What's New"
     },
     {
-      "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
-      "summary": "AWS Certificate Manager (ACM) ACME protocol support is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West), providing a fully managed ACME server endpoint that issues public TLS certificates from Amazon Trust Services using any ACMEv2-compatible client, including Certbot, cert-manager for Kubernetes, and acme.sh. With the CA/Browser Forum mandating 47-day certificate lifetimes by 2029, manual management of public…",
+      "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
+      "summary": "Today, Amazon SageMaker AI announces support for Seekable OCI (SOCI)-indexed container images for training and processing jobs, so your jobs start running your code sooner. SOCI-indexed images start Amazon SageMaker AI training containers in seconds, cutting GPU idle time during image pulls by up to 90%, with no impact on training performance. Before a training or processing job can run, SageMaker AI downloads its container image to…",
       "published": "2026-10-29T08:00:00Z",
       "source": "AWS What's New"
     },
     {
-      "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
-      "summary": "Today, Amazon SageMaker AI announces support for Seekable OCI (SOCI)-indexed container images for training and processing jobs, so your jobs start running your code sooner. SOCI-indexed images start Amazon SageMaker AI training containers in seconds, cutting GPU idle time during image pulls by up to 90%, with no impact on training performance. Before a training or processing job can run, SageMaker AI downloads its container image to…",
+      "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 13.2",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
+      "summary": "Amazon Managed Grafana now supports in-place upgrade from Grafana version 12.4 to 13.2. Upgrading to version 13.2 brings features launched as part of open-source Grafana versions 13.0 to 13.2. These include Git Sync for dashboards, dynamic dashboards, and PromQL query support in the Amazon CloudWatch data source plugin. With Git Sync, you can treat dashboards as code by linking a workspace to a Git repository. Dashboard modifications…",
       "published": "2026-10-29T08:00:00Z",
       "source": "AWS What's New"
     },
@@ -891,13 +905,6 @@
       "source": "Google Cloud Blog"
     },
     {
-      "title": "Securely connecting Gemini Enterprise to Snowflake data",
-      "url": "https://cloud.google.com/blog/products/data-analytics/bridge-gemini-enterprise-and-snowflake-with-google-adk/",
-      "summary": "Enterprise AI needs to go beyond simple chat interfaces. To provide real value, AI agents must access your data warehouses to generate actionable insights, all while maintaining strict security and data governance. This guide explores how to build a secure bridge between Google Cloud’s Gemini Enterprise and Snowflake. By using the Model Context Protocol (MCP) and the Google Agent Development Kit (ADK), you can empower your agent to act…",
-      "published": "2026-10-27T16:00:00Z",
-      "source": "Google Cloud Blog"
-    },
-    {
       "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
       "url": "https://blog.cloudflare.com/php-ctf/",
       "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
@@ -1043,13 +1050,6 @@
       "summary": "GitLab is not affected by PHP2Shell (CVE-2026-109618 and CVE-2026-109619). The GitLab application is not written in PHP and does not run it to serve web requests, and our Security team has found no evidence of impact to GitLab-managed infrastructure. GitLab.com, GitLab Self-Managed, and GitLab Dedicated are not impacted. PHP is a widely used programming language that runs on web servers and powers popular platforms like WordPress…",
       "published": "2026-10-22T00:00:00Z",
       "source": "GitLab Blog"
-    },
-    {
-      "title": "Linux Foundation Newsletter: October 2026",
-      "url": "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-october-2026",
-      "summary": "Welcome to the October 2026 edition of the Linux Foundation Newsletter Cybersecurity Awareness Month is ending, and LF Education is discounting training for a limited time. You can save 40% on eligible cybersecurity training and certifications, and you can save 35% on other training and certifications. A THRIVE-ONE Annual subscription is 30% off. This month's biggest announcements include a new Platinum Member and two new foundations…",
-      "published": "2026-10-21T18:00:00Z",
-      "source": "Linux Foundation"
     }
   ],
   "sources": [
