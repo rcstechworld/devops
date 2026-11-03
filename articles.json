@@ -1,11 +1,46 @@
 {
-  "updatedAt": "2026-11-03T05:31:21Z",
+  "updatedAt": "2026-11-03T12:54:27Z",
   "articles": [
     {
-      "title": "NASA's Swift space telescope predicted to crash back to Earth tomorrow",
-      "url": "https://www.abc.net.au/news/science/2026-11-03/nasa-swift-telescope-crash-landing/100018476",
+      "title": "Sava Trust (YC F25) Is Hiring a Founding Engineer in NYC",
+      "url": "https://www.ycombinator.com/companies/sava-trust-company/jobs",
       "summary": "Comments",
-      "published": "2026-11-03T04:47:16Z",
+      "published": "2026-11-03T12:01:01Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "OpenKruise Agents v0.6.0: Leaping ahead in agent Sandbox security and automation",
+      "url": "https://www.cncf.io/blog/2026/11/03/openkruise-agents-v0-6-0-leaping-ahead-in-agent-sandbox-security-and-automation/",
+      "summary": "About OpenKruise Agents OpenKruise Agents is a sub-project of OpenKruise, the CNCF open-source application automation and workload orchestration project. It provides full lifecycle management for Agent Sandboxes running at scale on Kubernetes, together with a complete...",
+      "published": "2026-11-03T12:00:00Z",
+      "source": "CNCF Blog"
+    },
+    {
+      "title": "Anthropic IPO filing: $1.7B quarterly payroll, about $107K per employee monthly",
+      "url": "https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html",
+      "summary": "Comments",
+      "published": "2026-11-03T11:16:07Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Revolut moves to self-hosted GLM",
+      "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+      "summary": "Comments",
+      "published": "2026-11-03T09:53:59Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Could a modern chess engine on a Pentium have defeated Kasparov in 1996?",
+      "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+      "summary": "Comments",
+      "published": "2026-11-03T07:56:21Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Nvidia – open-source auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "summary": "Comments",
+      "published": "2026-11-03T07:04:50Z",
       "source": "Hacker News"
     },
     {
@@ -13,13 +48,6 @@
       "url": "https://hjkl.duy.run",
       "summary": "Comments",
       "published": "2026-11-03T03:10:04Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Show HN: Rustable is an open source database client built in Rust",
-      "url": "https://rustable.app",
-      "summary": "Comments",
-      "published": "2026-11-03T03:06:53Z",
       "source": "Hacker News"
     },
     {
@@ -44,13 +72,6 @@
       "source": "Hacker News"
     },
     {
-      "title": "Intel stock collapse worsens as $3.5T chip rout spreads",
-      "url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
-      "summary": "Comments",
-      "published": "2026-11-03T00:08:53Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Amazon RDS for Oracle now supports M8i and R8i instances in additional AWS Regions",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-m8i-r8i-instances-new-regions/",
       "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports M8i and R8i instances in additional AWS Regions. Both M8i and R8i instances are now available in Asia Pacific (New Zealand) and Canada West (Calgary), and R8i instances are now available in Europe (Milan, Stockholm, and Zurich) and Israel (Tel Aviv). These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest…",
@@ -65,27 +86,6 @@
       "source": "The New Stack"
     },
     {
-      "title": "Scaling Git at OpenAI",
-      "url": "https://openai.com/index/scaling-git-at-openai/",
-      "summary": "Comments",
-      "published": "2026-11-02T23:47:56Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
-      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
-      "summary": "Comments",
-      "published": "2026-11-02T22:30:47Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "V100 SXM2 pinout and NVLink reference",
-      "url": "https://github.com/pigeon-labs-stack/v100-sxm2-reference",
-      "summary": "Comments",
-      "published": "2026-11-02T22:30:13Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "SLAC researchers find proof of altermagnetism, a new magnetic phase",
       "url": "https://www6.slac.stanford.edu/news/2026-10-29-slac-researchers-find-proof-altermagnetism-new-magnetic-phase",
       "summary": "Comments",
@@ -98,13 +98,6 @@
       "summary": "Anthropic has confirmed that it added new restrictions to Claude Code to prevent users from recreating existing video games. But The post Developers are downgrading their AI on purpose — and it’s working appeared first on The New Stack .",
       "published": "2026-11-02T21:03:31Z",
       "source": "The New Stack"
-    },
-    {
-      "title": "The Platform Behind the Next AI Breakthrough",
-      "url": "https://www.wired.com/sponsored/story/the-platform-behind-the-next-ai-breakthrough/",
-      "summary": "The next frontier of AI is coming into focus as agents take on longer, more strategic work. The post The Platform Behind the Next AI Breakthrough appeared first on Microsoft Azure Blog .",
-      "published": "2026-11-02T20:52:22Z",
-      "source": "Microsoft Azure Blog"
     },
     {
       "title": "Haiku 5.5 now available on Kiro in AWS GovCloud (US)",
@@ -135,13 +128,6 @@
       "source": "AWS What's New"
     },
     {
-      "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
-      "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
-      "summary": "Comments",
-      "published": "2026-11-02T18:39:38Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
       "summary": "For organizations that use Amazon Quick, the desktop application now signs users in with the same sign-in method the organization already uses for Quick on the web. Administrators no longer need to register an OIDC application in their identity provider or set up separate desktop sign-in before users can get started. If a user can sign in to Quick on the web, that user can sign in to the desktop application. To turn on desktop access…",
@@ -153,20 +139,6 @@
       "url": "https://rikiyat.github.io/blog/weight-space-programming/",
       "summary": "Comments",
       "published": "2026-11-02T18:21:28Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Sneaking into the auditorium for the Windows 2000 launch rehearsal",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20261102-00/?p=112818/",
-      "summary": "Comments",
-      "published": "2026-11-02T18:12:48Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Skill to Create Product Videos",
-      "url": "https://github.com/aaitor/skill-video-studio",
-      "summary": "Comments",
-      "published": "2026-11-02T18:10:39Z",
       "source": "Hacker News"
     },
     {
@@ -209,13 +181,6 @@
       "url": "https://momentic.ai/",
       "summary": "Comments",
       "published": "2026-11-02T17:05:25Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Bitmovin (YC S15) Is Hiring Technical Graduates in Denver (Engineering/CS Focus)",
-      "url": "https://bitmovin.com/careers/8660599002/",
-      "summary": "Comments",
-      "published": "2026-11-02T17:00:41Z",
       "source": "Hacker News"
     },
     {
@@ -296,13 +261,6 @@
       "source": "Google Cloud Blog"
     },
     {
-      "title": "WTF Ubuntu?",
-      "url": "https://chalmovsky.com/posts/wtf-ubuntu",
-      "summary": "Comments",
-      "published": "2026-11-02T14:52:00Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Shutting the Door on the XCPE Botnet",
       "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
       "summary": "Introduction Last week, Google and industry partners dismantled the XCPE backdoor which enrolled more than 1.3 million set-top boxes into a botnet. We assess with high confidence that the backdoor and botnet were intentionally developed, deployed, and operated for financial gain by Videostrong Technology Co., an Android Original Equipment Manufacturer (OEM) and Original Design Manufacturer (ODM). Videostrong monetized the backdoor by…",
@@ -336,6 +294,13 @@
       "summary": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay.",
       "published": "2026-11-02T14:00:00Z",
       "source": "Cloudflare Blog"
+    },
+    {
+      "title": "433MHz TUI scanner: using a FT232H connected to a CC1101",
+      "url": "https://blog.jacq.cc/guides/cc1101-433mhz-scanner-ft232h/",
+      "summary": "Comments",
+      "published": "2026-11-02T13:28:14Z",
+      "source": "Hacker News"
     },
     {
       "title": "If you love a website, back it up",
@@ -380,6 +345,13 @@
       "source": "AWS What's New"
     },
     {
+      "title": "Announcing an updated text detection model for Amazon Textract",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-text-detection-model/",
+      "summary": "Amazon Textract now provides an updated text detection model that improves accuracy, expands language support, and enhances multilingual table extraction. The updated model applies to the DetectDocumentText and AnalyzeDocument APIs and requires no changes to your Amazon Textract API requests or response schema. Your applications are served by the updated model automatically, so you can continue calling Amazon Textract exactly as…",
+      "published": "2026-11-02T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
       "title": "Amazon CloudFront now supports self-service increases in AWS Service Quotas",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-self-service-quotas/",
       "summary": "Amazon CloudFront now supports AWS Service Quotas, so you can view, monitor, and request increases for 28 CloudFront quotas from the Service Quotas console or API. Until now, increasing a quota on resources such as distributions, cache policies, origins, or alternate domain names meant opening a support case and waiting for manual review. If you have AWS Business Support or higher, requests for limit increases within published…",
@@ -387,11 +359,25 @@
       "source": "AWS What's New"
     },
     {
-      "title": "Announcing an updated text detection model for Amazon Textract",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-text-detection-model/",
-      "summary": "Amazon Textract now provides an updated text detection model that improves accuracy, expands language support, and enhances multilingual table extraction. The updated model applies to the DetectDocumentText and AnalyzeDocument APIs and requires no changes to your Amazon Textract API requests or response schema. Your applications are served by the updated model automatically, so you can continue calling Amazon Textract exactly as…",
-      "published": "2026-11-02T08:00:00Z",
-      "source": "AWS What's New"
+      "title": "Katamari Damacy but it's The Met collection",
+      "url": "https://katamari.vaguespac.es/",
+      "summary": "Comments",
+      "published": "2026-11-02T02:21:07Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Optical Circuit Switch Technology Built on Low-Loss Silicon Photonics Platform",
+      "url": "https://www.psiquantum.com/news-import/psiquantum-unveils-optical-circuit-switch-technology-built-on-advanced-low-loss-silicon-photonics-platform",
+      "summary": "Comments",
+      "published": "2026-11-02T01:34:16Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Vathographs: Photographic depth maps as creative expression",
+      "url": "https://vathography.com/",
+      "summary": "Comments",
+      "published": "2026-11-02T01:11:19Z",
+      "source": "Hacker News"
     },
     {
       "title": "10 questions to ask any software vendor about sovereignty",
@@ -408,6 +394,13 @@
       "source": "GitHub Blog"
     },
     {
+      "title": "Life with Down Syndrome",
+      "url": "https://www.esquire.com/news-politics/a74031571/life-with-down-syndrome/",
+      "summary": "Comments",
+      "published": "2026-11-01T16:26:21Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "Open-source security in the AI exploit era: Patch without changing a thing",
       "url": "https://thenewstack.io/patchmageddon-open-source-security22842502/",
       "summary": "Here’s how a vulnerability in a popular open-source library plays out in 2026: A maintainer merges a fix and publishes The post Open-source security in the AI exploit era: Patch without changing a thing appeared first on The New Stack .",
@@ -422,6 +415,13 @@
       "source": "The New Stack"
     },
     {
+      "title": "Shrinking NixOS RAM footprint and resource requirements to the bare minimum",
+      "url": "https://lowendspirit.com/discussion/11543/shrinking-nixos-ram-footprint-and-resource-requirements-to-the-bare-minimum",
+      "summary": "Comments",
+      "published": "2026-11-01T14:52:05Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "Resisting Cognitive Surrender",
       "url": "https://knlb.dev/essays/surrender",
       "summary": "Comments",
@@ -429,10 +429,17 @@
       "source": "Hacker News"
     },
     {
-      "title": "Trademarks and Symbols, Volume 2: Symbolical Designs (1973)",
-      "url": "https://www.symbools.com/kuwayama-trademarks-symbols-vol-2/",
+      "title": "Toit v2.0.0",
+      "url": "https://toit.io/blog/toit-v2-0-0/",
       "summary": "Comments",
-      "published": "2026-10-31T18:50:43Z",
+      "published": "2026-11-01T00:25:04Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Efficient algorithms, the Exponential Time Hypothesis, and losing the plot",
+      "url": "https://www.argmin.net/p/galactus-the-devourer",
+      "summary": "Comments",
+      "published": "2026-10-31T22:31:49Z",
       "source": "Hacker News"
     },
     {
@@ -562,9 +569,16 @@
       "source": "AWS What's New"
     },
     {
-      "title": "Innovate on your own business terms: Google Cloud spend caps now generally available",
-      "url": "https://cloud.google.com/blog/topics/cost-management/google-cloud-spend-caps-now-generally-available/",
-      "summary": "Today, we’re announcing that spend caps on Google Cloud Budgets are generally available. With this release, we’re delivering ways to protect your workloads from runaway costs without risking resource deletion. More importantly, we’re introducing three major updates, directly inspired by your feedback since the initial preview, to bring programmability, real-time visibility, and automated guardrails to your cost-control playbook. How…",
+      "title": "What’s new with Google Cloud",
+      "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Oct 26 - Oct 30 Simplify PostgreSQL Monitoring with the New…",
+      "published": "2026-10-30T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "When the Kubernetes API went silent: A three-layer networking mystery",
+      "url": "https://cloud.google.com/blog/products/networking/the-three-layer-gke-network-mystery/",
+      "summary": "Every support engineer has a case that stays with them. The one that comes up at team lunches. The one where, even after it's resolved, you find yourself staring at a packet capture at midnight just to make sure you really understand what happened. This is that case. It started in January 2026 with a support ticket that read deceptively simply: pods are intermittently failing to reach the Kubernetes API server. The error was a…",
       "published": "2026-10-30T16:00:00Z",
       "source": "Google Cloud Blog"
     },
@@ -576,16 +590,9 @@
       "source": "Google Cloud Blog"
     },
     {
-      "title": "What’s new with Google Cloud",
-      "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Oct 26 - Oct 30 Simplify PostgreSQL Monitoring with the New…",
-      "published": "2026-10-30T16:00:00Z",
-      "source": "Google Cloud Blog"
-    },
-    {
-      "title": "When the Kubernetes API went silent: A three-layer networking mystery",
-      "url": "https://cloud.google.com/blog/products/networking/the-three-layer-gke-network-mystery/",
-      "summary": "Every support engineer has a case that stays with them. The one that comes up at team lunches. The one where, even after it's resolved, you find yourself staring at a packet capture at midnight just to make sure you really understand what happened. This is that case. It started in January 2026 with a support ticket that read deceptively simply: pods are intermittently failing to reach the Kubernetes API server. The error was a…",
+      "title": "Innovate on your own business terms: Google Cloud spend caps now generally available",
+      "url": "https://cloud.google.com/blog/topics/cost-management/google-cloud-spend-caps-now-generally-available/",
+      "summary": "Today, we’re announcing that spend caps on Google Cloud Budgets are generally available. With this release, we’re delivering ways to protect your workloads from runaway costs without risking resource deletion. More importantly, we’re introducing three major updates, directly inspired by your feedback since the initial preview, to bring programmability, real-time visibility, and automated guardrails to your cost-control playbook. How…",
       "published": "2026-10-30T16:00:00Z",
       "source": "Google Cloud Blog"
     },
@@ -884,13 +891,6 @@
       "source": "GitHub Blog"
     },
     {
-      "title": "Near-zero downtime upgrades: Announcing Cloud SQL for MySQL blue-green deployments",
-      "url": "https://cloud.google.com/blog/products/databases/cloud-sql-blue-green-deployments/",
-      "summary": "Keeping production databases on supported versions shouldn’t require giving up your weekend. To stay secure, compliant, and with the best performance and newest AI capabilities, organizations need to run on the latest database engine versions. Yet for many teams, major version upgrades mean weeks of cross-team coordination, negotiating narrow maintenance windows, and hours of application downtime. In an era where mission-critical…",
-      "published": "2026-10-28T16:00:00Z",
-      "source": "Google Cloud Blog"
-    },
-    {
       "title": "Behind the scenes, two months later: How we ship Google Agent Skills like products",
       "url": "https://cloud.google.com/blog/topics/developers-practitioners/behind-the-scenes-two-months-later-how-we-ship-google-agent-skills-like-products/",
       "summary": "In my previous post, I took you behind the scenes of Google Agent Skills , covering how the project started, how we maintain quality at scale, and how we handle governance. In this post, I'll share what we've built since then: the automated quality gates that every change must pass, the AI review agent that inspects skill quality, and the lessons that we learned along the way. You can adopt similar gates and review rules in your own…",
@@ -915,6 +915,13 @@
       "title": "Introducing the AlloyDB Omni web UI for easier cluster observability",
       "url": "https://cloud.google.com/blog/products/databases/alloydb-omni-delivers-a-web-ui-for-cluster-observability/",
       "summary": "Managing PostgreSQL databases across on-premises, edge, and multi-cloud environments often forces administrators to rely on command-line tools, making it hard to see cluster health and quickly diagnose issues. To solve this, we are announcing the General Availability (GA) of the AlloyDB Omni Web UI for Red Hat and containers . This production-ready, read-only console gives you direct visibility into hardware telemetry, query…",
+      "published": "2026-10-28T16:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "How to upgrade embedding models in AlloyDB AI with zero downtime",
+      "url": "https://cloud.google.com/blog/products/databases/upgrade-embedding-models-in-alloydb-ai-with-zero-downtime/",
+      "summary": "Imagine you've just launched a new semantic search feature for product reviews to help customers quickly research products on your site. Users love it. But the next day, you see an announcement for a new vector embedding model promising higher accuracy, better nuance, and multilingual search out of the box. After testing it in your dev environment, you confirm it's a perfect fit. But now you're left with a common dilemma: How do you…",
       "published": "2026-10-28T16:00:00Z",
       "source": "Google Cloud Blog"
     },
@@ -1043,13 +1050,6 @@
       "summary": "On Tuesday, October 20, 2026, Docker began tracking two critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619, commonly known as PHP2Shell.",
       "published": "2026-10-22T17:22:47Z",
       "source": "Docker Blog"
-    },
-    {
-      "title": "How bug bounty sharpens one researcher’s security skills",
-      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-      "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .",
-      "published": "2026-10-22T17:21:30Z",
-      "source": "GitHub Blog"
     }
   ],
   "sources": [
