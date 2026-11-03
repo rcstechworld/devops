@@ -71,4 +71,3 @@ jobs:
 
           echo "Failed to push article feed after 3 attempts."
           exit 1
-
