@@ -1,18 +1,242 @@
 {
-  "updatedAt": "2026-11-06T13:05:47Z",
+  "updatedAt": "2026-11-07T11:50:04Z",
   "articles": [
     {
-      "title": "Tesla winds down Cybertruck production after years of poor sales in few markets",
-      "url": "https://www.msn.com/en-us/technology/tech-companies/tesla-to-wind-down-cybertruck-production-after-years-of-poor-sales-in-few-markets/ar-AA2gSZGv",
+      "title": "Upload Your RAM",
+      "url": "https://uploadyourram.org",
       "summary": "Comments",
-      "published": "2026-11-06T12:13:51Z",
+      "published": "2026-11-07T10:15:26Z",
       "source": "Hacker News"
     },
     {
-      "title": "Mbodi AI (YC P25) Is Hiring Research and Robotic Engineers",
-      "url": "https://www.ycombinator.com/companies/mbodi-ai/jobs",
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
       "summary": "Comments",
-      "published": "2026-11-06T12:00:42Z",
+      "published": "2026-11-07T09:46:03Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Port 0: The Port That Does Not Exist",
+      "url": "https://acid.vegas/blog/the-port-that-does-not-exist/",
+      "summary": "Comments",
+      "published": "2026-11-07T09:38:26Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Need for Speed Underground 2 online in the browser",
+      "url": "https://nfsu2.xyz/",
+      "summary": "Comments",
+      "published": "2026-11-07T09:36:36Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "The Components of Agent Memory",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "summary": "Comments",
+      "published": "2026-11-07T06:39:04Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Asahi Linux Progress Linux 7.3",
+      "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
+      "summary": "Comments",
+      "published": "2026-11-07T05:20:18Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
+      "url": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
+      "summary": "Comments",
+      "published": "2026-11-07T04:54:36Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
+      "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
+      "summary": "Comments",
+      "published": "2026-11-06T23:37:19Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Libghostty 1.0",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "summary": "Comments",
+      "published": "2026-11-06T23:30:52Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock",
+      "summary": "Today, Kimi K3.1 Pro from Moonshot AI is available on Amazon Bedrock, expanding our open weight model portfolio with the security and governance that customers rely on. Customers using Amazon Bedrock can now run agentic use cases such as coding and document processing on Kimi K3.1 Pro (Highspeed), which delivers high output tokens per second (OTPS) for faster, more responsive results. According to Moonshot AI, Kimi K3.1 Pro is an…",
+      "published": "2026-11-06T22:47:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog .",
+      "published": "2026-11-06T22:15:59Z",
+      "source": "GitHub Blog"
+    },
+    {
+      "title": "AI is dramatically accelerating AI research",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "summary": "Comments",
+      "published": "2026-11-06T20:27:23Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Google has acquired Crusoe's data center site in southeast Wyoming",
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+      "summary": "Comments",
+      "published": "2026-11-06T20:09:14Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "summary": "Comments",
+      "published": "2026-11-06T19:48:51Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Agent Registry is now generally available in AWS GovCloud (US-West) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/",
+      "summary": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in the AWS GovCloud (US-West) Region. AWS Agent Registry is a fully managed discovery service that gives your organization a central catalog for organizing, curating, and discovering resources. You can publish MCP servers, tools, agents, agent skills, and custom resources to a searchable registry, and control what becomes discoverable through an approval…",
+      "published": "2026-11-06T19:48:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "AI agents are getting more complex. Developers shouldn’t have to babysit them.",
+      "url": "https://thenewstack.io/harness-engineering-coding-agents/",
+      "summary": "What if your coding agent could catch its own mistakes before you ever reviewed its work? A few years ago, The post AI agents are getting more complex. Developers shouldn’t have to babysit them. appeared first on The New Stack .",
+      "published": "2026-11-06T19:35:59Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Firecracker VM Escape: PwnEscape Part 2",
+      "url": "https://pwn.ai/blog/firecracker-escape",
+      "summary": "Comments",
+      "published": "2026-11-06T19:33:38Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Restaurant Delivery Payment-Skimming Campaign",
+      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+      "summary": "Comments",
+      "published": "2026-11-06T19:19:27Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Cognition turned an open model into a coding beast. But it won’t release the weights.",
+      "url": "https://thenewstack.io/cognition-flash-private-weights/",
+      "summary": "Cognition built its newest coding model on a foundation that anyone can download, yet the company is keeping its own The post Cognition turned an open model into a coding beast. But it won’t release the weights. appeared first on The New Stack .",
+      "published": "2026-11-06T18:16:42Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Meta’s best AI model now trains the one most of its users get",
+      "url": "https://thenewstack.io/meta-muse-specialized-models/",
+      "summary": "Starting on Friday, everyone using Meta’s Muse agent and Meta AI gets new models the company trained using Muse Wonder, The post Meta’s best AI model now trains the one most of its users get appeared first on The New Stack .",
+      "published": "2026-11-06T18:05:55Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Devvm.dev: One VM for every project",
+      "url": "https://devvm.dev/",
+      "summary": "Comments",
+      "published": "2026-11-06T17:30:22Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Notes on San Marino",
+      "url": "https://mattlakeman.org/2026/11/05/notes-on-san-marino/",
+      "summary": "Comments",
+      "published": "2026-11-06T17:12:05Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "What’s new with Google Cloud",
+      "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Nov 2 - Nov 6 Security for AI workloads with Model Armor…",
+      "published": "2026-11-06T17:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Introducing Z4M: storage-optimized compute for AI/ML and parallel file systems",
+      "url": "https://cloud.google.com/blog/products/compute/storage-optimized-z4m-machine-series-are-ga/",
+      "summary": "Today, we’re excited to announce the general availability of our next-generation Storage-optimized Z4M machine series in Google Compute Engine, available as both Virtual Machine (VM) and bare-metal instances. We built Z4M to provide storage for AI/ML training and inference workloads such as checkpointing, distributed key-value (KV) cache and parallel file systems — workloads that handle huge data volumes and require massive parallel…",
+      "published": "2026-11-06T17:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "The Blueprint: Orchestrating 5,000+ AI assets for a World Cup TV spot",
+      "url": "https://cloud.google.com/blog/products/media-entertainment/how-mito-orchestrated-5000-plus-ai-assets-for-a-world-cup-tv-spot/",
+      "summary": "Welcome back to The Blueprint, a regular feature where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. We hope to inspire others looking to innovate in their work. AI is rapidly transforming video production at virtually every step of the process, from ideation and storyboarding to filming, editing, and release. At Mito , we’re striving to…",
+      "published": "2026-11-06T17:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "First steps in bare-metal programming using UEFI",
+      "url": "https://kevinboone.me/efitest_index.html",
+      "summary": "Comments",
+      "published": "2026-11-06T16:50:29Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Amazon MSK Replicator is now available in AWS GovCloud (US-East, US-West) Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-replicator-additional-aws-regions",
+      "summary": "You can now use Amazon MSK Replicator in the AWS GovCloud (US-East, US-West) Regions to replicate streaming data across Amazon MSK clusters and from external Apache Kafka clusters including on-premises, self-managed on AWS, or other cloud providers to Amazon MSK Provisioned clusters. MSK Replicator is a feature of Amazon MSK that automates data replication between Kafka clusters, eliminating the need to manage custom replication…",
+      "published": "2026-11-06T16:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Amazon Redshift expands SUPER data type to store strings up to 16 million bytes",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-redshift-expands-super-to-16-million-bytes/",
+      "summary": "Amazon Redshift now supports individual strings up to 16 million bytes within SUPER data types . Once you opt in through a database parameter, this enhancement applies when ingesting structured or semi-structured data from JSON, PARQUET, TEXT, and CSV source files, and when transforming data through extract load and transform (ELT) processes. Previously, individual strings within SUPER data types were limited to 65,535 bytes. Storing…",
+      "published": "2026-11-06T16:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "“Most apps never make it off localhost”: Cursor takes on Lovable and Replit with fully managed app deployment",
+      "url": "https://thenewstack.io/cursor-ai-app-deployment/",
+      "summary": "AI coding agents have certainly made it easier to transform an idea into a working application. However, getting that application The post “Most apps never make it off localhost”: Cursor takes on Lovable and Replit with fully managed app deployment appeared first on The New Stack .",
+      "published": "2026-11-06T15:15:21Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "AWS launches support for amortization of EC2 Capacity Blocks for ML",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ec2-capacity-blocks-ml/",
+      "summary": "AWS Data Exports for Cost and Usage Report (CUR) 2.0 and AWS Cost Explorer now amortize the upfront fee for Amazon EC2 Capacity Blocks for ML across the duration of each reservation. You can see the amortized cost of each instance launched into a Capacity Block and the amortized cost of unused capacity, so you can attribute your upfront fee to the workloads that used it and identify capacity that went unused. Previously, a Capacity…",
+      "published": "2026-11-06T15:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations in AWS GovCloud (US) Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/capacity-reservation-resource-groups-support-in-aws-govcloud-regions",
+      "summary": "Starting today, you can add Amazon EC2 Capacity Blocks for ML and interruptible Capacity Reservations to Capacity Reservation Resource Groups in AWS GovCloud (US) Regions. Amazon EC2 offers different reservation offerings such as On-Demand Capacity Reservations (ODCRs), interruptible Capacity Reservations, and Capacity Blocks for ML. Previously, a Capacity Reservation Resource Group could only include ODCRs. Now you can add any type of…",
+      "published": "2026-11-06T14:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "The post-quantum future of web privacy",
+      "url": "https://blog.cloudflare.com/vole-mole/",
+      "summary": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
+      "published": "2026-11-06T14:00:00Z",
+      "source": "Cloudflare Blog"
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "summary": "Comments",
+      "published": "2026-11-06T13:35:27Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Tesla to wind down Cybertruck production",
+      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+      "summary": "Comments",
+      "published": "2026-11-06T12:13:51Z",
       "source": "Hacker News"
     },
     {
@@ -30,80 +254,45 @@
       "source": "The New Stack"
     },
     {
-      "title": "We've built an open-source feature flag server for 11 years",
-      "url": "https://github.com/Unleash/unleash",
-      "summary": "Comments",
-      "published": "2026-11-06T11:40:06Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)",
-      "url": "https://jhr.pensoft.net/articles.php?id=9096",
-      "summary": "Comments",
-      "published": "2026-11-06T10:21:15Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
-      "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
-      "summary": "Comments",
-      "published": "2026-11-06T09:27:12Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Chomsky and the Two Cultures of Statistical Learning",
+      "title": "Chomsky and the two cultures of statistical learning (2011)",
       "url": "https://www.norvig.com/chomsky.html",
       "summary": "Comments",
       "published": "2026-11-06T08:18:36Z",
       "source": "Hacker News"
     },
     {
-      "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
-      "url": "https://worldstrike.fun/",
-      "summary": "Comments",
-      "published": "2026-11-06T07:55:48Z",
-      "source": "Hacker News"
+      "title": "Amazon Simple Email Service is now available in six new AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-simple-email-service-new-aws-regions/",
+      "summary": "Amazon Simple Email Service (Amazon SES) is now available in the Asia Pacific (New Zealand, Melbourne, Taipei, Thailand), Mexico (Central), EU (Spain). Customers can now use these new Regions to leverage Amazon SES to send emails and, if needed, to help manage data requirements. Amazon SES is a scalable, cost-effective, and flexible cloud-based email service that allows digital marketers and application developers to send marketing…",
+      "published": "2026-11-06T08:00:00Z",
+      "source": "AWS What's New"
     },
     {
-      "title": "Kugelblitz – Mac-Native Google Earth Alternative",
-      "url": "https://apps.metaebene.me/en/kugelblitz",
-      "summary": "Comments",
-      "published": "2026-11-06T07:47:38Z",
-      "source": "Hacker News"
+      "title": "AWS Glue Data Catalog now supports catalog-vended credentials with Apache Iceberg REST catalog federation",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-catalog-vended-credentials-iceberg/",
+      "summary": "AWS Glue Data Catalog now supports external catalog's vended credentials in Apache Iceberg REST catalog federation. You can now read external Iceberg tables from Amazon Athena, Amazon EMR, Amazon Redshift, and AWS Glue using coarse-grained table grants in your external Iceberg catalog. Glue Data Catalog already federates to external Iceberg REST catalogs through an AWS IAM role that you configure with access to your Amazon S3 buckets…",
+      "published": "2026-11-06T08:00:00Z",
+      "source": "AWS What's New"
     },
     {
-      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
-      "url": "https://github.com/ppmpreetham/BUI",
-      "summary": "Comments",
-      "published": "2026-11-06T07:40:35Z",
-      "source": "Hacker News"
+      "title": "AWS Elemental MediaConvert adds a native integration with AWS Elemental Inference Smart Subtitles",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/mediaconvert-elemental-smart-subtitles/",
+      "summary": "​​AWS Elemental MediaConvert now integrates Smart Subtitles, an AI-powered subtitling solution built on AWS Elemental Inference and the latest speech recognition models. This feature brings automated subtitle generation directly into your video-on-demand (VOD) transcoding and packaging workflows, eliminating the need for separate external captioning pipelines. Customers can now manage both transcoding and subtitle creation within a…",
+      "published": "2026-11-06T08:00:00Z",
+      "source": "AWS What's New"
     },
     {
-      "title": "Hardcoded credentials and other issues in Tata Motors App",
-      "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0537",
-      "summary": "Comments",
-      "published": "2026-11-06T07:28:39Z",
-      "source": "Hacker News"
+      "title": "Zero-shot predictions in Pandas using the new BigQuery Accessor",
+      "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-ai-functions-in-pandas/",
+      "summary": "Imagine running advanced machine learning workflows—from forecasting and classification to high-dimensional embedding generation—without ever leaving your familiar pandas DataFrame. With the new .bigquery accessor from BigQuery DataFrames (BigFrames) , that vision is now a reality. You can seamlessly invoke BigQuery's enterprise-grade AI functions directly within pandas, scaling your data science and ML pipelines on cloud…",
+      "published": "2026-11-06T08:00:00Z",
+      "source": "Google Cloud Blog"
     },
     {
-      "title": "Britain to make salary disclosure in job ads mandatory",
-      "url": "https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/",
+      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
       "summary": "Comments",
-      "published": "2026-11-06T07:22:04Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
-      "url": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
-      "summary": "Comments",
-      "published": "2026-11-06T04:17:49Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Pwn.college",
-      "url": "https://pwn.college/",
-      "summary": "Comments",
-      "published": "2026-11-06T03:27:14Z",
+      "published": "2026-11-06T04:00:28Z",
       "source": "Hacker News"
     },
     {
@@ -114,20 +303,6 @@
       "source": "Docker Blog"
     },
     {
-      "title": "Nvidia Kubernetes Engine (NVKE)",
-      "url": "https://github.com/dsx-ai-factory/nvke",
-      "summary": "Comments",
-      "published": "2026-11-06T03:16:26Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "MoofTCP – A modern replacement for MacTCP on 68k Macs",
-      "url": "https://github.com/matthewmrichter/mooftcp",
-      "summary": "Comments",
-      "published": "2026-11-06T00:54:15Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "AWS Security Hub now provides an SBOM inventory for your compute resources",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
       "summary": "Today, AWS announces that AWS Security Hub now provides a Software Bill of Materials (SBOM) inventory, giving central security teams a continuously updated, organization-wide view of the software packages and applications installed on their compute resources. Security Hub builds the inventory from the SBOMs that Amazon Inspector generates for Amazon EC2 instances, Amazon ECR container images, and AWS Lambda functions, with no…",
@@ -135,25 +310,18 @@
       "source": "AWS What's New"
     },
     {
-      "title": "Inkling 2 Small",
-      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
-      "summary": "Comments",
-      "published": "2026-11-06T00:00:24Z",
-      "source": "Hacker News"
+      "title": "The Pentagon wants to know who checks code when AI writes it",
+      "url": "https://about.gitlab.com/blog/department-of-war-instruction-for-ai-generated-code/",
+      "summary": "The Department of War now treats AI-generated code as unverified until it’s proven otherwise. DoW Instruction 8430.01 , “Accelerated Mission Software,” took effect September 8, 2026, and is the department’s latest guidance on modernizing and managing software. If you build or buy software for the DoW, the instruction changes what’s required of you for every line AI writes. You have to review and test it to the same standard as…",
+      "published": "2026-11-06T00:00:00Z",
+      "source": "GitLab Blog"
     },
     {
-      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-      "summary": "Comments",
-      "published": "2026-11-05T23:09:57Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Claude Code sends your email address to websites",
-      "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "summary": "Comments",
-      "published": "2026-11-05T22:17:15Z",
-      "source": "Hacker News"
+      "title": "Bringing conversational analytics to Gemini with Agentic Data Cloud connectors",
+      "url": "https://cloud.google.com/blog/products/data-analytics/query-enterprise-data-in-gemini-with-data-cloud-connectors/",
+      "summary": "Data Cloud connectors in Gemini for business, now in preview , give business users and analysts a direct way to query live enterprise data in natural language. Across most organizations, data questions multiply faster than analysts can answer them: Projects stall in ticket queues, leaders fall back on guesswork, and unmanaged spreadsheets spread across teams. Early generative AI tools promised conversational access to data, but they…",
+      "published": "2026-11-05T23:00:00Z",
+      "source": "Google Cloud Blog"
     },
     {
       "title": "AWS Interconnect - last mile announces new metro in Northern Virginia, USA",
@@ -168,13 +336,6 @@
       "summary": "Today, we are announcing the general availability of Web Answer on Amazon Bedrock AgentCore. Web Answer is a managed tool that returns a synthesized, grounded, cited answer to a natural-language question in a single call, so agent builders can attach it to an agent and get back a finished answer grounded in current web sources, without building and maintaining their own search, retrieve, synthesis, and citation pipeline. Web Answer…",
       "published": "2026-11-05T20:56:00Z",
       "source": "AWS What's New"
-    },
-    {
-      "title": "MS Paint Remote Code Execution Vulnerability",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-      "summary": "Comments",
-      "published": "2026-11-05T20:43:42Z",
-      "source": "Hacker News"
     },
     {
       "title": "Inside GitHub’s new Git storage architecture",
@@ -196,20 +357,6 @@
       "summary": "AWS Network Load Balancer is now available in the Phoenix Local Zone (us-west-2-phx-2a). AWS Local Zones is a type of AWS infrastructure deployment that places AWS compute, storage, database, and other select services closer to large population, industry, and IT centers where no AWS Region exists today. With this launch, you can create an AWS Network Load Balancer directly in the Phoenix Local Zone. Previously, if your targets ran in…",
       "published": "2026-11-05T20:00:00Z",
       "source": "AWS What's New"
-    },
-    {
-      "title": "Pangram Image 1.0",
-      "url": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
-      "summary": "Comments",
-      "published": "2026-11-05T19:27:52Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "The Hackintosh Reborn",
-      "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-      "summary": "Comments",
-      "published": "2026-11-05T19:08:22Z",
-      "source": "Hacker News"
     },
     {
       "title": "OpenAI’s new GPT-6 Cyber is better at hacking and better at staying in its lane",
@@ -259,13 +406,6 @@
       "summary": "ingress-nginx mirror-target self-DOS",
       "published": "2026-11-05T17:21:19Z",
       "source": "Kubernetes Security Advisories"
-    },
-    {
-      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
-      "url": "https://github.com/rivet-dev/rivet",
-      "summary": "Comments",
-      "published": "2026-11-05T17:17:42Z",
-      "source": "Hacker News"
     },
     {
       "title": "Groundcover automates Kubernetes sizing. Engineers set the bounds.",
@@ -324,20 +464,6 @@
       "source": "The New Stack"
     },
     {
-      "title": "Window Sweaters",
-      "url": "https://github.com/saragordic/window-sweaters",
-      "summary": "Comments",
-      "published": "2026-11-05T16:50:14Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Motorola Signature 27 with GrapheneOS support",
-      "url": "https://motorolanews.com/motorola-signature-27-2/",
-      "summary": "Comments",
-      "published": "2026-11-05T16:01:34Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Accessibility statements now have a home on GitHub",
       "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
       "summary": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blog .",
@@ -380,13 +506,6 @@
       "source": "The New Stack"
     },
     {
-      "title": "September in Servo: , rounded rectangles, and more",
-      "url": "https://servo.org/blog/2026/11/05/september-in-servo/",
-      "summary": "Comments",
-      "published": "2026-11-05T14:34:18Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "How the new streamhouse architecture solves agentic AI’s data problem",
       "url": "https://thenewstack.io/streamhouse-architecture-ai-agents/",
       "summary": "AI agents are moving from answering questions to taking action, and to do that effectively, they need to know the The post How the new streamhouse architecture solves agentic AI’s data problem appeared first on The New Stack .",
@@ -401,13 +520,6 @@
       "source": "Docker Blog"
     },
     {
-      "title": "Postgres and ClickHouse can share tables. EnterpriseDB wants one set of rules to govern them.",
-      "url": "https://thenewstack.io/edb-altinity-postgres-clickhouse/",
-      "summary": "If you have built anything that needs both a system of record and fast analytics, you know the shape of The post Postgres and ClickHouse can share tables. EnterpriseDB wants one set of rules to govern them. appeared first on The New Stack .",
-      "published": "2026-11-05T14:00:00Z",
-      "source": "The New Stack"
-    },
-    {
       "title": "Dropbox ditched AWS S3 for its own in-house system. Now it’s buying Tigris to sell S3-compatible storage to AI developers.",
       "url": "https://thenewstack.io/dropbox-acquires-tigris-s3-alternative/",
       "summary": "Dropbox is entering the AI infrastructure space in a big way, announcing plans on Thursday to acquire Tigris, a startup The post Dropbox ditched AWS S3 for its own in-house system. Now it’s buying Tigris to sell S3-compatible storage to AI developers. appeared first on The New Stack .",
@@ -415,25 +527,11 @@
       "source": "The New Stack"
     },
     {
-      "title": "I wish tech companies knew more about me",
-      "url": "https://rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me",
-      "summary": "Comments",
-      "published": "2026-11-05T13:40:52Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Show HN: Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM",
-      "url": "https://firenook.dev/",
-      "summary": "Comments",
-      "published": "2026-11-05T13:07:29Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Download your favourite YouTube videos",
-      "url": "https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/",
-      "summary": "Comments",
-      "published": "2026-11-05T13:00:11Z",
-      "source": "Hacker News"
+      "title": "Postgres and ClickHouse can share tables. EnterpriseDB wants one set of rules to govern them.",
+      "url": "https://thenewstack.io/edb-altinity-postgres-clickhouse/",
+      "summary": "If you have built anything that needs both a system of record and fast analytics, you know the shape of The post Postgres and ClickHouse can share tables. EnterpriseDB wants one set of rules to govern them. appeared first on The New Stack .",
+      "published": "2026-11-05T14:00:00Z",
+      "source": "The New Stack"
     },
     {
       "title": "Powering open infrastructure for autonomous agents",
@@ -441,13 +539,6 @@
       "summary": "As AI shifts from human scale to agent scale , from systems of record to systems of action , and from simple requests to complex agentic workflows , the workload underneath your platform changes completely. An agent works in a continuous, stateful loop: It proposes an action, spins up subagents, executes code or tool calls inside a sandbox, and feeds the results back into the model for the next turn. Running that loop at scale requires…",
       "published": "2026-11-05T12:30:00Z",
       "source": "Google Cloud Blog"
-    },
-    {
-      "title": "sshole",
-      "url": "https://sshhole.com",
-      "summary": "Comments",
-      "published": "2026-11-05T12:19:02Z",
-      "source": "Hacker News"
     },
     {
       "title": "kpt v1.0.0 is released",
@@ -485,6 +576,13 @@
       "source": "AWS What's New"
     },
     {
+      "title": "Amazon EC2 now publishes ImdsV1Enabled CloudWatch metric",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-imdsv1enabled-cloudwatch-metric/",
+      "summary": "Amazon EC2 now supports an ImdsV1Enabled CloudWatch metric, giving customers visibility into which of their EC2 instances still have Instance Metadata Service Version 1 (IMDSv1) enabled. You can use this metric to track your migration to IMDSv2 across your accounts and Regions, at scale. With the ImdsV1Enabled metric, you can configure CloudWatch dashboards and alarms to track instances that still allow IMDSv1, identify migration gaps…",
+      "published": "2026-11-05T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
       "title": "Amazon SageMaker AI Studio Now Supports IAM Identity Center Multi-Region Replication",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-ai-studio-iam/",
       "summary": "Amazon SageMaker AI now supports IAM Identity Center (IdC) multi-region replication, enabling you to deploy SageMaker AI Studio domains in different regions from your IdC instance's primary region. Previously, the primary IdC instance had to reside in the same region as the SageMaker AI Studio domain; now customers can replicate their primary IdC instance into the region where they wish to use SageMaker AI Studio domains. This…",
@@ -511,6 +609,13 @@
       "summary": "AWS Systems Manager Parameter Store now supports 13 new parameter data types that automatically validate parameter values when you create or update a parameter. With built-in validation, you can stop malformed configuration values, such as an invalid IP address, AWS account ID, or JSON document, before your applications read them, without writing your own validation logic. These types allow you to better organize your parameters across…",
       "published": "2026-11-05T05:00:00Z",
       "source": "AWS What's New"
+    },
+    {
+      "title": "The great butter and cheese fire of 1991",
+      "url": "https://www.wisfarmer.com/story/opinion/columnists/2022/05/11/over-20-m-lbs-commodities-lost-great-butter-fire-1991/9650051002/",
+      "summary": "Comments",
+      "published": "2026-11-05T00:44:16Z",
+      "source": "Hacker News"
     },
     {
       "title": "Amazon MWAA now supports cost allocation tags",
@@ -546,6 +651,13 @@
       "summary": "Amazon RDS for Oracle now lets you copy the option group associated with a DB snapshot when you copy that snapshot to another AWS Region. Amazon RDS for Oracle uses option groups to enable and configure features that make it simple to manage your databases. Option groups are specific to the AWS Region where you create them. Previously, customers wanting to replicate RDS backups that had option groups to a different AWS Region had to…",
       "published": "2026-11-04T18:40:00Z",
       "source": "AWS What's New"
+    },
+    {
+      "title": "8088 Domination Post-Mortem",
+      "url": "https://trixter.oldskool.org/2014/06/19/8088-domination-post-mortem-part-1/",
+      "summary": "Comments",
+      "published": "2026-11-04T18:06:14Z",
+      "source": "Hacker News"
     },
     {
       "title": "Render just removed its AI sandbox time limit — and Vercel still has a 24-hour cap",
@@ -595,13 +707,6 @@
       "summary": "Anthropic is now letting businesses automatically connect employees to approved Claude plugins, saving staff from having to sign in to The post “Signing in to your company’s plugins one by one is annoying”: Anthropic’s fix puts Claude in the identity business appeared first on The New Stack .",
       "published": "2026-11-04T16:59:22Z",
       "source": "The New Stack"
-    },
-    {
-      "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
-      "url": "https://www.linum.ai/field-notes/pjit-21k",
-      "summary": "Comments",
-      "published": "2026-11-04T16:45:11Z",
-      "source": "Hacker News"
     },
     {
       "title": "Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads",
@@ -667,25 +772,18 @@
       "source": "AWS What's New"
     },
     {
-      "title": "Amazon S3 Tables now provide a simple, cost-effective path for data lake modernization",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-tables-managed-migration-hive-to-iceberg/",
-      "summary": "Amazon S3 Tables now offer managed migration of your Apache Hive tables to Apache Iceberg. Iceberg adds ACID transactions, schema evolution, and time travel to your data lake, but moving off Hive usually means building a migration pipeline for each table, which can take weeks. You can now let S3 Tables manage your migration, resulting in query-ready Iceberg tables that stay optimized as data grows. S3 Tables validate, convert, and copy…",
-      "published": "2026-11-04T08:00:00Z",
-      "source": "AWS What's New"
+      "title": "PostgreSQL Internals [pdf]",
+      "url": "https://edu.postgrespro.com/postgresql_internals-14_en.pdf",
+      "summary": "Comments",
+      "published": "2026-11-04T05:22:43Z",
+      "source": "Hacker News"
     },
     {
-      "title": "RHEL 10, Rocky 10 and Ubuntu 26.04 Bundles for WorkSpaces",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rhel-10-rocky-10-ubuntu-26-04-workspaces/",
-      "summary": "AWS announces new Linux bundles for Amazon WorkSpaces Personal, including Rocky Linux 10, Red Hat Enterprise Linux 10, and Ubuntu 26.04 LTS. With these bundles, you can launch WorkSpaces on the latest enterprise Linux operating systems and use newer software packages that are only available in these releases. These new bundles feature modern Wayland display technology, giving you access to the latest Linux desktop capabilities. The new…",
-      "published": "2026-11-04T08:00:00Z",
-      "source": "AWS What's New"
-    },
-    {
-      "title": "New features for Amazon EC2 Capacity Manager",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-capacity-manager-supportability-and-fulfillment/",
-      "summary": "Amazon EC2 Capacity Manager now offers real-time supportability checks and capacity fulfillment metrics. Real-time supportability checks help customers find capacity by scoring how well each instance type and Availability Zone can support a request, without launching or reserving instances. Capacity fulfillment metrics show how much capacity was delivered against the amount requested. Global enterprises that run thousands of workloads…",
-      "published": "2026-11-04T07:00:00Z",
-      "source": "AWS What's New"
+      "title": "Greece has its own Pompeii: Thera buried Akrotiri in ash 17th-16th century BCE",
+      "url": "https://www.smithsonianmag.com/history/greece-has-its-own-pompeii-and-the-ruins-tell-a-captivating-story-of-a-sophisticated-seafaring-bronze-age-society-180989747/",
+      "summary": "Comments",
+      "published": "2026-11-04T02:19:16Z",
+      "source": "Hacker News"
     },
     {
       "title": "A developer opened Postman. Then two AI coding agents changed without their permission.",
@@ -702,11 +800,11 @@
       "source": "The New Stack"
     },
     {
-      "title": "Amazon Connect Customer lets agents pause and resume emails",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-pause-resume-email/",
-      "summary": "Amazon Connect Customer lets agents pause emails while waiting for information or approvals, freeing them to handle higher-priority contacts and resume their work later. For example, an agent waiting for a supervisor to approve a refund can pause the email and take an incoming call. Paused time is tracked separately from active handling time, giving supervisors a more accurate view of the time agents spend working on emails. Agents can…",
-      "published": "2026-11-03T20:15:00Z",
-      "source": "AWS What's New"
+      "title": "Enterprise Brain – Memory that learns from work",
+      "url": "https://www.ampup.ai/companybrain",
+      "summary": "Comments",
+      "published": "2026-11-03T20:31:45Z",
+      "source": "Hacker News"
     },
     {
       "title": "Goldman Sachs restricted Claude Code for bankers — but made one surprising exception",
@@ -716,11 +814,11 @@
       "source": "The New Stack"
     },
     {
-      "title": "Amazon WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-ai-agents-linux-windows-11",
-      "summary": "WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops, in addition to Windows Server. You can run each AI agent on the operating system that its workflows and applications require. Your agents can then work in the same environments that your workforce already uses, without re-platforming. Linux desktops give agents full root access to the operating system where many developers already build, test, and automate…",
-      "published": "2026-11-03T18:00:00Z",
-      "source": "AWS What's New"
+      "title": "ToothPaste",
+      "url": "https://brisk4t.github.io/blog/toothpaste/",
+      "summary": "Comments",
+      "published": "2026-11-03T18:27:27Z",
+      "source": "Hacker News"
     },
     {
       "title": "How Nammu21 automates syndicated loans on Google Cloud Universal Ledger",
@@ -730,13 +828,6 @@
       "source": "Google Cloud Blog"
     },
     {
-      "title": "Amazon Connect Customer prefills the email address for new threads started from cases",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-email-addresses/",
-      "summary": "Amazon Connect Customer automatically fills in the customer’s email address from the linked customer profile when agents start a new email thread from a case. This saves agents time and reduces manual entry errors by eliminating the need to look up or type the address. Cases is available in the following AWS regions: US East (N. Virginia), US West (Oregon), Canada (Central), Europe (Frankfurt), Europe (London), Asia Pacific (Seoul)…",
-      "published": "2026-11-03T17:00:00Z",
-      "source": "AWS What's New"
-    },
-    {
       "title": "Leading in the agentic era: How to put people first as you adopt AI agents",
       "url": "https://cloud.google.com/blog/topics/consulting/lessons-for-adopting-ai-agents/",
       "summary": "Over the past few years, our Google Cloud Consulting team has partnered with many companies to introduce AI into their daily operations. In that time, we’ve seen the focus shift from generative AI that answers questions to agentic systems that fully carry out the work. These agents can create multi-step plans and manage a project from start to finish. While budget, compute, and tooling can help launch an agent program, enterprise…",
@@ -744,11 +835,11 @@
       "source": "Google Cloud Blog"
     },
     {
-      "title": "AWS Config now supports 10 new resource types",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-config-new-resource-types",
-      "summary": "AWS Config now supports 10 additional AWS resource types across key services including Amazon ElastiCache and Amazon QuickSight. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources. With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions…",
-      "published": "2026-11-03T16:00:00Z",
-      "source": "AWS What's New"
+      "title": "Can GROUP BY still be optimized after all these years?",
+      "url": "https://pivotlake.io/blog/know-your-limit-faster-top-k-aggregation/",
+      "summary": "Comments",
+      "published": "2026-11-03T16:30:23Z",
+      "source": "Hacker News"
     },
     {
       "title": "Arnis turns any place on Earth into a Minecraft world",
@@ -756,6 +847,13 @@
       "summary": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
       "published": "2026-11-03T16:00:00Z",
       "source": "GitHub Blog"
+    },
+    {
+      "title": "The Flash C Compiler",
+      "url": "https://blog.adafruit.com/2026/10/31/flash-c-compiler/",
+      "summary": "Comments",
+      "published": "2026-11-03T14:49:42Z",
+      "source": "Hacker News"
     },
     {
       "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
@@ -779,37 +877,9 @@
       "source": "CNCF Blog"
     },
     {
-      "title": "Amazon RDS now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
-      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2017 CU31+GDR KB5128496 (RDS version 14.00.3560.2.v1), SQL Server 2019 CU32+GDR KB5128494 (RDS version 15.00.4500.2.v1), SQL Server 2022 CU27+GDR KB5126934 (RDS version 16.00.4305.5.v1) and SQL Server…",
-      "published": "2026-11-03T08:30:00Z",
-      "source": "AWS What's New"
-    },
-    {
-      "title": "AWS Transform for mainframe improves the reimagine modernization workflow",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-mainframe-reimagine/",
-      "summary": "AWS Transform for mainframe now discovers business functions with field-level precision and generates a new requirements coverage report in the assess and reimagine workflow. Previously, business functions that used the same table or file were grouped together, and you had to build your own traceability reporting from AWS Transform artifacts. With this launch, you can start modernizing z/OS COBOL and PL/I workloads from a more accurate…",
-      "published": "2026-11-03T08:00:00Z",
-      "source": "AWS What's New"
-    },
-    {
-      "title": "Amazon CloudWatch now supports API keys for OpenTelemetry traces",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-api-keys-opentelemetry/",
-      "summary": "Amazon CloudWatch now supports bearer token authentication, using API keys (bearer tokens), as an additional option for sending OpenTelemetry traces to the AWS X-Ray OpenTelemetry Protocol (OTLP) traces endpoint. Any OTLP/HTTP client that can set an Authorization header, including the OpenTelemetry Collector and OpenTelemetry SDK exporters, can now authenticate with a bearer token instead of signing requests with AWS Signature Version…",
-      "published": "2026-11-03T08:00:00Z",
-      "source": "AWS What's New"
-    },
-    {
       "title": "Five rules for evaluating agent skills before they bloat your context window",
       "url": "https://cloud.google.com/blog/topics/developers-practitioners/evaluate-agent-skills-before-they-bloat-your-context-window/",
       "summary": "You’re probably hearing more about SKILL.md files, and you’ll see that a lot of people test them the same way: paste a prompt into chat, watch it pass once on a laptop, and merge to main. But when you paste three pages of CLI docs into a markdown file without an evaluation loop, you are just as likely to confuse a frontier model as you are to help it. For the past weeks, we have been diligently measuring and optimizing our own Google…",
-      "published": "2026-11-03T08:00:00Z",
-      "source": "Google Cloud Blog"
-    },
-    {
-      "title": "Introducing Physical-Engineering’s Last Exam for agents",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents/",
-      "summary": "Authors: Burak Gokturk, VP Research & Development; Rujun Han, Research Scientist; George Lee, Product Manager. Today, the Google AI & Infrastructure team is announcing Physical-Engineering's Last Exam (PLE) , a new benchmark and open competition, developed in collaboration with Mercor, and built to test a frontier model’s ability to complete tasks in mechanical, electrical, civil and structural engineering. To help the research…",
       "published": "2026-11-03T08:00:00Z",
       "source": "Google Cloud Blog"
     },
@@ -828,67 +898,11 @@
       "source": "The New Stack"
     },
     {
-      "title": "Developers are downgrading their AI on purpose — and it’s working",
-      "url": "https://thenewstack.io/claude-code-developer-refusals/",
-      "summary": "Anthropic has confirmed that it added new restrictions to Claude Code to prevent users from recreating existing video games. But The post Developers are downgrading their AI on purpose — and it’s working appeared first on The New Stack .",
-      "published": "2026-11-02T21:03:31Z",
-      "source": "The New Stack"
-    },
-    {
       "title": "The Platform Behind the Next AI Breakthrough",
       "url": "https://www.wired.com/sponsored/story/the-platform-behind-the-next-ai-breakthrough/",
       "summary": "The next frontier of AI is coming into focus as agents take on longer, more strategic work. The post The Platform Behind the Next AI Breakthrough appeared first on Microsoft Azure Blog .",
       "published": "2026-11-02T20:52:22Z",
       "source": "Microsoft Azure Blog"
-    },
-    {
-      "title": "Your AI coding agent now runs on a budget — and it can cut you off mid-task",
-      "url": "https://thenewstack.io/22842541cognition-devin-hierarchical-budgets/",
-      "summary": "The days of pointing an AI agent at a backlog and letting it burn through compute without much oversight may The post Your AI coding agent now runs on a budget — and it can cut you off mid-task appeared first on The New Stack .",
-      "published": "2026-11-02T19:03:38Z",
-      "source": "The New Stack"
-    },
-    {
-      "title": "Canva’s new design model doesn’t generate images. It writes code to edit them.",
-      "url": "https://thenewstack.io/canva-brush-design-editing/",
-      "summary": "Australian graphic design software company Canva took the wraps off Canva Brush last week, its new vision-language model for designers. The post Canva’s new design model doesn’t generate images. It writes code to edit them. appeared first on The New Stack .",
-      "published": "2026-11-02T18:06:26Z",
-      "source": "The New Stack"
-    },
-    {
-      "title": "Google Cloud Developer plugin now available in Antigravity Marketplace",
-      "url": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-developer-plugin-now-available-in-antigravity-marketplace/",
-      "summary": "Building cloud solutions with autonomous AI agents should feel fast, safe, and reliable. Without cloud-specific context, coding agents often struggle. They might invent deprecated SDK syntax, guess invalid command flags, or attempt operations without the required Identity and Access Management (IAM) permissions. Even worse, an unguided agent can enable billable APIs or provision cloud resources without your explicit permission…",
-      "published": "2026-11-02T18:00:00Z",
-      "source": "Google Cloud Blog"
-    },
-    {
-      "title": "Beyond Migration: Using Database Migration Service for disk shrinking",
-      "url": "https://cloud.google.com/blog/products/databases/use-dms-to-shrink-cloud-sql-for-sql-server-disk/",
-      "summary": "When database engineers hear “database migration\", they typically think of a one-time onboarding pathway—moving databases from on-premises environments to the cloud, or between different cloud providers. However, Google Cloud's Database Migration Service (DMS) supports Cloud SQL for SQL Server as a source . This opens up powerful, non-traditional operational patterns for SQL Server customers within Google Cloud. Because DMS enables…",
-      "published": "2026-11-02T17:00:00Z",
-      "source": "Google Cloud Blog"
-    },
-    {
-      "title": "OpenAI’s new shared usage limit pits ChatGPT against Codex",
-      "url": "https://thenewstack.io/openai-chatgpt-codex-shared-limits/",
-      "summary": "OpenAI has revealed plans to combine usage allowances across ChatGPT and Codex, as part of a broader effort to integrate The post OpenAI’s new shared usage limit pits ChatGPT against Codex appeared first on The New Stack .",
-      "published": "2026-11-02T16:45:19Z",
-      "source": "The New Stack"
-    },
-    {
-      "title": "What Google Cloud announced in AI this month",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/",
-      "summary": "Editor’s note : Want to keep up with the latest from Google Cloud? Check back here for a monthly recap of our latest updates, announcements, resources, events, learning opportunities, and more. This October, we took massive leaps forward in delivering flexible, open, and powerful enterprise AI solutions. From bringing Gemini 4 Argon to Google Cloud to expanding choice and flexibility, we’re giving organizations the tools they need to…",
-      "published": "2026-11-02T16:00:00Z",
-      "source": "Google Cloud Blog"
-    },
-    {
-      "title": "Shutting the Door on the XCPE Botnet",
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
-      "summary": "Introduction Last week, Google and industry partners dismantled the XCPE backdoor which enrolled more than 1.3 million set-top boxes into a botnet. We assess with high confidence that the backdoor and botnet were intentionally developed, deployed, and operated for financial gain by Videostrong Technology Co., an Android Original Equipment Manufacturer (OEM) and Original Design Manufacturer (ODM). Videostrong monetized the backdoor by…",
-      "published": "2026-11-02T14:00:00Z",
-      "source": "Google Cloud Blog"
     },
     {
       "title": "The Ecosystem is the Answer: Docker, the Blueprint Alliance, and the Importance of Collaboration in the Agentic Era",
@@ -1036,20 +1050,6 @@
       "summary": "Docker is launching the Navigator Partner Program, with three tiers, co-selling benefits, and a new incentive for every registered AI governance deal.",
       "published": "2026-10-28T13:00:00Z",
       "source": "Docker Blog"
-    },
-    {
-      "title": "What happens when vulnerabilities are discovered faster than you can fix them?",
-      "url": "https://about.gitlab.com/blog/security-at-machine-speed/",
-      "summary": "We're entering a new era of application security. Frontier AI models are uncovering complex flaws that traditional tools overlooked, and attackers are using the same models to exploit them faster. Remediation isn't keeping pace: Verizon's 2026 Data Breach Investigations Report (DBIR) measures the median time to fully remediate a known-exploited vulnerability at 43 days, up from 32 in 2025. Security teams are already stretched across…",
-      "published": "2026-10-28T00:00:00Z",
-      "source": "GitLab Blog"
-    },
-    {
-      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
-      "url": "https://blog.cloudflare.com/php-ctf/",
-      "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
-      "published": "2026-10-27T13:00:00Z",
-      "source": "Cloudflare Blog"
     }
   ],
   "sources": [
