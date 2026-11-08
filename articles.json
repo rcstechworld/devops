@@ -1,11 +1,179 @@
 {
-  "updatedAt": "2026-11-07T11:50:04Z",
+  "updatedAt": "2026-11-08T12:02:22Z",
   "articles": [
     {
-      "title": "Upload Your RAM",
-      "url": "https://uploadyourram.org",
+      "title": "Person of Interest",
+      "url": "https://krthr.co/person-of-interest/",
       "summary": "Comments",
-      "published": "2026-11-07T10:15:26Z",
+      "published": "2026-11-08T11:23:28Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Petered (what happens after the Peter Principle)",
+      "url": "https://aworkinglibrary.com/writing/petered",
+      "summary": "Comments",
+      "published": "2026-11-08T10:56:43Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "JIT bitmap text rendering for microcontrollers",
+      "url": "https://linebender.org/blog/jit-bitmap-text/",
+      "summary": "Comments",
+      "published": "2026-11-08T10:42:15Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "summary": "Comments",
+      "published": "2026-11-08T10:22:04Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "GitHub Down Again?",
+      "url": "https://github.com/torvalds/linux",
+      "summary": "Comments",
+      "published": "2026-11-08T09:56:07Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Agent memory needs its OpenTelemetry moment",
+      "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+      "summary": "Comments",
+      "published": "2026-11-08T08:40:23Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "WaveDudeNext 2D Wave Simulator",
+      "url": "https://github.com/graealex/WaveDudeNext",
+      "summary": "Comments",
+      "published": "2026-11-08T07:09:02Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Kirlian Photography: Building Your Own Equipment",
+      "url": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
+      "summary": "Comments",
+      "published": "2026-11-08T04:14:12Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
+      "url": "https://github.com/dmunozv04/isponsorblocktv",
+      "summary": "Comments",
+      "published": "2026-11-08T03:47:19Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Goodbye Claude, Hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "summary": "Comments",
+      "published": "2026-11-08T03:11:48Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Consumer brain wave headsets threaten privacy",
+      "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
+      "summary": "Comments",
+      "published": "2026-11-08T02:02:38Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "ZapFast: A fast, native WhatsApp client in Rust and egui",
+      "url": "https://github.com/crmne/zapfast",
+      "summary": "Comments",
+      "published": "2026-11-08T02:02:27Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "GitHub New pull request overview page in public preview",
+      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+      "summary": "Comments",
+      "published": "2026-11-07T23:09:40Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Making any integer with four 2s (2025)",
+      "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
+      "summary": "Comments",
+      "published": "2026-11-07T22:38:58Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "summary": "Comments",
+      "published": "2026-11-07T20:45:32Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
+      "summary": "Comments",
+      "published": "2026-11-07T18:12:12Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "url": "https://hunch.net/?p=13764006",
+      "summary": "Comments",
+      "published": "2026-11-07T18:02:17Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "How we review 4x more AI code without reading every line",
+      "url": "https://thenewstack.io/scale-ai-code-reviews/",
+      "summary": "Do you need to read every line of AI-generated code to trust it? Not necessarily. Instead, check five things: the The post How we review 4x more AI code without reading every line appeared first on The New Stack .",
+      "published": "2026-11-07T17:30:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "url": "https://github.com/hedgerow-dev/coldframe",
+      "summary": "Comments",
+      "published": "2026-11-07T17:27:30Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+      "summary": "Comments",
+      "published": "2026-11-07T17:19:00Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "In the software factory, engineers become process engineers",
+      "url": "https://thenewstack.io/engineers-become-process-engineers/",
+      "summary": "For most of software’s history, the scarce resource was people who could write code. Every process the industry built assumed The post In the software factory, engineers become process engineers appeared first on The New Stack .",
+      "published": "2026-11-07T16:30:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Why AWS wants developers to stop babysitting their AI agents",
+      "url": "https://thenewstack.io/kiro-bots-agent-memory/",
+      "summary": "AWS first introduced Kiro, its agentic, spec-driven development environment, in July 2025. It also introduced Kiro Crew in August of The post Why AWS wants developers to stop babysitting their AI agents appeared first on The New Stack .",
+      "published": "2026-11-07T15:30:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "The $8 Linux Computer (2022)",
+      "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
+      "summary": "Comments",
+      "published": "2026-11-07T14:00:20Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "We organized Sustainability Month. Here’s what we learned. 🌱",
+      "url": "https://www.cncf.io/blog/2026/11/07/we-organized-sustainability-month-heres-what-we-learned-%f0%9f%8c%b1/",
+      "summary": "What do Kubernetes resource allocation, eBPF, carbon observability, and GPUs have in common? Quite a lot, actually. Especially when you start looking at them through the lens of environmental sustainability. This October, we brought these conversations...",
+      "published": "2026-11-07T12:30:00Z",
+      "source": "CNCF Blog"
+    },
+    {
+      "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
+      "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
+      "summary": "Comments",
+      "published": "2026-11-07T11:11:15Z",
       "source": "Hacker News"
     },
     {
@@ -16,52 +184,10 @@
       "source": "Hacker News"
     },
     {
-      "title": "Port 0: The Port That Does Not Exist",
-      "url": "https://acid.vegas/blog/the-port-that-does-not-exist/",
-      "summary": "Comments",
-      "published": "2026-11-07T09:38:26Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Need for Speed Underground 2 online in the browser",
       "url": "https://nfsu2.xyz/",
       "summary": "Comments",
       "published": "2026-11-07T09:36:36Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "The Components of Agent Memory",
-      "url": "https://www.anthropic.com/research/components-of-agent-memory",
-      "summary": "Comments",
-      "published": "2026-11-07T06:39:04Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Asahi Linux Progress Linux 7.3",
-      "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
-      "summary": "Comments",
-      "published": "2026-11-07T05:20:18Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
-      "url": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
-      "summary": "Comments",
-      "published": "2026-11-07T04:54:36Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
-      "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
-      "summary": "Comments",
-      "published": "2026-11-06T23:37:19Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Libghostty 1.0",
-      "url": "https://mitchellh.com/writing/libghostty-1-0",
-      "summary": "Comments",
-      "published": "2026-11-06T23:30:52Z",
       "source": "Hacker News"
     },
     {
@@ -79,27 +205,6 @@
       "source": "GitHub Blog"
     },
     {
-      "title": "AI is dramatically accelerating AI research",
-      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-      "summary": "Comments",
-      "published": "2026-11-06T20:27:23Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Google has acquired Crusoe's data center site in southeast Wyoming",
-      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
-      "summary": "Comments",
-      "published": "2026-11-06T20:09:14Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "summary": "Comments",
-      "published": "2026-11-06T19:48:51Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Agent Registry is now generally available in AWS GovCloud (US-West) Region",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/",
       "summary": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in the AWS GovCloud (US-West) Region. AWS Agent Registry is a fully managed discovery service that gives your organization a central catalog for organizing, curating, and discovering resources. You can publish MCP servers, tools, agents, agent skills, and custom resources to a searchable registry, and control what becomes discoverable through an approval…",
@@ -112,20 +217,6 @@
       "summary": "What if your coding agent could catch its own mistakes before you ever reviewed its work? A few years ago, The post AI agents are getting more complex. Developers shouldn’t have to babysit them. appeared first on The New Stack .",
       "published": "2026-11-06T19:35:59Z",
       "source": "The New Stack"
-    },
-    {
-      "title": "Firecracker VM Escape: PwnEscape Part 2",
-      "url": "https://pwn.ai/blog/firecracker-escape",
-      "summary": "Comments",
-      "published": "2026-11-06T19:33:38Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Restaurant Delivery Payment-Skimming Campaign",
-      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
-      "summary": "Comments",
-      "published": "2026-11-06T19:19:27Z",
-      "source": "Hacker News"
     },
     {
       "title": "Cognition turned an open model into a coding beast. But it won’t release the weights.",
@@ -142,30 +233,9 @@
       "source": "The New Stack"
     },
     {
-      "title": "Devvm.dev: One VM for every project",
-      "url": "https://devvm.dev/",
-      "summary": "Comments",
-      "published": "2026-11-06T17:30:22Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Notes on San Marino",
-      "url": "https://mattlakeman.org/2026/11/05/notes-on-san-marino/",
-      "summary": "Comments",
-      "published": "2026-11-06T17:12:05Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "What’s new with Google Cloud",
       "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
       "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Nov 2 - Nov 6 Security for AI workloads with Model Armor…",
-      "published": "2026-11-06T17:00:00Z",
-      "source": "Google Cloud Blog"
-    },
-    {
-      "title": "Introducing Z4M: storage-optimized compute for AI/ML and parallel file systems",
-      "url": "https://cloud.google.com/blog/products/compute/storage-optimized-z4m-machine-series-are-ga/",
-      "summary": "Today, we’re excited to announce the general availability of our next-generation Storage-optimized Z4M machine series in Google Compute Engine, available as both Virtual Machine (VM) and bare-metal instances. We built Z4M to provide storage for AI/ML training and inference workloads such as checkpointing, distributed key-value (KV) cache and parallel file systems — workloads that handle huge data volumes and require massive parallel…",
       "published": "2026-11-06T17:00:00Z",
       "source": "Google Cloud Blog"
     },
@@ -177,11 +247,11 @@
       "source": "Google Cloud Blog"
     },
     {
-      "title": "First steps in bare-metal programming using UEFI",
-      "url": "https://kevinboone.me/efitest_index.html",
-      "summary": "Comments",
-      "published": "2026-11-06T16:50:29Z",
-      "source": "Hacker News"
+      "title": "Introducing Z4M: storage-optimized compute for AI/ML and parallel file systems",
+      "url": "https://cloud.google.com/blog/products/compute/storage-optimized-z4m-machine-series-are-ga/",
+      "summary": "Today, we’re excited to announce the general availability of our next-generation Storage-optimized Z4M machine series in Google Compute Engine, available as both Virtual Machine (VM) and bare-metal instances. We built Z4M to provide storage for AI/ML training and inference workloads such as checkpointing, distributed key-value (KV) cache and parallel file systems — workloads that handle huge data volumes and require massive parallel…",
+      "published": "2026-11-06T17:00:00Z",
+      "source": "Google Cloud Blog"
     },
     {
       "title": "Amazon MSK Replicator is now available in AWS GovCloud (US-East, US-West) Regions",
@@ -226,20 +296,6 @@
       "source": "Cloudflare Blog"
     },
     {
-      "title": "Gemini Omni 1.2 Flash",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "summary": "Comments",
-      "published": "2026-11-06T13:35:27Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Tesla to wind down Cybertruck production",
-      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
-      "summary": "Comments",
-      "published": "2026-11-06T12:13:51Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Faster LLM inference startup: What you need to know",
       "url": "https://www.cncf.io/blog/2026/11/06/faster-llm-inference-startup-what-you-need-to-know/",
       "summary": "Adding an inference replica creates capacity only after the new instance can serve requests. Between starting a process and generating a response, an LLM server may need to load weights, initialize GPU resources, compile kernels, capture...",
@@ -252,13 +308,6 @@
       "summary": "Google wants to emulate one of its biggest ever open-source success stories, donating three core AI agent infrastructure projects to The post Kubernetes, mark II? Why Google’s giving away gVisor, a code sandbox used by Anthropic and OpenAI appeared first on The New Stack .",
       "published": "2026-11-06T11:49:04Z",
       "source": "The New Stack"
-    },
-    {
-      "title": "Chomsky and the two cultures of statistical learning (2011)",
-      "url": "https://www.norvig.com/chomsky.html",
-      "summary": "Comments",
-      "published": "2026-11-06T08:18:36Z",
-      "source": "Hacker News"
     },
     {
       "title": "Amazon Simple Email Service is now available in six new AWS Regions",
@@ -289,18 +338,18 @@
       "source": "Google Cloud Blog"
     },
     {
-      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
-      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
-      "summary": "Comments",
-      "published": "2026-11-06T04:00:28Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Docker Sandboxes vs. Containers: Choosing the Right Isolation for AI Agents",
       "url": "https://www.docker.com/blog/docker-sandboxes-vs-containers/",
       "summary": "A container shares the host kernel. Docker Sandboxes are microVMs with their own kernel and private Docker Engine. See how they differ and when to use each.",
       "published": "2026-11-06T03:17:04Z",
       "source": "Docker Blog"
+    },
+    {
+      "title": "Earliest evidence of cannabis use found in ancient Siberian tomb",
+      "url": "https://www.cnn.com/2026/11/05/science/ancient-cannabis-siberia-scli-intl",
+      "summary": "Comments",
+      "published": "2026-11-06T02:27:08Z",
+      "source": "Hacker News"
     },
     {
       "title": "AWS Security Hub now provides an SBOM inventory for your compute resources",
@@ -429,16 +478,9 @@
       "source": "AWS What's New"
     },
     {
-      "title": "Semantic aggregation over millions of rows in BigQuery with AI.AGG",
-      "url": "https://cloud.google.com/blog/products/data-analytics/semantic-data-aggregation-with-bigquery-and-ai-agg/",
-      "summary": "For more than a decade, BigQuery has helped set standards for structured data aggregation, calculating financial sums, counting active users, and computing historical averages at a petabyte scale in seconds. But as modern enterprises become inundated with unstructured data — application logs, customer service transcripts, product imagery, and diagnostic reports — a critical gap has emerged. Historically, relational SQL engines have…",
-      "published": "2026-11-05T17:00:00Z",
-      "source": "Google Cloud Blog"
-    },
-    {
-      "title": "Gemini Omni 1.2 Flash: Fast, cost-effective, and reliable video generation and editing now generally available",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available/",
-      "summary": "Today, Gemini Omni 1.2 Flash is generally available on Google Cloud. Built for the everyday videos businesses make in volume — like product videos, virtual try-ons, and ads — this model is fast, cost-effective, and follows your image, video and audio references more closely than before. Business users can create with it in Gemini for business and Google Vids, and developers can build with it via API. Here's what's new: A lower price…",
+      "title": "What’s new with Google Data Cloud",
+      "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+      "summary": "November 2 - November 6 BigQuery observability for data agents is now generally available : Data teams can now monitor the performance, adoption, latency, and cost of BigQuery data agents and their multi-turn conversations using Google Cloud Observability. This capability provides production-grade visibility into agent execution traces, usage volume, and query behavior so organizations can scale conversational analytics with…",
       "published": "2026-11-05T17:00:00Z",
       "source": "Google Cloud Blog"
     },
@@ -450,9 +492,16 @@
       "source": "Google Cloud Blog"
     },
     {
-      "title": "What’s new with Google Data Cloud",
-      "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
-      "summary": "November 2 - November 6 BigQuery observability for data agents is now generally available : Data teams can now monitor the performance, adoption, latency, and cost of BigQuery data agents and their multi-turn conversations using Google Cloud Observability. This capability provides production-grade visibility into agent execution traces, usage volume, and query behavior so organizations can scale conversational analytics with…",
+      "title": "Semantic aggregation over millions of rows in BigQuery with AI.AGG",
+      "url": "https://cloud.google.com/blog/products/data-analytics/semantic-data-aggregation-with-bigquery-and-ai-agg/",
+      "summary": "For more than a decade, BigQuery has helped set standards for structured data aggregation, calculating financial sums, counting active users, and computing historical averages at a petabyte scale in seconds. But as modern enterprises become inundated with unstructured data — application logs, customer service transcripts, product imagery, and diagnostic reports — a critical gap has emerged. Historically, relational SQL engines have…",
+      "published": "2026-11-05T17:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash: Fast, cost-effective, and reliable video generation and editing now generally available",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available/",
+      "summary": "Today, Gemini Omni 1.2 Flash is generally available on Google Cloud. Built for the everyday videos businesses make in volume — like product videos, virtual try-ons, and ads — this model is fast, cost-effective, and follows your image, video and audio references more closely than before. Business users can create with it in Gemini for business and Google Vids, and developers can build with it via API. Here's what's new: A lower price…",
       "published": "2026-11-05T17:00:00Z",
       "source": "Google Cloud Blog"
     },
@@ -490,6 +539,13 @@
       "summary": "Docker partners with ActiveState to continue to provide one standard for trusted content across everything you and your teams build on.",
       "published": "2026-11-05T15:28:22Z",
       "source": "Docker Blog"
+    },
+    {
+      "title": "Mizu – zero-copy parallel R and Python over shared memory",
+      "url": "https://github.com/shikokuchuo/pymizu",
+      "summary": "Comments",
+      "published": "2026-11-05T15:09:04Z",
+      "source": "Hacker News"
     },
     {
       "title": "I broke a working agent seven ways. The metric I was watching caught two of them.",
@@ -534,6 +590,13 @@
       "source": "The New Stack"
     },
     {
+      "title": "Finding Xanadu: Inside a JRPG classic translation 15 years in the making",
+      "url": "https://readonlymemo.com/legend-of-xanadu-pc-engine-fan-translation-interview-making-of/",
+      "summary": "Comments",
+      "published": "2026-11-05T13:44:07Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "Powering open infrastructure for autonomous agents",
       "url": "https://cloud.google.com/blog/products/containers-kubernetes/open-infrastructure-for-autonomous-agents-comes-to-cncf/",
       "summary": "As AI shifts from human scale to agent scale , from systems of record to systems of action , and from simple requests to complex agentic workflows , the workload underneath your platform changes completely. An agent works in a continuous, stateful loop: It proposes an action, spins up subagents, executes code or tool calls inside a sandbox, and feeds the results back into the model for the next turn. Running that loop at scale requires…",
@@ -546,6 +609,13 @@
       "summary": "After many years and much development, the kpt community has released v1.0.0 of the kpt toolchain. This is a big step in maturing the kpt project after having it in pre-release status for several years. In...",
       "published": "2026-11-05T12:00:00Z",
       "source": "CNCF Blog"
+    },
+    {
+      "title": "Uranium cubes reveal why the German nuclear project failed",
+      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+      "summary": "Comments",
+      "published": "2026-11-05T10:52:04Z",
+      "source": "Hacker News"
     },
     {
       "title": "Amazon RDS for Oracle now supports Kerberos authentication with self-managed Active Directory",
@@ -569,16 +639,16 @@
       "source": "AWS What's New"
     },
     {
-      "title": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codeconnections-govcloud-west/",
-      "summary": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region, in addition to AWS GovCloud (US-East). CodeConnections lets you connect AWS services such as AWS CodePipeline and AWS CodeBuild to source code repositories hosted with third-party providers such as Bitbucket. With this launch, customers running workloads in AWS GovCloud (US-West) can create connections to their source repositories in the same Region as their…",
+      "title": "Amazon EC2 now publishes ImdsV1Enabled CloudWatch metric",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-imdsv1enabled-cloudwatch-metric/",
+      "summary": "Amazon EC2 now supports an ImdsV1Enabled CloudWatch metric, giving customers visibility into which of their EC2 instances still have Instance Metadata Service Version 1 (IMDSv1) enabled. You can use this metric to track your migration to IMDSv2 across your accounts and Regions, at scale. With the ImdsV1Enabled metric, you can configure CloudWatch dashboards and alarms to track instances that still allow IMDSv1, identify migration gaps…",
       "published": "2026-11-05T08:00:00Z",
       "source": "AWS What's New"
     },
     {
-      "title": "Amazon EC2 now publishes ImdsV1Enabled CloudWatch metric",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-imdsv1enabled-cloudwatch-metric/",
-      "summary": "Amazon EC2 now supports an ImdsV1Enabled CloudWatch metric, giving customers visibility into which of their EC2 instances still have Instance Metadata Service Version 1 (IMDSv1) enabled. You can use this metric to track your migration to IMDSv2 across your accounts and Regions, at scale. With the ImdsV1Enabled metric, you can configure CloudWatch dashboards and alarms to track instances that still allow IMDSv1, identify migration gaps…",
+      "title": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codeconnections-govcloud-west/",
+      "summary": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region, in addition to AWS GovCloud (US-East). CodeConnections lets you connect AWS services such as AWS CodePipeline and AWS CodeBuild to source code repositories hosted with third-party providers such as Bitbucket. With this launch, customers running workloads in AWS GovCloud (US-West) can create connections to their source repositories in the same Region as their…",
       "published": "2026-11-05T08:00:00Z",
       "source": "AWS What's New"
     },
@@ -611,13 +681,6 @@
       "source": "AWS What's New"
     },
     {
-      "title": "The great butter and cheese fire of 1991",
-      "url": "https://www.wisfarmer.com/story/opinion/columnists/2022/05/11/over-20-m-lbs-commodities-lost-great-butter-fire-1991/9650051002/",
-      "summary": "Comments",
-      "published": "2026-11-05T00:44:16Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Amazon MWAA now supports cost allocation tags",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-cost-allocation-tags/",
       "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports cost allocation tags . Tags you apply to an Amazon MWAA environment now propagate to the compute that runs it, including workers, schedulers, and web servers. You can then track Amazon MWAA spend by tag in AWS Cost Explorer and AWS Cost and Usage Reports. With this launch, platform teams can show back or charge back Airflow costs to the team, project, or cost center…",
@@ -639,6 +702,13 @@
       "source": "AWS What's New"
     },
     {
+      "title": "New typeface using intricate designs from Shakespeare's First Folio (2023)",
+      "url": "https://www.itsnicethat.com/news/typeland-shakespeares-globe-amifer-folio-graphic-design-090323",
+      "summary": "Comments",
+      "published": "2026-11-04T20:53:54Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "Amazon DocumentDB (with MongoDB compatibility) is now available in the Asia Pacific (Taipei) and Asia Pacific (New Zealand) Regions",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-documentdb-mongodb-compatibility-asia-pacific-taipei-new-zealand-regions/",
       "summary": "Amazon DocumentDB (with MongoDB compatibility) is now available in the Asia Pacific (Taipei) and Asia Pacific (New Zealand) Regions, adding to the list of available Regions where you can use Amazon DocumentDB. Amazon DocumentDB is a fully managed, native JSON database that makes it simple and cost-effective to operate critical document workloads at virtually any scale without managing infrastructure. Amazon DocumentDB is designed to…",
@@ -651,13 +721,6 @@
       "summary": "Amazon RDS for Oracle now lets you copy the option group associated with a DB snapshot when you copy that snapshot to another AWS Region. Amazon RDS for Oracle uses option groups to enable and configure features that make it simple to manage your databases. Option groups are specific to the AWS Region where you create them. Previously, customers wanting to replicate RDS backups that had option groups to a different AWS Region had to…",
       "published": "2026-11-04T18:40:00Z",
       "source": "AWS What's New"
-    },
-    {
-      "title": "8088 Domination Post-Mortem",
-      "url": "https://trixter.oldskool.org/2014/06/19/8088-domination-post-mortem-part-1/",
-      "summary": "Comments",
-      "published": "2026-11-04T18:06:14Z",
-      "source": "Hacker News"
     },
     {
       "title": "Render just removed its AI sandbox time limit — and Vercel still has a 24-hour cap",
@@ -723,6 +786,13 @@
       "source": "Google Cloud Blog"
     },
     {
+      "title": "Clj.rs – a Clojure dialect implemented in Rust",
+      "url": "https://clj.rs/",
+      "summary": "Comments",
+      "published": "2026-11-04T15:23:16Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "New capabilities to power agents at scale with Google's Agentic Data Cloud",
       "url": "https://cloud.google.com/blog/products/databases/whats-new-across-googles-agentic-data-cloud/",
       "summary": "Not long ago, we were entering the agentic era; today, organizations are deriving significant value from running agents in production. The opportunity to capture new revenue streams, improve efficiency, and manage risk makes reimagining operations with agents top of mind for enterprise leaders. That is why we built the Agentic Data Cloud — a System of Action designed to activate all your data by breaking down walled gardens, deliver…",
@@ -772,20 +842,6 @@
       "source": "AWS What's New"
     },
     {
-      "title": "PostgreSQL Internals [pdf]",
-      "url": "https://edu.postgrespro.com/postgresql_internals-14_en.pdf",
-      "summary": "Comments",
-      "published": "2026-11-04T05:22:43Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Greece has its own Pompeii: Thera buried Akrotiri in ash 17th-16th century BCE",
-      "url": "https://www.smithsonianmag.com/history/greece-has-its-own-pompeii-and-the-ruins-tell-a-captivating-story-of-a-sophisticated-seafaring-bronze-age-society-180989747/",
-      "summary": "Comments",
-      "published": "2026-11-04T02:19:16Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "A developer opened Postman. Then two AI coding agents changed without their permission.",
       "url": "https://thenewstack.io/postman-plugin-coding-agents/",
       "summary": "A developer says Postman’s desktop app installed plugins into Claude Code and OpenAI Codex without their permission. The app also The post A developer opened Postman. Then two AI coding agents changed without their permission. appeared first on The New Stack .",
@@ -798,27 +854,6 @@
       "summary": "Mazin Gilbert, executive director of the Linux Foundation’s Agentic AI Foundation, left Google earlier this year to lead the new AAIF, The post Can agent standards keep up with the companies building them? appeared first on The New Stack .",
       "published": "2026-11-03T22:50:15Z",
       "source": "The New Stack"
-    },
-    {
-      "title": "Enterprise Brain – Memory that learns from work",
-      "url": "https://www.ampup.ai/companybrain",
-      "summary": "Comments",
-      "published": "2026-11-03T20:31:45Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Goldman Sachs restricted Claude Code for bankers — but made one surprising exception",
-      "url": "https://thenewstack.io/ai-coding-agents-security/",
-      "summary": "Replit CEO Amjad Masad is warning that AI coding agents running on employee devices are becoming a security risk for The post Goldman Sachs restricted Claude Code for bankers — but made one surprising exception appeared first on The New Stack .",
-      "published": "2026-11-03T19:18:34Z",
-      "source": "The New Stack"
-    },
-    {
-      "title": "ToothPaste",
-      "url": "https://brisk4t.github.io/blog/toothpaste/",
-      "summary": "Comments",
-      "published": "2026-11-03T18:27:27Z",
-      "source": "Hacker News"
     },
     {
       "title": "How Nammu21 automates syndicated loans on Google Cloud Universal Ledger",
@@ -835,25 +870,11 @@
       "source": "Google Cloud Blog"
     },
     {
-      "title": "Can GROUP BY still be optimized after all these years?",
-      "url": "https://pivotlake.io/blog/know-your-limit-faster-top-k-aggregation/",
-      "summary": "Comments",
-      "published": "2026-11-03T16:30:23Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Arnis turns any place on Earth into a Minecraft world",
       "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
       "summary": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
       "published": "2026-11-03T16:00:00Z",
       "source": "GitHub Blog"
-    },
-    {
-      "title": "The Flash C Compiler",
-      "url": "https://blog.adafruit.com/2026/10/31/flash-c-compiler/",
-      "summary": "Comments",
-      "published": "2026-11-03T14:49:42Z",
-      "source": "Hacker News"
     },
     {
       "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
@@ -863,11 +884,11 @@
       "source": "Cloudflare Blog"
     },
     {
-      "title": "Anthropic speeds up Claude Code with message threads. But your token bill stays the same.",
-      "url": "https://thenewstack.io/anthropic-claude-message-threads/",
-      "summary": "Anthropic has announced a new feature that aims to speed up long-running Claude Code sessions by reducing the amount of The post Anthropic speeds up Claude Code with message threads. But your token bill stays the same. appeared first on The New Stack .",
-      "published": "2026-11-03T13:46:14Z",
-      "source": "The New Stack"
+      "title": "Amsterdam School",
+      "url": "https://architecture-history.org/schools/AMSTERDAM%20SCHOOL.html",
+      "summary": "Comments",
+      "published": "2026-11-03T13:50:19Z",
+      "source": "Hacker News"
     },
     {
       "title": "OpenKruise Agents v0.6.0: Leaping ahead in agent Sandbox security and automation",
@@ -889,13 +910,6 @@
       "summary": "A new way for IBM Cloud® customers to consume HashiCorp® Vault® Enterprise on dedicated infrastructure without the operational burden of running it themselves.",
       "published": "2026-11-03T08:00:00Z",
       "source": "HashiCorp Blog"
-    },
-    {
-      "title": "OpenAI built itself a new Git backend, too",
-      "url": "https://thenewstack.io/openai-pando-git-backend/",
-      "summary": "OpenAI on Monday detailed how it built a new Git backend for its monorepo to power the ever-increasing number of The post OpenAI built itself a new Git backend, too appeared first on The New Stack .",
-      "published": "2026-11-03T00:00:00Z",
-      "source": "The New Stack"
     },
     {
       "title": "The Platform Behind the Next AI Breakthrough",
@@ -1036,20 +1050,6 @@
       "summary": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog .",
       "published": "2026-10-28T16:09:28Z",
       "source": "GitHub Blog"
-    },
-    {
-      "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
-      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
-      "summary": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog .",
-      "published": "2026-10-28T16:07:40Z",
-      "source": "GitHub Blog"
-    },
-    {
-      "title": "Win the Agentic Era, Together: Introducing the Docker Navigator Partner Program",
-      "url": "https://www.docker.com/blog/docker-navigator-partner-program/",
-      "summary": "Docker is launching the Navigator Partner Program, with three tiers, co-selling benefits, and a new incentive for every registered AI governance deal.",
-      "published": "2026-10-28T13:00:00Z",
-      "source": "Docker Blog"
     }
   ],
   "sources": [
