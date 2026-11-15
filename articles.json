@@ -1,81 +1,165 @@
 {
-  "updatedAt": "2026-11-14T12:21:45Z",
+  "updatedAt": "2026-11-15T12:52:20Z",
   "articles": [
     {
-      "title": "Monkey Island: all 13 versions side by side",
-      "url": "https://monkeyisland.pages.dev/",
+      "title": "Why did some Apollo missions carry a grenade launcher?",
+      "url": "https://space.stackexchange.com/questions/37775",
       "summary": "Comments",
-      "published": "2026-11-14T04:23:30Z",
+      "published": "2026-11-15T09:06:43Z",
       "source": "Hacker News"
     },
     {
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "title": "Book list for streetfighting computer scientists",
+      "url": "https://nick-black.com/dankwiki/index.php?title=Book_list_for_streetfighting_computer_scientists",
       "summary": "Comments",
-      "published": "2026-11-14T02:52:59Z",
+      "published": "2026-11-15T07:08:50Z",
       "source": "Hacker News"
     },
     {
-      "title": "Ggml v1.0.0",
-      "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "title": "Disk encryption on NetBSD – achieving secrecy",
+      "url": "https://netbsd.org/~nia/disk-encrypt/",
       "summary": "Comments",
-      "published": "2026-11-14T02:28:29Z",
+      "published": "2026-11-15T05:29:54Z",
       "source": "Hacker News"
     },
     {
-      "title": "Elephants found to be increasingly isolated leading to fractured social networks",
-      "url": "https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks",
+      "title": "Kiri – The Modern Container Runtime",
+      "url": "https://runkiri.com/",
       "summary": "Comments",
-      "published": "2026-11-14T02:02:42Z",
+      "published": "2026-11-15T04:40:41Z",
       "source": "Hacker News"
     },
     {
-      "title": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
-      "url": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
+      "title": "Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
+      "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
       "summary": "Comments",
-      "published": "2026-11-14T00:52:29Z",
+      "published": "2026-11-15T04:09:11Z",
       "source": "Hacker News"
     },
     {
-      "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
-      "url": "https://unsloth.ai/docs/models/qwen3.8",
+      "title": "My favourite modern NES games",
+      "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
       "summary": "Comments",
-      "published": "2026-11-14T00:06:04Z",
+      "published": "2026-11-15T02:41:25Z",
       "source": "Hacker News"
     },
     {
-      "title": "What happened to 3Com?",
-      "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+      "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+      "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
       "summary": "Comments",
-      "published": "2026-11-13T23:48:59Z",
+      "published": "2026-11-15T02:00:54Z",
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
-      "url": "https://grounds.top/",
+      "title": "Court denies motion to dismiss DRAM price fixing case",
+      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
       "summary": "Comments",
-      "published": "2026-11-13T23:17:39Z",
+      "published": "2026-11-15T01:18:36Z",
       "source": "Hacker News"
     },
     {
-      "title": "Terminal borders that don't cost a cell",
-      "url": "https://www.joshka.net/cell-borders/",
+      "title": "How did Woz write the Apple 1 BASIC before building the computer?",
+      "url": "https://retrocomputing.stackexchange.com/questions/17957",
       "summary": "Comments",
-      "published": "2026-11-13T23:06:40Z",
+      "published": "2026-11-14T22:22:49Z",
       "source": "Hacker News"
     },
     {
-      "title": "How Not to Build a Music Player",
-      "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player/",
+      "title": "SpaceX catches the Starship to end Flight 15",
+      "url": "https://www.spacex.com/launches/starship-flight-15",
       "summary": "Comments",
-      "published": "2026-11-13T23:04:30Z",
+      "published": "2026-11-14T21:22:24Z",
       "source": "Hacker News"
     },
     {
-      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
-      "url": "https://orcasairband.com/",
+      "title": "A family tree of software job titles",
+      "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
       "summary": "Comments",
-      "published": "2026-11-13T22:04:24Z",
+      "published": "2026-11-14T17:45:19Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "summary": "Comments",
+      "published": "2026-11-14T17:43:10Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "AWS Emulator proves agents need a verification loop. Realism is the hard part.",
+      "url": "https://thenewstack.io/aws-emulator-verification-loops/",
+      "summary": "This week, Amazon Web Services released AWS Emulator, a local copy of AWS that coding agents can test against. It The post AWS Emulator proves agents need a verification loop. Realism is the hard part. appeared first on The New Stack .",
+      "published": "2026-11-14T17:30:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Claude Fable 5.2 vs. Fable 5.1: Fewer refusals, with small savings on the login fix",
+      "url": "https://thenewstack.io/claude-fable-5-2-vs-fable-5-1/",
+      "summary": "Anthropic’s Claude Fable 5.2 promises fewer refusals and lower token prices, but those changes played out very differently in our The post Claude Fable 5.2 vs. Fable 5.1: Fewer refusals, with small savings on the login fix appeared first on The New Stack .",
+      "published": "2026-11-14T17:00:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Web search for agents is here: Why ranking still decides the answer",
+      "url": "https://thenewstack.io/ai-agent-search-ranking/",
+      "summary": "AI agents have had a URL problem for a while. When an agent needs current information but has no search The post Web search for agents is here: Why ranking still decides the answer appeared first on The New Stack .",
+      "published": "2026-11-14T16:00:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "DuckLake 1.1 solves the absurd complexity of data lakes at AI scale",
+      "url": "https://thenewstack.io/ducklake-sql-lakehouse-metadata/",
+      "summary": "How much simpler could a data lakehouse get if an ordinary SQL database kept track of its files? That’s the The post DuckLake 1.1 solves the absurd complexity of data lakes at AI scale appeared first on The New Stack .",
+      "published": "2026-11-14T15:45:04Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "PyPI's redesigned project pages with clearer security signals are now live",
+      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+      "summary": "Comments",
+      "published": "2026-11-14T15:40:52Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Anthropic wants you to build on Claude. There’s a catch.",
+      "url": "https://thenewstack.io/anthropic-enterprise-developer-competition/",
+      "summary": "Anthropic wants developers to build businesses on Claude, but its expansion into enterprise software is raising concerns among founders that The post Anthropic wants you to build on Claude. There’s a catch. appeared first on The New Stack .",
+      "published": "2026-11-14T15:15:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+      "summary": "Comments",
+      "published": "2026-11-14T15:04:15Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Claude Fable 5.2 vs. GPT-6 Astra: A lower list price didn’t mean a lower bill",
+      "url": "https://thenewstack.io/claude-fable-5-2-vs-gpt-6-astra/",
+      "summary": "Anthropic is positioning its new model, Claude Fable 5.2, for demanding coding and technical work. Anthropic launched Fable 5.2 on The post Claude Fable 5.2 vs. GPT-6 Astra: A lower list price didn’t mean a lower bill appeared first on The New Stack .",
+      "published": "2026-11-14T14:00:00Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "KDE: The documentary [video]",
+      "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+      "summary": "Comments",
+      "published": "2026-11-14T13:43:28Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Advancing science and engineering with Antigravity's /teamwork",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "summary": "Comments",
+      "published": "2026-11-14T13:20:43Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
+      "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+      "summary": "Comments",
+      "published": "2026-11-14T11:13:17Z",
       "source": "Hacker News"
     },
     {
@@ -86,32 +170,11 @@
       "source": "The New Stack"
     },
     {
-      "title": "FAA issues national ground stop – lifted 4.5 hours later",
-      "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
-      "summary": "Comments",
-      "published": "2026-11-13T21:05:53Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
-      "url": "https://atg.science/careers",
-      "summary": "Comments",
-      "published": "2026-11-13T21:01:11Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Kitesurf is now open source",
       "url": "https://blog.cloudflare.com/kitesurf-open-source/",
       "summary": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
       "published": "2026-11-13T20:20:21Z",
       "source": "Cloudflare Blog"
-    },
-    {
-      "title": "Live-migration support in FreeBSD and bhyve coming",
-      "url": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/",
-      "summary": "Comments",
-      "published": "2026-11-13T19:58:42Z",
-      "source": "Hacker News"
     },
     {
       "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
@@ -121,27 +184,6 @@
       "source": "Cloudflare Blog"
     },
     {
-      "title": "Found: A protein that drives ageing without unleashing inflammation",
-      "url": "https://www.nature.com/articles/d41586-026-03638-3",
-      "summary": "Comments",
-      "published": "2026-11-13T19:25:21Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Perplexity Decider v1.3: Training, eval, and use cases",
-      "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
-      "summary": "Comments",
-      "published": "2026-11-13T19:24:47Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "FM-1 Workbench",
-      "url": "https://open.m-vave.com/fm1-workbench",
-      "summary": "Comments",
-      "published": "2026-11-13T19:14:02Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "The context problem: It’s what’s really breaking AI agents at scale",
       "url": "https://thenewstack.io/elastic-ai-context-gap/",
       "summary": "AI models are getting smarter, tokens are getting cheaper, and agents are improving. But the context gap sits between the The post The context problem: It’s what’s really breaking AI agents at scale appeared first on The New Stack .",
@@ -149,25 +191,11 @@
       "source": "The New Stack"
     },
     {
-      "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
-      "url": "https://isometricsf.com/",
-      "summary": "Comments",
-      "published": "2026-11-13T17:58:37Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "DeepSeek’s coding agent is too tidy for its own good — and benchmarks are punishing it",
       "url": "https://thenewstack.io/deepseek-harness-cleanup-benchmark/",
       "summary": "DeepSeek’s open-source coding agent is losing points on a major benchmark for a habit developers usually treat as good practice: The post DeepSeek’s coding agent is too tidy for its own good — and benchmarks are punishing it appeared first on The New Stack .",
       "published": "2026-11-13T17:56:30Z",
       "source": "The New Stack"
-    },
-    {
-      "title": "After 600 experiments, here's what I discovered about JEPA world models",
-      "url": "https://haddyalchaer.com/jepa",
-      "summary": "Comments",
-      "published": "2026-11-13T17:55:28Z",
-      "source": "Hacker News"
     },
     {
       "title": "New AI agent observability and governance across BigQuery and Looker",
@@ -205,20 +233,6 @@
       "source": "AWS What's New"
     },
     {
-      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
-      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-      "summary": "Comments",
-      "published": "2026-11-13T15:08:44Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Minnesota guitarist's \"palmfrets\" invention strikes a new chord",
-      "url": "https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord",
-      "summary": "Comments",
-      "published": "2026-11-13T15:08:07Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Here’s how to teach AI agents to search like human experts",
       "url": "https://thenewstack.io/ai-agents-retrieval-agent-ready-schema/",
       "summary": "Agentic retrieval is a hot topic for a reason: Every company wants to automate work, but they often just are The post Here’s how to teach AI agents to search like human experts appeared first on The New Stack .",
@@ -226,17 +240,10 @@
       "source": "The New Stack"
     },
     {
-      "title": "A technical vision for the Haskell ecosystem",
-      "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+      "title": "Semicircle Packing",
+      "url": "https://rorz.io/writing/semicircle-packing",
       "summary": "Comments",
-      "published": "2026-11-13T14:43:12Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Lonewolf 0.3 – A standalone XMPP server written in Rust",
-      "url": "https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0",
-      "summary": "Comments",
-      "published": "2026-11-13T14:28:40Z",
+      "published": "2026-11-13T14:42:57Z",
       "source": "Hacker News"
     },
     {
@@ -247,11 +254,46 @@
       "source": "Cloudflare Blog"
     },
     {
+      "title": "500 Lines or Less A 3D Modeller",
+      "url": "https://aosabook.org/en/500L/a-3d-modeller.html",
+      "summary": "Comments",
+      "published": "2026-11-13T13:47:42Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/",
       "summary": "A new model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Grok 4.7 is SpaceXSI's most capable model for coding and knowledge work. It's built to stay focused through hard tasks that run for hours, and it checks its work before moving on. Compared with Grok 4.6, it plans and recovers from errors more reliably in repo-scale coding work. Grok 4.7 is available with experimental support and a 500K context…",
       "published": "2026-11-13T13:13:00Z",
       "source": "AWS What's New"
+    },
+    {
+      "title": "Show HN: Carton Clock – A working pendulum clock made from empty drink cartons",
+      "url": "https://www.niklasroy.com/carton-clock/",
+      "summary": "Comments",
+      "published": "2026-11-13T12:00:18Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "The Evolving Story of How Chemistry Became Biology",
+      "url": "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112/",
+      "summary": "Comments",
+      "published": "2026-11-13T11:55:19Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "What thousands of conversations look like inside a language model",
+      "url": "https://operator0x.com/field-notes/qwen-conversation-state-space/",
+      "summary": "Comments",
+      "published": "2026-11-13T10:26:01Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Strictly monotonic timestamps and gapless sequences in Rust",
+      "url": "https://tsoracle.rs/",
+      "summary": "Comments",
+      "published": "2026-11-13T10:04:37Z",
+      "source": "Hacker News"
     },
     {
       "title": "Amazon RDS for Oracle reduces downtime for automatic minor version upgrades and scheduled maintenance",
@@ -317,6 +359,13 @@
       "source": "GitHub Blog"
     },
     {
+      "title": "Astro Spiral: Greatest Car Stunt Was Also First Computer-Modeled Stunt",
+      "url": "https://boldentrance.com/astro-spiral-the-greatest-car-stunt/",
+      "summary": "Comments",
+      "published": "2026-11-12T23:04:23Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "Build once, run on any agent: A practical guide to agent skills",
       "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
       "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
@@ -324,18 +373,18 @@
       "source": "GitHub Blog"
     },
     {
-      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
-      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-      "summary": "Comments",
-      "published": "2026-11-12T22:03:09Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Amazon Cognito now supports OAuth 2.0 token exchange",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-token-exchange/",
       "summary": "Amazon Cognito now supports OAuth 2.0 token exchange (RFC 8693). Amazon Cognito helps you add sign-up, sign-in, and access control to your web applications, mobile applications, and AI agents. With token exchange, a service or AI agent acting on a user's behalf can exchange the user's token for a new token scoped to a specific downstream service. Previously, a service that called another service on a user's behalf had to forward the…",
       "published": "2026-11-12T22:00:00Z",
       "source": "AWS What's New"
+    },
+    {
+      "title": "Handwritten 200-year-old dismissal notice found on roof tile",
+      "url": "https://www.bbc.co.uk/news/articles/c6jdmdzv25r9o",
+      "summary": "Comments",
+      "published": "2026-11-12T21:27:01Z",
+      "source": "Hacker News"
     },
     {
       "title": "Google’s Gemini 4 coding agent now switches models mid-task — and finishes 19% faster",
@@ -464,13 +513,6 @@
       "source": "The New Stack"
     },
     {
-      "title": "The curious case of the north-east arrow",
-      "url": "https://arsh.zip/posts/north-east-arrow/",
-      "summary": "Comments",
-      "published": "2026-11-12T12:14:20Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Gang scheduling and topology-aware placement for AI training in Kubernetes",
       "url": "https://www.cncf.io/blog/2026/11/12/gang-scheduling-and-topology-aware-placement-for-ai-training-in-kubernetes/",
       "summary": "Distributed AI training workloads impose complex scheduling requirements that Kubernetes’s built-in scheduler can’t meet. Kubernetes schedules pods individually and independently, but distributed training introduces two requirements that break this model: Pods must land on hardware with...",
@@ -499,13 +541,6 @@
       "source": "AWS What's New"
     },
     {
-      "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
-      "summary": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AWS Organizations, supporting direct restore to reduce recovery time from a data loss event. You can now archive Amazon EBS backups held in a logically air-gapped vault to Amazon EBS Snapshots Archive, a low-cost tier for snapshots you…",
-      "published": "2026-11-12T08:00:00Z",
-      "source": "AWS What's New"
-    },
-    {
       "title": "Amazon FSx for Lustre lowers the entry cost of Intelligent-Tiering file systems by 75%",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/fsx-lustre-intelligent-tiering-lower-throughput/",
       "summary": "Amazon FSx for Lustre is reducing the minimum provisioned throughput capacity and metadata IOPS on Intelligent-Tiering file systems by 75%, allowing you to use Intelligent-Tiering even more cost-effectively for high-performance computing (HPC) and machine learning workloads that start with small datasets and grow over time. The FSx for Lustre Intelligent-Tiering storage class delivers the lowest-cost and only fully elastic Lustre file…",
@@ -516,6 +551,13 @@
       "title": "AWS Glue announces automatic version upgrades for Apache Spark jobs",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-spark-auto-upgrades/",
       "summary": "AWS Glue introduces automatic version upgrades, a capability that keeps your Apache Spark jobs current on the latest AWS Glue runtime without manual coordination. Staying current on supported runtimes gives your jobs the latest security patches, performance improvements, and support for evolving table formats such as Apache Iceberg. Auto upgrades include multiple levels of validations including assessing jobs for compatibility with the…",
+      "published": "2026-11-12T08:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
+      "summary": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AWS Organizations, supporting direct restore to reduce recovery time from a data loss event. You can now archive Amazon EBS backups held in a logically air-gapped vault to Amazon EBS Snapshots Archive, a low-cost tier for snapshots you…",
       "published": "2026-11-12T08:00:00Z",
       "source": "AWS What's New"
     },
@@ -567,13 +609,6 @@
       "summary": "Starting today, new runtimes in Amazon Bedrock AgentCore use the next generation of AgentCore runtime by default. The new runtime restores each session from a snapshot of your initialized agent, scales compute and memory with the work, and scales idle agents to zero. Every session still runs in its own hardware-isolated Firecracker microVM. Your agents can run heavy work like compiling a large codebase, driving a browser, or loading a…",
       "published": "2026-11-12T05:00:00Z",
       "source": "AWS What's New"
-    },
-    {
-      "title": "The Other Nefertiti (2015)",
-      "url": "https://alloversky.com/puzzlepieces/the-other-nefertiti",
-      "summary": "Comments",
-      "published": "2026-11-12T04:08:33Z",
-      "source": "Hacker News"
     },
     {
       "title": "Turn Jira tickets into GitLab merge requests with Duo Agent Platform",
@@ -667,6 +702,13 @@
       "source": "The New Stack"
     },
     {
+      "title": "Oxford Molecular Motors",
+      "url": "https://www.physics.ox.ac.uk/research/group/oxford-molecular-motors/research/bacterial-flagellar-motor",
+      "summary": "Comments",
+      "published": "2026-11-11T17:06:08Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "Introducing new AI functions for AlloyDB: ai.classify and ai.extract",
       "url": "https://cloud.google.com/blog/products/databases/ai-classify-and-ai-extract-functions-in-alloydb-ai/",
       "summary": "Transactional databases store vast amounts of unstructured text — clinical notes, customer reviews, support tickets, invoices, and property descriptions. Historically, working with this text meant building complex application code: You had to export data from the database, call external model endpoints, write custom prompt wrappers, parse unpredictable responses, manage retry logic, and update database records. This application-side…",
@@ -737,13 +779,6 @@
       "source": "CNCF Blog"
     },
     {
-      "title": "Service Crew Discovers Rare Yellow Burbot in Oswego Harbor",
-      "url": "https://www.fws.gov/story/2026-11/service-crew-discovers-rare-yellow-burbot-oswego-harbor",
-      "summary": "Comments",
-      "published": "2026-11-11T15:47:43Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "CoreWeave tests AI integrations on its cloud before you migrate",
       "url": "https://thenewstack.io/coreweave-tests-ai-integrations/",
       "summary": "Moving an AI workload to another cloud means bringing more than a model and its data. Your serving layer, observability The post CoreWeave tests AI integrations on its cloud before you migrate appeared first on The New Stack .",
@@ -765,10 +800,17 @@
       "source": "CNCF Blog"
     },
     {
-      "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
-      "url": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+      "title": "Open-Source HF Communications for Remote Communities and Experimenters",
+      "url": "https://www.ardc.net/rhizomaticas-hermes-and-mercury-expand-open-source-hf-communications-for-remote-communities-while-appealing-to-experimenters/",
       "summary": "Comments",
-      "published": "2026-11-11T00:48:14Z",
+      "published": "2026-11-11T11:11:22Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "The Sicilian Citrus Family Tree",
+      "url": "https://www.notesfromtheroad.com/europa/citrus-family-tree.html",
+      "summary": "Comments",
+      "published": "2026-11-11T01:52:00Z",
       "source": "Hacker News"
     },
     {
@@ -784,13 +826,6 @@
       "summary": "Anthropic is expanding Claude’s ability to work directly inside enterprise applications; it can now open full software interfaces, retrieve information, The post Anthropic wants Claude to be the front end for your entire enterprise app stack appeared first on The New Stack .",
       "published": "2026-11-10T20:00:58Z",
       "source": "The New Stack"
-    },
-    {
-      "title": "Show HN: I have trained 15 blood glucose forecasting models on my own data",
-      "url": "https://github.com/0xdeadf1sh/T1DMAI",
-      "summary": "Comments",
-      "published": "2026-11-10T19:07:53Z",
-      "source": "Hacker News"
     },
     {
       "title": "The AI Security Gap Hiding in Routine Maintenance",
@@ -863,18 +898,11 @@
       "source": "CNCF Blog"
     },
     {
-      "title": "Grok API text watermarking was meant to be on by default from Nov. 7. Now, it’s opt-in.",
-      "url": "https://thenewstack.io/grok-api-watermarking-default/",
-      "summary": "The thorny issue of watermarking AI-generated text took an interesting turn this past week, with SpaceXSI seemingly U-turning on plans The post Grok API text watermarking was meant to be on by default from Nov. 7. Now, it’s opt-in. appeared first on The New Stack .",
-      "published": "2026-11-10T15:58:44Z",
-      "source": "The New Stack"
-    },
-    {
-      "title": "New CNCF report: 75% of cloud-native developers ship code with AI. Jonathan Bryce explains why.",
-      "url": "https://thenewstack.io/cncf-developer-ai-adoption/",
-      "summary": "Today’s developers are AI-pilled. Cloud native developers even more so. That’s the key takeaway from the Cloud Native Computing Foundation’s The post New CNCF report: 75% of cloud-native developers ship code with AI. Jonathan Bryce explains why. appeared first on The New Stack .",
-      "published": "2026-11-10T15:42:54Z",
-      "source": "The New Stack"
+      "title": "Generative AI uses more energy on non-English text",
+      "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
+      "summary": "Comments",
+      "published": "2026-11-10T15:07:28Z",
+      "source": "Hacker News"
     },
     {
       "title": "Why get an expensive Pi when I have an old phone?",
@@ -910,34 +938,6 @@
       "summary": "Over the past decade, Kubernetes established itself as the standard for orchestrating microservices and containerized applications. Today, we're witnessing the next major architectural shift in distributed computing: AI workloads moving from isolated research prototypes into large-scale, multi-tenant production fleets . In this post, we'll walk through the open-source stack that powers this shift and show you the sample manifests that…",
       "published": "2026-11-10T01:00:00Z",
       "source": "Google Cloud Blog"
-    },
-    {
-      "title": "A $60 billion fintech hired a 14-year-old. Its CEO explains why.",
-      "url": "https://thenewstack.io/ramp-hires-teen-intern/",
-      "summary": "Ramp hired a 14-year-old intern after discovering an app he had built for fun that attracted attention from roughly a The post A $60 billion fintech hired a 14-year-old. Its CEO explains why. appeared first on The New Stack .",
-      "published": "2026-11-09T23:18:34Z",
-      "source": "The New Stack"
-    },
-    {
-      "title": "Anthropic launches Fable 5.2 with a price cut and stronger coding scores",
-      "url": "https://thenewstack.io/anthropic-fable-coding-upgrade/",
-      "summary": "On Monday, Anthropic launched Claude Fable 5.2 and Mythos 5.2, the latest versions of its duo of flagship models. Like before, The post Anthropic launches Fable 5.2 with a price cut and stronger coding scores appeared first on The New Stack .",
-      "published": "2026-11-09T19:08:20Z",
-      "source": "The New Stack"
-    },
-    {
-      "title": "Google claims its new AI software cuts inference latency by over 90% — but there’s a catch",
-      "url": "https://thenewstack.io/google-tpu-sync-inference/",
-      "summary": "Google’s eighth-generation TPU announcement on Monday included more than new chips, introducing TPU Sync, an open-source system designed to speed The post Google claims its new AI software cuts inference latency by over 90% — but there’s a catch appeared first on The New Stack .",
-      "published": "2026-11-09T18:40:01Z",
-      "source": "The New Stack"
-    },
-    {
-      "title": "Cursor and Google join OpenAI in giving coding agents a voice. Claude Code stays silent.",
-      "url": "https://thenewstack.io/cursor-antigravity-voice-agents/",
-      "summary": "Two of the biggest players in the AI coding space are betting that developers want to talk to their agents The post Cursor and Google join OpenAI in giving coding agents a voice. Claude Code stays silent. appeared first on The New Stack .",
-      "published": "2026-11-09T18:22:41Z",
-      "source": "The New Stack"
     },
     {
       "title": "Argo Rollouts 1.11 release candidate",
