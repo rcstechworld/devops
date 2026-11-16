@@ -1,89 +1,173 @@
 {
-  "updatedAt": "2026-11-15T12:52:20Z",
+  "updatedAt": "2026-11-16T13:51:44Z",
   "articles": [
     {
-      "title": "Why did some Apollo missions carry a grenade launcher?",
-      "url": "https://space.stackexchange.com/questions/37775",
+      "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+      "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
       "summary": "Comments",
-      "published": "2026-11-15T09:06:43Z",
+      "published": "2026-11-16T11:39:31Z",
       "source": "Hacker News"
     },
     {
-      "title": "Book list for streetfighting computer scientists",
-      "url": "https://nick-black.com/dankwiki/index.php?title=Book_list_for_streetfighting_computer_scientists",
+      "title": "Coffeehouses and the Rise of Science [pdf]",
+      "url": "https://www.monirbounadi.com/Bounadi_JMP.pdf",
       "summary": "Comments",
-      "published": "2026-11-15T07:08:50Z",
+      "published": "2026-11-16T11:03:16Z",
       "source": "Hacker News"
     },
     {
-      "title": "Disk encryption on NetBSD – achieving secrecy",
-      "url": "https://netbsd.org/~nia/disk-encrypt/",
+      "title": "It's always DNS, so why are we running our own?",
+      "url": "https://s2.dev/blog/dns-server",
       "summary": "Comments",
-      "published": "2026-11-15T05:29:54Z",
+      "published": "2026-11-16T09:19:38Z",
       "source": "Hacker News"
     },
     {
-      "title": "Kiri – The Modern Container Runtime",
-      "url": "https://runkiri.com/",
+      "title": "How ISVs are unlocking European workloads using Google Cloud Dedicated technology",
+      "url": "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/",
+      "summary": "Across Europe, organizations handling sensitive workloads in regulated sectors — such as financial services, healthcare, critical infrastructure, and the public sector — are trying to modernize their infrastructure while adhering to strict local data governance standards, including SecNumCloud in France and BSI C3A in Germany. To help organizations accomplish this, Google Cloud Dedicated provides the architectural, security, and API…",
+      "published": "2026-11-16T08:05:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Inside the new Google Cloud Data Boundary experience",
+      "url": "https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/",
+      "summary": "Digital sovereignty is evolving from a standard compliance requirement into a powerful strategic advantage for regulated industries worldwide. From European frameworks designed to meet sovereign standards (DORA, EHDS, GDPR) to FedRAMP/ILs/ITARs in the U.S., or expanding mandates across Asia-Pacific and the Middle East, organizations can build deeper global trust through clear governance over data locality, encryption keys and system…",
+      "published": "2026-11-16T08:05:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
+      "title": "Winudf – DVD / BluRay driver for DOS, Windows 1.x – 3x / 95 / 98 / ME",
+      "url": "https://github.com/ages2001/WINUDF",
       "summary": "Comments",
-      "published": "2026-11-15T04:40:41Z",
+      "published": "2026-11-16T08:00:13Z",
       "source": "Hacker News"
     },
     {
-      "title": "Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
-      "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+      "title": "How Should Armies Fight?",
+      "url": "https://worksinprogress.co/issue/the-future-of-war/",
       "summary": "Comments",
-      "published": "2026-11-15T04:09:11Z",
+      "published": "2026-11-16T07:57:40Z",
       "source": "Hacker News"
     },
     {
-      "title": "My favourite modern NES games",
-      "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
+      "title": "“…and the proof is checked in Lean”",
+      "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
       "summary": "Comments",
-      "published": "2026-11-15T02:41:25Z",
+      "published": "2026-11-16T07:38:19Z",
       "source": "Hacker News"
     },
     {
-      "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
-      "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
+      "title": "How to make almost anything",
+      "url": "https://pub.cba.mit.edu/863.26/site/",
       "summary": "Comments",
-      "published": "2026-11-15T02:00:54Z",
+      "published": "2026-11-16T05:50:37Z",
       "source": "Hacker News"
     },
     {
-      "title": "Court denies motion to dismiss DRAM price fixing case",
-      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "title": "Qwen4-Max",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
       "summary": "Comments",
-      "published": "2026-11-15T01:18:36Z",
+      "published": "2026-11-16T02:14:44Z",
       "source": "Hacker News"
     },
     {
-      "title": "How did Woz write the Apple 1 BASIC before building the computer?",
-      "url": "https://retrocomputing.stackexchange.com/questions/17957",
+      "title": "Universal XSS in uBlock Origin from website-driven element picker",
+      "url": "https://iter.ca/post/ubo-uxss/",
       "summary": "Comments",
-      "published": "2026-11-14T22:22:49Z",
+      "published": "2026-11-16T02:04:48Z",
       "source": "Hacker News"
     },
     {
-      "title": "SpaceX catches the Starship to end Flight 15",
-      "url": "https://www.spacex.com/launches/starship-flight-15",
+      "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+      "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
       "summary": "Comments",
-      "published": "2026-11-14T21:22:24Z",
+      "published": "2026-11-16T00:21:54Z",
       "source": "Hacker News"
     },
     {
-      "title": "A family tree of software job titles",
-      "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+      "title": "Skydio's asymmetrical F10 Lightrunner solves a problem with fixed-wing drones",
+      "url": "https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone",
       "summary": "Comments",
-      "published": "2026-11-14T17:45:19Z",
+      "published": "2026-11-16T00:03:12Z",
       "source": "Hacker News"
     },
     {
-      "title": "Lovable apps expose passport details and more than 200K private messages",
-      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "title": "What's Next for Nvidia?",
+      "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
       "summary": "Comments",
-      "published": "2026-11-14T17:43:10Z",
+      "published": "2026-11-15T23:55:55Z",
       "source": "Hacker News"
+    },
+    {
+      "title": "Mini.nvim Is Now on Tangled",
+      "url": "https://tangled.org/nvim-mini.org/mini.nvim",
+      "summary": "Comments",
+      "published": "2026-11-15T23:55:41Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Preserving 30 years of Salon journalism",
+      "url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/",
+      "summary": "Comments",
+      "published": "2026-11-15T23:00:11Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Old Bitly links are being hijacked",
+      "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+      "summary": "Comments",
+      "published": "2026-11-15T22:11:43Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "WebGL Flight Simulator with seed generated terrain",
+      "url": "https://baron.by.dai.studio/",
+      "summary": "Comments",
+      "published": "2026-11-15T20:20:05Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Handwriting, as a Font",
+      "url": "https://ductus.sorenblank.com",
+      "summary": "Comments",
+      "published": "2026-11-15T19:42:13Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+      "url": "https://bruceroettgers.eu/blog/protomaps/",
+      "summary": "Comments",
+      "published": "2026-11-15T19:26:22Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "A short explainer on how El Niño works [video]",
+      "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+      "summary": "Comments",
+      "published": "2026-11-15T18:23:21Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Crows make decisions faster than we can",
+      "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+      "summary": "Comments",
+      "published": "2026-11-15T17:53:31Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "DuckDB has an answer to “bloated” database messages",
+      "url": "https://thenewstack.io/duckdb-quack-database-protocol/",
+      "summary": "Older database protocols were built before big data. Some still send results row by row, repeating details like column names The post DuckDB has an answer to “bloated” database messages appeared first on The New Stack .",
+      "published": "2026-11-15T15:05:56Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Claude Fable 5.2 vs. Opus 5.5: Same scores at almost 4x the cost",
+      "url": "https://thenewstack.io/claude-fable-5-2-vs-opus-5-5/",
+      "summary": "Anthropic released Claude Fable 5.2 on November 9 and said it beats Claude Opus 5.5 in almost every capability the The post Claude Fable 5.2 vs. Opus 5.5: Same scores at almost 4x the cost appeared first on The New Stack .",
+      "published": "2026-11-15T15:00:00Z",
+      "source": "The New Stack"
     },
     {
       "title": "AWS Emulator proves agents need a verification loop. Realism is the hard part.",
@@ -114,25 +198,11 @@
       "source": "The New Stack"
     },
     {
-      "title": "PyPI's redesigned project pages with clearer security signals are now live",
-      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-      "summary": "Comments",
-      "published": "2026-11-14T15:40:52Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Anthropic wants you to build on Claude. There’s a catch.",
       "url": "https://thenewstack.io/anthropic-enterprise-developer-competition/",
       "summary": "Anthropic wants developers to build businesses on Claude, but its expansion into enterprise software is raising concerns among founders that The post Anthropic wants you to build on Claude. There’s a catch. appeared first on The New Stack .",
       "published": "2026-11-14T15:15:00Z",
       "source": "The New Stack"
-    },
-    {
-      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-      "summary": "Comments",
-      "published": "2026-11-14T15:04:15Z",
-      "source": "Hacker News"
     },
     {
       "title": "Claude Fable 5.2 vs. GPT-6 Astra: A lower list price didn’t mean a lower bill",
@@ -142,24 +212,10 @@
       "source": "The New Stack"
     },
     {
-      "title": "KDE: The documentary [video]",
-      "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+      "title": "OOS – an open operating system for the Rigol Scopes",
+      "url": "https://www.eevblog.com/forum/testgear/oos-an-open-operating-system-for-the-rigol-scopes/",
       "summary": "Comments",
-      "published": "2026-11-14T13:43:28Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Advancing science and engineering with Antigravity's /teamwork",
-      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-      "summary": "Comments",
-      "published": "2026-11-14T13:20:43Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
-      "url": "https://projectzero.google/2026/11/disclosure-policy.html",
-      "summary": "Comments",
-      "published": "2026-11-14T11:13:17Z",
+      "published": "2026-11-13T21:36:59Z",
       "source": "Hacker News"
     },
     {
@@ -168,6 +224,13 @@
       "summary": "Anthropic has unveiled a self-hosted version of its platform for building and running AI agents. Self-hosted Claude Managed Agents, as The post Anthropic now lets you self-host Claude Managed Agents. The catch? 8 hours to act if it flags a safety risk in the software appeared first on The New Stack .",
       "published": "2026-11-13T21:29:30Z",
       "source": "The New Stack"
+    },
+    {
+      "title": "Expozine at 25: Has the Independent Print Scene Outgrown Expozine?",
+      "url": "https://www.themain.com/articles/expozine-montreal-independent-print-scene-arcmtl",
+      "summary": "Comments",
+      "published": "2026-11-13T20:36:25Z",
+      "source": "Hacker News"
     },
     {
       "title": "Kitesurf is now open source",
@@ -184,6 +247,13 @@
       "source": "Cloudflare Blog"
     },
     {
+      "title": "Exact Gradients Through a BRep Kernel",
+      "url": "https://muni.works/research/vcad",
+      "summary": "Comments",
+      "published": "2026-11-13T18:24:54Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "The context problem: It’s what’s really breaking AI agents at scale",
       "url": "https://thenewstack.io/elastic-ai-context-gap/",
       "summary": "AI models are getting smarter, tokens are getting cheaper, and agents are improving. But the context gap sits between the The post The context problem: It’s what’s really breaking AI agents at scale appeared first on The New Stack .",
@@ -196,6 +266,20 @@
       "summary": "DeepSeek’s open-source coding agent is losing points on a major benchmark for a habit developers usually treat as good practice: The post DeepSeek’s coding agent is too tidy for its own good — and benchmarks are punishing it appeared first on The New Stack .",
       "published": "2026-11-13T17:56:30Z",
       "source": "The New Stack"
+    },
+    {
+      "title": "A quest to create the perfect whiskey glass",
+      "url": "https://www.nytimes.com/2026/11/13/dining/drinks/kurt-josef-zalto-whiskey-glass.html",
+      "summary": "Comments",
+      "published": "2026-11-13T17:37:32Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Researchers track whole body movement with just a smartwatch",
+      "url": "https://news.cornell.edu/stories/2026/11/researchers-track-whole-body-movement-just-smartwatch",
+      "summary": "Comments",
+      "published": "2026-11-13T17:29:49Z",
+      "source": "Hacker News"
     },
     {
       "title": "New AI agent observability and governance across BigQuery and Looker",
@@ -233,18 +317,25 @@
       "source": "AWS What's New"
     },
     {
+      "title": "Artificial Intelligence for the Z80",
+      "url": "https://www.dfsantos.com/en/libro-ia-z80",
+      "summary": "Comments",
+      "published": "2026-11-13T15:50:43Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Do we still have to denormalize? Have your schema and search it too",
+      "url": "https://www.paradedb.com/blog/joins",
+      "summary": "Comments",
+      "published": "2026-11-13T15:31:50Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "Here’s how to teach AI agents to search like human experts",
       "url": "https://thenewstack.io/ai-agents-retrieval-agent-ready-schema/",
       "summary": "Agentic retrieval is a hot topic for a reason: Every company wants to automate work, but they often just are The post Here’s how to teach AI agents to search like human experts appeared first on The New Stack .",
       "published": "2026-11-13T14:50:37Z",
       "source": "The New Stack"
-    },
-    {
-      "title": "Semicircle Packing",
-      "url": "https://rorz.io/writing/semicircle-packing",
-      "summary": "Comments",
-      "published": "2026-11-13T14:42:57Z",
-      "source": "Hacker News"
     },
     {
       "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
@@ -254,46 +345,11 @@
       "source": "Cloudflare Blog"
     },
     {
-      "title": "500 Lines or Less A 3D Modeller",
-      "url": "https://aosabook.org/en/500L/a-3d-modeller.html",
-      "summary": "Comments",
-      "published": "2026-11-13T13:47:42Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/",
       "summary": "A new model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Grok 4.7 is SpaceXSI's most capable model for coding and knowledge work. It's built to stay focused through hard tasks that run for hours, and it checks its work before moving on. Compared with Grok 4.6, it plans and recovers from errors more reliably in repo-scale coding work. Grok 4.7 is available with experimental support and a 500K context…",
       "published": "2026-11-13T13:13:00Z",
       "source": "AWS What's New"
-    },
-    {
-      "title": "Show HN: Carton Clock – A working pendulum clock made from empty drink cartons",
-      "url": "https://www.niklasroy.com/carton-clock/",
-      "summary": "Comments",
-      "published": "2026-11-13T12:00:18Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "The Evolving Story of How Chemistry Became Biology",
-      "url": "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112/",
-      "summary": "Comments",
-      "published": "2026-11-13T11:55:19Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "What thousands of conversations look like inside a language model",
-      "url": "https://operator0x.com/field-notes/qwen-conversation-state-space/",
-      "summary": "Comments",
-      "published": "2026-11-13T10:26:01Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Strictly monotonic timestamps and gapless sequences in Rust",
-      "url": "https://tsoracle.rs/",
-      "summary": "Comments",
-      "published": "2026-11-13T10:04:37Z",
-      "source": "Hacker News"
     },
     {
       "title": "Amazon RDS for Oracle reduces downtime for automatic minor version upgrades and scheduled maintenance",
@@ -359,13 +415,6 @@
       "source": "GitHub Blog"
     },
     {
-      "title": "Astro Spiral: Greatest Car Stunt Was Also First Computer-Modeled Stunt",
-      "url": "https://boldentrance.com/astro-spiral-the-greatest-car-stunt/",
-      "summary": "Comments",
-      "published": "2026-11-12T23:04:23Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Build once, run on any agent: A practical guide to agent skills",
       "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
       "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
@@ -378,13 +427,6 @@
       "summary": "Amazon Cognito now supports OAuth 2.0 token exchange (RFC 8693). Amazon Cognito helps you add sign-up, sign-in, and access control to your web applications, mobile applications, and AI agents. With token exchange, a service or AI agent acting on a user's behalf can exchange the user's token for a new token scoped to a specific downstream service. Previously, a service that called another service on a user's behalf had to forward the…",
       "published": "2026-11-12T22:00:00Z",
       "source": "AWS What's New"
-    },
-    {
-      "title": "Handwritten 200-year-old dismissal notice found on roof tile",
-      "url": "https://www.bbc.co.uk/news/articles/c6jdmdzv25r9o",
-      "summary": "Comments",
-      "published": "2026-11-12T21:27:01Z",
-      "source": "Hacker News"
     },
     {
       "title": "Google’s Gemini 4 coding agent now switches models mid-task — and finishes 19% faster",
@@ -506,6 +548,13 @@
       "source": "The New Stack"
     },
     {
+      "title": "Simple 8085 Computer",
+      "url": "https://www.hackster.io/mit41301/simple-8085-computer-9fe156",
+      "summary": "Comments",
+      "published": "2026-11-12T14:18:04Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "See what AI looks like in production at Microsoft Ignite",
       "url": "https://thenewstack.io/microsoft-ignite-2026/",
       "summary": "If you’re deciding which AI pilots to move into production, Microsoft’s Satya Nadella and Judson Althoff’s opening keynote at Microsoft Ignite The post See what AI looks like in production at Microsoft Ignite appeared first on The New Stack .",
@@ -611,6 +660,13 @@
       "source": "AWS What's New"
     },
     {
+      "title": "The Lasting Influence of John Berger",
+      "url": "https://www.newyorker.com/magazine/2026/11/16/john-berger-a-life-tom-overton-book-review",
+      "summary": "Comments",
+      "published": "2026-11-12T03:44:33Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "Turn Jira tickets into GitLab merge requests with Duo Agent Platform",
       "url": "https://about.gitlab.com/blog/jira-ticket-to-gitlab-mr-with-duo-agent-platform/",
       "summary": "Many teams plan in Jira and ship in GitLab. Even if you already use GitLab Duo Agent Platform, you still open Jira to read each ticket, copy it into an agent for implementation, and report the merge request back. This tutorial shows you how to remove that handoff. You add a Jira agent to Duo Agentic Chat. The agent knows your project and repository, and you use it to find, create, and update tickets. Then you hand a ticket to Developer…",
@@ -674,6 +730,13 @@
       "source": "The New Stack"
     },
     {
+      "title": "Making Atuin sync 32x faster with packfiles",
+      "url": "https://blog.atuin.sh/making-atuin-sync-32x-faster-with-packfiles/",
+      "summary": "Comments",
+      "published": "2026-11-11T18:14:36Z",
+      "source": "Hacker News"
+    },
+    {
       "title": "Expensive accelerators, no workload-level visibility: Introducing Amazon CloudWatch accelerated compute insights",
       "url": "https://thenewstack.io/cloudwatch-accelerated-compute-insights/",
       "summary": "Accelerator bills have become one of the largest lines in the infrastructure budget. GPUs have become the most expensive resource The post Expensive accelerators, no workload-level visibility: Introducing Amazon CloudWatch accelerated compute insights appeared first on The New Stack .",
@@ -700,13 +763,6 @@
       "summary": "The Model Context Protocol (MCP) has played an instrumental part in connecting AI assistants to external tools and data since The post Developers have been hacking around MCP’s file-upload problem for two years. A fix is taking shape. appeared first on The New Stack .",
       "published": "2026-11-11T17:11:55Z",
       "source": "The New Stack"
-    },
-    {
-      "title": "Oxford Molecular Motors",
-      "url": "https://www.physics.ox.ac.uk/research/group/oxford-molecular-motors/research/bacterial-flagellar-motor",
-      "summary": "Comments",
-      "published": "2026-11-11T17:06:08Z",
-      "source": "Hacker News"
     },
     {
       "title": "Introducing new AI functions for AlloyDB: ai.classify and ai.extract",
@@ -800,32 +856,11 @@
       "source": "CNCF Blog"
     },
     {
-      "title": "Open-Source HF Communications for Remote Communities and Experimenters",
-      "url": "https://www.ardc.net/rhizomaticas-hermes-and-mercury-expand-open-source-hf-communications-for-remote-communities-while-appealing-to-experimenters/",
-      "summary": "Comments",
-      "published": "2026-11-11T11:11:22Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "The Sicilian Citrus Family Tree",
-      "url": "https://www.notesfromtheroad.com/europa/citrus-family-tree.html",
-      "summary": "Comments",
-      "published": "2026-11-11T01:52:00Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "How to prevent leaks from Claude Code's 'Don't ask again' file",
       "url": "https://about.gitlab.com/blog/prevent-leaks-from-claude-code-dont-ask-again-file/",
       "summary": "This guide details how to find and remove secrets that were inadvertently committed to projects and repositories hosted on GitLab. We’ve confirmed that GitLab’s own infrastructure secrets are protected. In Claude Code, Anthropic’s coding agent, a developer can approve a shell command by selecting “Yes, and don’t ask again.” Claude then saves that exact command to .claude/settings.local.json in the project folder and runs it without…",
       "published": "2026-11-11T00:00:00Z",
       "source": "GitLab Blog"
-    },
-    {
-      "title": "Anthropic wants Claude to be the front end for your entire enterprise app stack",
-      "url": "https://thenewstack.io/claude-enterprise-apps-connectors/",
-      "summary": "Anthropic is expanding Claude’s ability to work directly inside enterprise applications; it can now open full software interfaces, retrieve information, The post Anthropic wants Claude to be the front end for your entire enterprise app stack appeared first on The New Stack .",
-      "published": "2026-11-10T20:00:58Z",
-      "source": "The New Stack"
     },
     {
       "title": "The AI Security Gap Hiding in Routine Maintenance",
@@ -870,13 +905,6 @@
       "source": "HashiCorp Blog"
     },
     {
-      "title": "Google says Gemini 4 Carbon proved Signal’s encryption in weeks",
-      "url": "https://thenewstack.io/gemini-4-carbon-swarm/",
-      "summary": "Google released Gemini 4 Carbon to paying developers Tuesday, positioning its newest frontier model above Gemini 4 Argon for complex The post Google says Gemini 4 Carbon proved Signal’s encryption in weeks appeared first on The New Stack .",
-      "published": "2026-11-10T16:17:22Z",
-      "source": "The New Stack"
-    },
-    {
       "title": "Donating KubeRay to CNCF",
       "url": "https://www.cncf.io/blog/2026/11/10/donating-kuberay-to-cncf/",
       "summary": "The PARK stack (PyTorch, AI models, Ray, and Kubernetes) is emerging as the de facto open source standard for production AI. Within that stack, KubeRay has become the bridge connecting scalable AI applications built on Ray...",
@@ -898,20 +926,6 @@
       "source": "CNCF Blog"
     },
     {
-      "title": "Generative AI uses more energy on non-English text",
-      "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
-      "summary": "Comments",
-      "published": "2026-11-10T15:07:28Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Why get an expensive Pi when I have an old phone?",
-      "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
-      "summary": "Comments",
-      "published": "2026-11-10T14:16:05Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Introducing Gemini for healthcare",
       "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare/",
       "summary": "Every healthcare organization is working to deliver great care to more people at a lower cost. However, a general AI model is not enough to solve this challenge. Today, healthcare runs on fragmented data. Patient records, coverage policies, and clinical evidence remain trapped across disconnected records, claims systems, and administrative tools that don’t work together. Clinicians are forced to spend nearly 28 hours a week on manually…",
@@ -923,20 +937,6 @@
       "url": "https://cloud.google.com/blog/topics/retail/the-blueprint-how-authentic-brands-group-expands-creativity-with-authos/",
       "summary": "Welcome to The Blueprint, a new feature where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. We hope to inspire others looking to innovate in their work. Authentic Brands Group, a global lifestyle and entertainment platform, is the owner of some of the most iconic intellectual property and cultural assets in the world. Authentic’s portfolio…",
       "published": "2026-11-10T12:00:00Z",
-      "source": "Google Cloud Blog"
-    },
-    {
-      "title": "Experimenting with ClusterNetworkPolicy in GKE",
-      "url": "https://cloud.google.com/blog/topics/developers-practitioners/experimenting-with-clusternetworkpolicy-in-gke/",
-      "summary": "Standard Network Policies limit you to applying policies at the namespace level, but ClusterNetworkPolicy (CNP) lets you apply granular networking policies across an entire cluster. When you use CNP, you can easily scale security and governance policies. Recently, I experimented with this functionality in Google Kubernetes Engine (GKE) and saw the benefits for myself. In this post, we'll explore using CNP to control traffic to an LLM…",
-      "published": "2026-11-10T07:00:00Z",
-      "source": "Google Cloud Blog"
-    },
-    {
-      "title": "The open AI-native stack on Kubernetes: From open models to distributed inference and agents",
-      "url": "https://cloud.google.com/blog/topics/developers-practitioners/the-open-ai-native-stack-on-kubernetes-from-open-models-to-distributed-inference-and-agents/",
-      "summary": "Over the past decade, Kubernetes established itself as the standard for orchestrating microservices and containerized applications. Today, we're witnessing the next major architectural shift in distributed computing: AI workloads moving from isolated research prototypes into large-scale, multi-tenant production fleets . In this post, we'll walk through the open-source stack that powers this shift and show you the sample manifests that…",
-      "published": "2026-11-10T01:00:00Z",
       "source": "Google Cloud Blog"
     },
     {
