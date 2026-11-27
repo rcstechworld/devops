@@ -1,53 +1,242 @@
 {
-  "updatedAt": "2026-11-26T15:30:39Z",
+  "updatedAt": "2026-11-27T15:24:44Z",
   "articles": [
     {
-      "title": "Tell HN: Happy Thanksgiving",
-      "url": "https://news.ycombinator.com/item?id=50655664",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
       "summary": "Comments",
-      "published": "2026-11-26T14:26:54Z",
+      "published": "2026-11-27T15:03:17Z",
       "source": "Hacker News"
     },
     {
-      "title": "45°C inlets just killed the chiller. Most people haven't noticed yet",
-      "url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+      "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+      "url": "https://bouncemarket.minhanhday.com/",
       "summary": "Comments",
-      "published": "2026-11-26T13:48:11Z",
+      "published": "2026-11-27T15:01:50Z",
       "source": "Hacker News"
     },
     {
-      "title": "Cognition’s new engineers aren’t even downloading code anymore — they build entirely through Devin",
+      "title": "Stanford Physicist Uses AI to Tackle Quantum Gravity Problem",
+      "url": "https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/",
+      "summary": "Comments",
+      "published": "2026-11-27T14:55:57Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Norse Atlantic suspends all flights as it faces potential collapse",
+      "url": "https://www.bbc.com/news/articles/c9kgmd0ldy0lo",
+      "summary": "Comments",
+      "published": "2026-11-27T14:09:44Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "US Air Force's cloud computing platform hacked",
+      "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+      "summary": "Comments",
+      "published": "2026-11-27T12:54:11Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "New York and California Age Gating Rules Go into Effect in the New Year",
+      "url": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
+      "summary": "Comments",
+      "published": "2026-11-27T12:43:40Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
+      "url": "https://eprint.iacr.org/2026/3020.pdf",
+      "summary": "Comments",
+      "published": "2026-11-27T12:08:51Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Kimi for Science: More scientific ideas, made possible",
+      "url": "https://www.kimi.ai/news/kimi-for-science-program",
+      "summary": "Comments",
+      "published": "2026-11-27T12:03:11Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI on brink of making online security useless, mathematicians fear",
+      "url": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+      "summary": "Comments",
+      "published": "2026-11-27T11:09:04Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Pimalaya goes stable: Himalaya v3 and the pimdir standard",
+      "url": "https://blog.pimalaya.org/pimalaya-goes-stable/",
+      "summary": "Comments",
+      "published": "2026-11-27T09:50:02Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "The group chat where your AI talks behind your back",
+      "url": "https://construct22.com/",
+      "summary": "Comments",
+      "published": "2026-11-27T06:44:34Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Buy Nothing Day – Friday November 27th 2026",
+      "url": "https://www.buynothingday.co.uk/",
+      "summary": "Comments",
+      "published": "2026-11-27T05:52:42Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "The need for a formally verifiable mainstream programming language",
+      "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+      "summary": "Comments",
+      "published": "2026-11-27T05:22:06Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "The Cutthroat Business of Shipwrecks",
+      "url": "https://daily.jstor.org/the-cutthroat-business-of-shipwrecks/",
+      "summary": "Comments",
+      "published": "2026-11-27T01:21:49Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Hard Drive pricing has gotten bad",
+      "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+      "summary": "Comments",
+      "published": "2026-11-27T01:13:49Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
+      "url": "https://kendell.dev/blog/arkwrapper/",
+      "summary": "Comments",
+      "published": "2026-11-26T21:59:19Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "summary": "Comments",
+      "published": "2026-11-26T21:47:45Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+      "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+      "summary": "Comments",
+      "published": "2026-11-26T21:08:05Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Company Culture = Slack Emoji ÷ √Headcount",
+      "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+      "summary": "Comments",
+      "published": "2026-11-26T20:49:49Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Rvoip: VoIP stack in Rust",
+      "url": "https://github.com/eisenzopf/rvoip",
+      "summary": "Comments",
+      "published": "2026-11-26T19:18:09Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "An introduction to uncertainty in machine learning",
+      "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+      "summary": "Comments",
+      "published": "2026-11-26T19:04:50Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Cloudflare now lets websites add search for AI agents with a single toggle. Site owners foot the query bill.",
+      "url": "https://thenewstack.io/cloudflare-agent-search-endpoint/",
+      "summary": "Cloudflare has announced a new feature that makes it easier for AI agents to find and retrieve relevant information from The post Cloudflare now lets websites add search for AI agents with a single toggle. Site owners foot the query bill. appeared first on The New Stack .",
+      "published": "2026-11-26T18:46:47Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
+      "url": "https://bui.preetham.top/charts/",
+      "summary": "Comments",
+      "published": "2026-11-26T18:37:24Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
+      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "summary": "Comments",
+      "published": "2026-11-26T17:47:45Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+      "url": "https://github.com/antonpictures/youtube-punisher",
+      "summary": "Comments",
+      "published": "2026-11-26T17:36:47Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "First images of the impact of DART asteroid deflection experiment",
+      "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+      "summary": "Comments",
+      "published": "2026-11-26T17:24:37Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "AMD-specific fork of llama.cpp",
+      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "summary": "Comments",
+      "published": "2026-11-26T17:11:29Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Amazon RDS for PostgreSQL supports minor versions 18.7, 17.12, 16.16, 15.20, and 14.25",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-18-7-17-12-16-16-15-20-14-25/",
+      "summary": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.7, 17.12, 16.16, 15.20, and 14.25. We recommend that you upgrade to the latest minor versions to address Common Vulnerabilities and Exposures (CVEs) in prior versions of PostgreSQL, and to benefit from the bug fixes and improvements added by the PostgreSQL community. You can upgrade your databases during scheduled maintenance windows using…",
+      "published": "2026-11-26T17:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
+      "title": "AI wrote the code. Can your test data tell you if it works?",
+      "url": "https://thenewstack.io/protecting-enterprise-ai-data/",
+      "summary": "As organizations invest in AI, many are discovering a new bottleneck: obtaining data that is both protected and useful. Engineering The post AI wrote the code. Can your test data tell you if it works? appeared first on The New Stack .",
+      "published": "2026-11-26T16:18:49Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "A developer ran 50 agents at once. Then his Mac became the bottleneck.",
+      "url": "https://thenewstack.io/ai-agents-remote-sandboxes/",
+      "summary": "As developers move from working with individual AI coding agents to orchestrating dozens of concurrent sessions, the hardware they use The post A developer ran 50 agents at once. Then his Mac became the bottleneck. appeared first on The New Stack .",
+      "published": "2026-11-26T16:12:29Z",
+      "source": "The New Stack"
+    },
+    {
+      "title": "Show HN: I wrote an entire Vim manual over 4 years",
+      "url": "http://themouseless.dev/vim/",
+      "summary": "Comments",
+      "published": "2026-11-26T14:44:22Z",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Some software engineers aren’t even downloading code anymore — here’s how they work instead",
       "url": "https://thenewstack.io/cognition-devin-automated-engineering/",
-      "summary": "Some engineers joining Cognition no longer set up local development environments. Instead, Devin has become their primary interface for software The post Cognition’s new engineers aren’t even downloading code anymore — they build entirely through Devin appeared first on The New Stack .",
+      "summary": "Some engineers joining Cognition no longer set up local development environments. Instead, Devin has become their primary interface for software The post Some software engineers aren’t even downloading code anymore — here’s how they work instead appeared first on The New Stack .",
       "published": "2026-11-26T12:53:43Z",
       "source": "The New Stack"
     },
     {
-      "title": "Head of Software Engineering – NOX Metals",
-      "url": "https://news.ycombinator.com/item?id=50654353",
-      "summary": "Comments",
-      "published": "2026-11-26T12:00:00Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
-      "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
-      "summary": "Comments",
-      "published": "2026-11-26T11:50:49Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Intel One Mono font",
+      "title": "Intel One Mono font (2023)",
       "url": "https://github.com/intel/intel-one-mono",
       "summary": "Comments",
       "published": "2026-11-26T10:11:01Z",
       "source": "Hacker News"
     },
     {
-      "title": "Moat: Your OpenRouter Replacement",
-      "url": "https://commandcode.ai/moat",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
       "summary": "Comments",
-      "published": "2026-11-26T06:32:48Z",
+      "published": "2026-11-26T09:44:23Z",
       "source": "Hacker News"
     },
     {
@@ -55,90 +244,6 @@
       "url": "https://arxiv.org/abs/2611.34924",
       "summary": "Comments",
       "published": "2026-11-26T05:37:51Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
-      "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
-      "summary": "Comments",
-      "published": "2026-11-26T05:12:59Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Unconditional Integer Factorization in Subexponential Time",
-      "url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
-      "summary": "Comments",
-      "published": "2026-11-26T04:59:56Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-      "summary": "Comments",
-      "published": "2026-11-26T03:36:58Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Minipg: PostgreSQL as a Single Executable",
-      "url": "https://progrium.github.io/minipg/",
-      "summary": "Comments",
-      "published": "2026-11-26T03:00:48Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Tell HN: Lots of Ask HNs again",
-      "url": "https://news.ycombinator.com/item?id=50649864",
-      "summary": "Comments",
-      "published": "2026-11-26T00:43:34Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Collection of preserved UI style guides",
-      "url": "https://aresluna.org/ui-style-guides/",
-      "summary": "Comments",
-      "published": "2026-11-26T00:40:00Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Bare Metal Qwen",
-      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
-      "summary": "Comments",
-      "published": "2026-11-25T22:15:34Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Deploying a payphone on a tiny Pacific Island for fun and zero profit",
-      "url": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
-      "summary": "Comments",
-      "published": "2026-11-25T22:12:25Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Much shorter version of GRH Lean verification from Anthropic",
-      "url": "https://github.com/lsernau/grh-lean",
-      "summary": "Comments",
-      "published": "2026-11-25T21:48:10Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-      "summary": "Comments",
-      "published": "2026-11-25T21:18:02Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Slow Ubuntu security response times",
-      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
-      "summary": "Comments",
-      "published": "2026-11-25T20:38:00Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
-      "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
-      "summary": "Comments",
-      "published": "2026-11-25T20:35:50Z",
       "source": "Hacker News"
     },
     {
@@ -163,13 +268,6 @@
       "source": "The New Stack"
     },
     {
-      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
-      "url": "https://scottaaronson.blog/?p=10379",
-      "summary": "Comments",
-      "published": "2026-11-25T19:11:27Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "OpenAI claims to have solved a 57-year-old math problem at the heart of AI computation",
       "url": "https://thenewstack.io/openai-matrix-multiplication-exponent/",
       "summary": "OpenAI claims to have solved a problem that has occupied theoretical computer scientists since 1969. In a preprint published Tuesday The post OpenAI claims to have solved a 57-year-old math problem at the heart of AI computation appeared first on The New Stack .",
@@ -182,13 +280,6 @@
       "summary": "JetBrains has launched a new variant of its open source coding model, one designed to tackle quick code edits, tool The post JetBrains’ latest Mellum coding model uses 45% fewer tokens. It got there by not thinking. appeared first on The New Stack .",
       "published": "2026-11-25T17:23:47Z",
       "source": "The New Stack"
-    },
-    {
-      "title": "1Password Security Incident",
-      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-      "summary": "Comments",
-      "published": "2026-11-25T17:18:26Z",
-      "source": "Hacker News"
     },
     {
       "title": "Amazon EC2 M8g instances are now available in Israel (Tel Aviv)",
@@ -303,13 +394,6 @@
       "source": "AWS What's New"
     },
     {
-      "title": "Curiosity Is No Solo Act",
-      "url": "https://thereader.mitpress.mit.edu/curiosity-is-no-solo-act/",
-      "summary": "Comments",
-      "published": "2026-11-25T00:37:07Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Take on complex coding changes with Gemini 4 Neon on GitLab",
       "url": "https://about.gitlab.com/blog/gemini-4-neon-on-gitlab/",
       "summary": "Google's Gemini 4 Neon is now available on GitLab Duo Agent Platform , offering engineers a versatile model for agentic work, with particular strength in coding. Gemini 4 Neon is the latest addition to a growing Gemini 4 lineup on GitLab Duo Agent Platform, joining Argon, Hydrogen, and Carbon. Each model brings its own balance of speed, reasoning, and cost, giving your team a broad selection of Gemini models to power everything from…",
@@ -329,13 +413,6 @@
       "summary": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber through the bedrock-runtime endpoint on Amazon Bedrock in AWS GovCloud (US). Daybreak Red is designed for advanced, authorized tasks such as vulnerability research, exploit reproduction, and mitigation development. For these tasks, a lower refusal threshold, matched by stronger identity verification, monitoring, and access controls…",
       "published": "2026-11-24T21:27:00Z",
       "source": "AWS What's New"
-    },
-    {
-      "title": "The history of civilization is the history of wheat",
-      "url": "https://asteriskmag.com/issues/16/marginal-grains",
-      "summary": "Comments",
-      "published": "2026-11-24T20:40:18Z",
-      "source": "Hacker News"
     },
     {
       "title": "Amazon OpenSearch Serverless is now available in the Africa (Cape Town) Region",
@@ -394,6 +471,13 @@
       "source": "AWS What's New"
     },
     {
+      "title": "Amazon OpenSearch Service new engine now joins logs, traces, and metadata",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-distributed-joins",
+      "summary": "Amazon OpenSearch Service now supports distributed joins, high-cardinality aggregations, and OpenSearch query DSL on the new engine. Observability data often spans logs, traces, service metadata, deployment records, and tenant data. Engineers and their AI agents must connect these datasets to determine what failed, where it failed, and who was affected. With Piped Processing Language (PPL) or SQL, engineers and agents can query…",
+      "published": "2026-11-24T17:00:00Z",
+      "source": "AWS What's New"
+    },
+    {
       "title": "Built for trust and control: Powering the next wave of AI agents across Google Workspace and Google Cloud",
       "url": "https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise/",
       "summary": "For over 20 years, we have protected 4 billion users and 13 million organizations in Workspace, and critical enterprise and government systems on Google Cloud. From personal and financial records to board materials, regulated workloads, applications, and AI models, those safeguards protect what matters most. Blocking >99.9% of spam, phishing, and malware, alongside encryption and data residency, follows one principle: your data is…",
@@ -429,25 +513,11 @@
       "source": "The New Stack"
     },
     {
-      "title": "What VP ≠ VNP Means (In 3 Minutes)",
-      "url": "https://www.friedgil.com/vpvnp",
-      "summary": "Comments",
-      "published": "2026-11-24T10:56:56Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Amazon RDS for SQL Server now supports up to 500 databases per instance",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-sqlserver-supports-500-databases-per-instance",
       "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports up to 500 databases per DB instance, up from the previous limit of 100. This higher density helps software as a service (SaaS) providers, multi-tenant applications, and other customers who run many databases on a DB instance. Previously, these customers had to spread their databases across several DB instances. You can use this feature to consolidate databases…",
       "published": "2026-11-24T08:00:00Z",
       "source": "AWS What's New"
-    },
-    {
-      "title": "Show HN: Synth Patch Hero",
-      "url": "https://swarkentin.github.io/synth-patch-hero/",
-      "summary": "Comments",
-      "published": "2026-11-24T03:24:22Z",
-      "source": "Hacker News"
     },
     {
       "title": "GitLab Dedicated: A go-live guide",
@@ -471,20 +541,6 @@
       "source": "AWS What's New"
     },
     {
-      "title": "MCP Gateway: How Snap Checks Both the Person and the Agent",
-      "url": "https://eng.snap.com/mcp-gateway",
-      "summary": "Comments",
-      "published": "2026-11-23T22:10:43Z",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Discovery of curse ritual in trash dump surprises Egyptologist",
-      "url": "https://phys.org/news/2026-11-discovery-curse-ritual-trash-dump.html",
-      "summary": "Comments",
-      "published": "2026-11-23T21:18:49Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "Anthropic’s Claude Ship lets Claude approve routine pull requests",
       "url": "https://thenewstack.io/anthropic-claude-ship-approvals/",
       "summary": "Anthropic on Monday launched Claude Ship, a set of three agents that can review pull requests (PRs), fix them, and approve The post Anthropic’s Claude Ship lets Claude approve routine pull requests appeared first on The New Stack .",
@@ -499,16 +555,16 @@
       "source": "The New Stack"
     },
     {
-      "title": "Amazon API Gateway announces API Portal",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-api-gateway-announces-api-portal/",
-      "summary": "Today, Amazon API Gateway announces API Portal , a new feature that discovers, governs, and documents the APIs and AI endpoints behind Amazon API Gateway, Application Load Balancer, and Amazon CloudFront across your AWS organization. Many organizations can't see which APIs are running, which were never registered, which are no longer maintained, and which lack protection. API Portal builds a continuously updated inventory using…",
+      "title": "Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/",
+      "summary": "Amazon SageMaker HyperPod now supports managed cluster extensions for Slurm clusters. You can install, configure, update, and remove managed features through the SageMaker AI console or API. The first two extensions cover observability and user management. Earlier, every observability or user management change for HyperPod Slurm clusters meant editing lifecycle scripts and then replacing or rerunning nodes. Now, HyperPod manages these…",
       "published": "2026-11-23T20:00:00Z",
       "source": "AWS What's New"
     },
     {
-      "title": "Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/",
-      "summary": "Amazon SageMaker HyperPod now supports managed cluster extensions for Slurm clusters. You can install, configure, update, and remove managed features through the SageMaker AI console or API. The first two extensions cover observability and user management. Earlier, every observability or user management change for HyperPod Slurm clusters meant editing lifecycle scripts and then replacing or rerunning nodes. Now, HyperPod manages these…",
+      "title": "Amazon API Gateway announces API Portal",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-api-gateway-announces-api-portal/",
+      "summary": "Today, Amazon API Gateway announces API Portal , a new feature that discovers, governs, and documents the APIs and AI endpoints behind Amazon API Gateway, Application Load Balancer, and Amazon CloudFront across your AWS organization. Many organizations can't see which APIs are running, which were never registered, which are no longer maintained, and which lack protection. API Portal builds a continuously updated inventory using…",
       "published": "2026-11-23T20:00:00Z",
       "source": "AWS What's New"
     },
@@ -604,20 +660,6 @@
       "source": "AWS What's New"
     },
     {
-      "title": "Amazon SageMaker HyperPod extends AMI auto-patching to Slurm and inference on EKS",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-patching-slurm-eks-inference/",
-      "summary": "Amazon SageMaker HyperPod now automatically patches AMIs on Slurm clusters and introduces a new AMI patching strategy for Amazon EKS clusters that deploy inference workloads. SageMaker HyperPod is purpose-built infrastructure for training and deploying foundation models at scale. Previously, patching a Slurm cluster meant waiting for training runs to finish, scheduling downtime, and upgrading nodes by hand, which could take days of…",
-      "published": "2026-11-23T17:00:00Z",
-      "source": "AWS What's New"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod now detects and recovers hung training jobs on Slurm clusters",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-slurm-hung-jobs/",
-      "summary": "Amazon SageMaker HyperPod now supports hung job detection for Slurm-orchestrated clusters, which finds training jobs that have stopped making progress and returns them to the job queue. SageMaker HyperPod helps you provision resilient clusters for training and deploying AI/ML models. Previously, a job that hung on an NCCL timeout, a stalled data pipeline, or a deadlock kept its GPUs while Slurm reported it as running, until you noticed…",
-      "published": "2026-11-23T17:00:00Z",
-      "source": "AWS What's New"
-    },
-    {
       "title": "AWS Quick adds identity-aware access via 3LO for Snowflake and Databricks structured data sources",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-snowflake-databricks-3lo-end-user-permissions/",
       "summary": "AWS Quick now supports three-legged OAuth (3LO) with end-user permissions for Snowflake and Databricks. When end users in AWS Quick consume Chat, interactive dashboards, or Apps, queries run using their own Snowflake or Databricks identity. Governance policies configured in Snowflake or Databricks Unity Catalog, including applicable row- and column-level controls and access to tables and views, are enforced by the source platform…",
@@ -667,25 +709,11 @@
       "source": "Cloudflare Blog"
     },
     {
-      "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
-      "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
-      "summary": "Comments",
-      "published": "2026-11-22T16:44:48Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "GPT-6.2 Astra vs. Claude Fable 5.2: Astra’s launch got mixed reviews, but it tested well here",
       "url": "https://thenewstack.io/gpt-6-2-astra-vs-claude-fable-5-2/",
       "summary": "When I compared Anthropic’s Fable 5.2 vs. OpenAI’s GPT-6 Astra last week, Fable 5.2 was slightly more accurate (149 points The post GPT-6.2 Astra vs. Claude Fable 5.2: Astra’s launch got mixed reviews, but it tested well here appeared first on The New Stack .",
       "published": "2026-11-22T15:00:00Z",
       "source": "The New Stack"
-    },
-    {
-      "title": "The Great Automatic Grammatizator (By Roald Dahl), 1954 [pdf]",
-      "url": "https://gwern.net/doc/fiction/science-fiction/1953-dahl-thegreatautomaticgrammatizator.pdf",
-      "summary": "Comments",
-      "published": "2026-11-22T11:29:44Z",
-      "source": "Hacker News"
     },
     {
       "title": "“It is a rollercoaster ride”: Angie Jones of the Agentic AI Foundation on keeping up with AI agents",
@@ -723,13 +751,6 @@
       "source": "The New Stack"
     },
     {
-      "title": "SSH is a GUI framework",
-      "url": "https://zydra.sh/articles/ssh-is-a-gui-framework/",
-      "summary": "Comments",
-      "published": "2026-11-21T14:52:41Z",
-      "source": "Hacker News"
-    },
-    {
       "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
       "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
       "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
@@ -742,13 +763,6 @@
       "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
       "published": "2026-11-20T20:00:45Z",
       "source": "Cloudflare Blog"
-    },
-    {
-      "title": "“We are not querying like humans anymore”: OpenSearch’s Bianca Lewis on why AI agent mistakes look like successes",
-      "url": "https://thenewstack.io/opensearch-ai-agent-observability/",
-      "summary": "This situation is more common than one might think: An AI agent calls the wrong API, gets a perfectly good The post “We are not querying like humans anymore”: OpenSearch’s Bianca Lewis on why AI agent mistakes look like successes appeared first on The New Stack .",
-      "published": "2026-11-20T19:37:08Z",
-      "source": "The New Stack"
     },
     {
       "title": "Ultimate guide for fixing your team’s API keys",
@@ -821,20 +835,6 @@
       "source": "HashiCorp Blog"
     },
     {
-      "title": "Your AI agent’s “memory problem” may be something else",
-      "url": "https://thenewstack.io/ai-agent-memory-boundaries/",
-      "summary": "An agent may need additional context to continue when a user returns the next day. A workflow may resume from The post Your AI agent’s “memory problem” may be something else appeared first on The New Stack .",
-      "published": "2026-11-20T17:00:00Z",
-      "source": "The New Stack"
-    },
-    {
-      "title": "Anthropic says Claude writes and reviews 90% of its team’s code. The catch is how it checks the work.",
-      "url": "https://thenewstack.io/anthropic-claude-code-verification/",
-      "summary": "Anthropic says Claude writes and reviews roughly 90% of the code produced by the team building Claude Code, and the The post Anthropic says Claude writes and reviews 90% of its team’s code. The catch is how it checks the work. appeared first on The New Stack .",
-      "published": "2026-11-20T16:41:28Z",
-      "source": "The New Stack"
-    },
-    {
       "title": "When a sync window closes: How Argo CD self-heal skipped the migration hook",
       "url": "https://www.cncf.io/blog/2026/11/20/when-a-sync-window-closes-how-argo-cd-self-heal-skipped-the-migration-hook/",
       "summary": "The uncomfortable question A few days ago, a customer asked me a question that sounded simple: “Argo CD said the sync succeeded, so why didn’t our migration run?” They had pushed a release while a deny...",
@@ -877,6 +877,13 @@
       "source": "Docker Blog"
     },
     {
+      "title": "What’s new with Google Cloud",
+      "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Nov 16 - Nov 20 Why your AI agent keeps forgetting: a 15…",
+      "published": "2026-11-19T17:00:00Z",
+      "source": "Google Cloud Blog"
+    },
+    {
       "title": "Introducing object enrichments: Transform unstructured data into agent-ready context",
       "url": "https://cloud.google.com/blog/products/storage-data-transfer/cost-effective-ai-context-extraction-from-unstructured-gcs-data/",
       "summary": "The vast majority of enterprise information is unstructured, locked away in object storage as petabytes of images, PDFs, videos, and audio files. This data holds the institutional knowledge AI agents need to do business-critical work. But to an agent, a raw object is just bytes it can't reason over. As enterprises start to deploy agents in production, the focus has shifted toward transforming these raw objects into rich, agent-ready…",
@@ -894,13 +901,6 @@
       "title": "Introducing in-place migration to GKE Dataplane V2",
       "url": "https://cloud.google.com/blog/products/networking/gke-dataplane-v2-in-place-migration/",
       "summary": "GKE Dataplane V2 is Google Cloud’s next-generation networking dataplane for Google Kubernetes Engine (GKE), built on extended Berkeley Packet Filter ( eBPF ) and open-source Cilium to replace traditional iptables routing and kube-proxy . We built GKE Dataplane V2 to meet the performance, scalability, and security demands of modern cloud-native workloads. GKE customers consistently tell us that while they want to adopt GKE Dataplane V2…",
-      "published": "2026-11-19T17:00:00Z",
-      "source": "Google Cloud Blog"
-    },
-    {
-      "title": "What’s new with Google Cloud",
-      "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Nov 16 - Nov 20 Why your AI agent keeps forgetting: a 15…",
       "published": "2026-11-19T17:00:00Z",
       "source": "Google Cloud Blog"
     },
